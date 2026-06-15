@@ -1,0 +1,9 @@
+# Hostinger / Apache — redirect study portal skillbuilder to Enrol Now
+# Use when study.thetoppercentile.co.in is on YOUR server (not only TCY).
+# hPanel → Domains → study.thetoppercentile.co.in → Redirects, OR paste into that subdomain's .htaccess
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^skillbuilder/?$ https://thetoppercentile.co.in/exam/ [R=301,L,NC]
+RewriteRule ^skillbuilder/(.*)$ https://thetoppercentile.co.in/exam/ [R=301,L,NC]
+</IfModule>

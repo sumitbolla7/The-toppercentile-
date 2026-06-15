@@ -1,0 +1,428 @@
+{
+    "time": "2026-06-13T13:53:28+00:00",
+    "action": "repair_panels_batch",
+    "batch": 3,
+    "batch_size": 10,
+    "repair": {
+        "total": 10,
+        "ok": 4,
+        "empty": 1,
+        "errors": 5,
+        "rows": [
+            {
+                "email": "kalokaraditya39@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 189,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "kalokaraditya39@gmail.com",
+                        "wp_user_id": 189,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [
+                            {
+                                "order_id": 18315,
+                                "status": "processing",
+                                "tcy_user_id": "",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90070|100000|18315|511": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18315,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "distinct_course": [
+                            90070
+                        ],
+                        "pairs_tcy_sync": {
+                            "90070|100000|18315|511": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18315,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "jbims_grant": {
+                    "email": "kalokaraditya39@gmail.com",
+                    "actions": [],
+                    "issues": [
+                        "No TCY account linked."
+                    ],
+                    "status": "no_tcy"
+                },
+                "enrolled_panel": {
+                    "18315-511": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 18315,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18315"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "prithvivinayakp@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 212,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzUzNg==",
+                    "all_tcy_ids": [
+                        "ODE2MzUzNg=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzUzNg==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17956,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "prithvivinayakp@gmail.com",
+                        "wp_user_id": 212,
+                        "canonical_tcy": "ODE2MzUzNg==",
+                        "all_tcy_ids": [
+                            "ODE2MzUzNg=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17956,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzUzNg==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|17956|412": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17956,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|17956|412": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17956,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "17956-412": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 17956,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=17956"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "atharvailawar00@gmail.com",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 0,
+                "status": "no_wp_user"
+            },
+            {
+                "email": "htokalwar@gmail.com",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 0,
+                "status": "no_wp_user"
+            },
+            {
+                "email": "samikshajambhulkar9716@gmail.com",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 0,
+                "status": "no_wp_user"
+            },
+            {
+                "email": "sanskrutiburkule05@gmail.com",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 0,
+                "status": "no_wp_user"
+            },
+            {
+                "email": "janhvikamat9@gmail.com",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 0,
+                "status": "no_wp_user"
+            },
+            {
+                "email": "shreyashmeshram80@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 314,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "shreyashmeshram80@gmail.com",
+                        "wp_user_id": 314,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "jbims_grant": {
+                    "email": "shreyashmeshram80@gmail.com",
+                    "actions": [],
+                    "issues": [
+                        "No TCY account linked."
+                    ],
+                    "status": "no_tcy"
+                },
+                "enrolled_panel": [],
+                "status": "empty_panel"
+            },
+            {
+                "email": "2025anshitripathi04@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (pack_conflict).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 354,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MDQwNw==",
+                    "all_tcy_ids": [
+                        "ODE2MDQwNw=="
+                    ],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "2025anshitripathi04@gmail.com",
+                        "wp_user_id": 354,
+                        "canonical_tcy": "ODE2MDQwNw==",
+                        "all_tcy_ids": [
+                            "ODE2MDQwNw=="
+                        ],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No paid orders with TCY course_id found for this email\/user."
+                },
+                "jbims_grant": {
+                    "email": "2025anshitripathi04@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (pack_conflict)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "mahrinsayed@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (pack_conflict).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 308,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MDA3MA==",
+                    "all_tcy_ids": [
+                        "ODE2MDA3MA=="
+                    ],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "mahrinsayed@gmail.com",
+                        "wp_user_id": 308,
+                        "canonical_tcy": "ODE2MDA3MA==",
+                        "all_tcy_ids": [
+                            "ODE2MDA3MA=="
+                        ],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No paid orders with TCY course_id found for this email\/user."
+                },
+                "jbims_grant": {
+                    "email": "mahrinsayed@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (pack_conflict)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            }
+        ]
+    },
+    "total_users": 93,
+    "batch_from": 30,
+    "batch_count": 10,
+    "next_batch_url": "https:\/\/thetoppercentile.co.in\/ttp-bulk-run-once.php?key=ttp_bulk_jun12_2026_x7k9&action=repair_panels_batch&batch=4&batch_size=10"
+}

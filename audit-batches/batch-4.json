@@ -1,0 +1,284 @@
+{
+    "time": "2026-06-12T09:12:07+00:00",
+    "action": "audit_batch",
+    "batch": 4,
+    "batch_size": 5,
+    "repair": true,
+    "total_users": 93,
+    "batch_from": 20,
+    "batch_count": 5,
+    "audit": {
+        "total": 5,
+        "ok": 0,
+        "issues": 5,
+        "repaired": 0,
+        "rows": [
+            {
+                "email": "namannavle13@gmail.com",
+                "status": "repair_error",
+                "issues": [
+                    "No TCY user id linked.",
+                    "No qualifying WooCommerce orders found.",
+                    "No TCY user_id for this customer (register first or check email)."
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "namannavle13@gmail.com",
+                    "wp_user_id": 362,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "namannavle13@gmail.com",
+                        "wp_user_id": 362,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                }
+            },
+            {
+                "email": "ruturajvshedge@gmail.com",
+                "status": "repair_error",
+                "issues": [
+                    "No TCY user id linked.",
+                    "No qualifying WooCommerce orders found.",
+                    "No TCY user_id for this customer (register first or check email)."
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "ruturajvshedge@gmail.com",
+                    "wp_user_id": 372,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "ruturajvshedge@gmail.com",
+                        "wp_user_id": 372,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                }
+            },
+            {
+                "email": "enthusiasticcitizen898@gmail.com",
+                "status": "repair_error",
+                "issues": [
+                    "No TCY user id linked.",
+                    "No qualifying WooCommerce orders found.",
+                    "No TCY user_id for this customer (register first or check email)."
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "enthusiasticcitizen898@gmail.com",
+                    "wp_user_id": 349,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "enthusiasticcitizen898@gmail.com",
+                        "wp_user_id": 349,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                }
+            },
+            {
+                "email": "manejane9o8adi2@gmail.com",
+                "status": "repair_error",
+                "issues": [
+                    "No TCY user id linked.",
+                    "No qualifying WooCommerce orders found.",
+                    "No TCY user_id for this customer (register first or check email)."
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "manejane9o8adi2@gmail.com",
+                    "wp_user_id": 359,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "manejane9o8adi2@gmail.com",
+                        "wp_user_id": 359,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                }
+            },
+            {
+                "email": "agarwadkarshreyas7@gmail.com",
+                "status": "repair_error",
+                "issues": [
+                    "No TCY user id linked.",
+                    "No qualifying WooCommerce orders found.",
+                    "No TCY user_id for this customer (register first or check email)."
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "agarwadkarshreyas7@gmail.com",
+                    "wp_user_id": 346,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "agarwadkarshreyas7@gmail.com",
+                        "wp_user_id": 346,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                }
+            }
+        ]
+    },
+    "next_batch_url": "https:\/\/thetoppercentile.co.in\/ttp-bulk-run-once.php?key=ttp_bulk_jun12_2026_x7k9&action=audit_batch&batch=5&batch_size=5&repair=1"
+}

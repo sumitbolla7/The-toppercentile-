@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Deploy: ALL (FTP active — MU + TTP plugins)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/hostinger-deploy-all.ps1"
+      ],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" },
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Deploy: MU-plugins only (FTP active)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/hostinger-sync-mu-plugins.ps1"
+      ],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "Deploy: single file (edit RelativePath in tasks.json)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/hostinger-ftp-upload.ps1",
+        "-RelativePath",
+        "wp-content/mu-plugins/ttp-login-page-consolidate.php"
+      ],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}

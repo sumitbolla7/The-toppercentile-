@@ -1,0 +1,807 @@
+{
+    "time": "2026-06-13T13:56:07+00:00",
+    "action": "repair_panels_batch",
+    "batch": 9,
+    "batch_size": 10,
+    "repair": {
+        "total": 3,
+        "ok": 3,
+        "empty": 0,
+        "errors": 0,
+        "rows": [
+            {
+                "email": "sumitdigitalpartner@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 24,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 2,
+                    "failed": 0,
+                    "skipped": 1,
+                    "total": 2,
+                    "course_ids": [
+                        "90070",
+                        "90071"
+                    ],
+                    "tcy_user_id": "ODEyNjE5MA==",
+                    "all_tcy_ids": [
+                        "ODEyNjE5MA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODEyNjE5MA==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17077,
+                            "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEyNjE5MA==",
+                            "course_id": "81184",
+                            "stored_course_id": "81184",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "",
+                            "order_id": 17078,
+                            "line_name": "MHCET",
+                            "status": "skipped",
+                            "error": "course_id 81184 is not in TCY get_courses for this client \u2014 fix Woo product TCY Course ID."
+                        },
+                        {
+                            "tcy_user_id": "ODEyNjE5MA==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17162,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "pack_conflict",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "sumitdigitalpartner@gmail.com",
+                        "wp_user_id": 24,
+                        "canonical_tcy": "ODEyNjE5MA==",
+                        "all_tcy_ids": [
+                            "ODEyNjE5MA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17162,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17089,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                                        "product_id": 17075,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17085,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                                        "product_id": 17075,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17082,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                                        "product_id": 17075,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17080,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "MHCET",
+                                        "product_id": 17074,
+                                        "course_id": "81184"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17079,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "MHCET",
+                                        "product_id": 17074,
+                                        "course_id": "81184"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17078,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "MHCET",
+                                        "product_id": 17074,
+                                        "course_id": "81184"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17077,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyNjE5MA==",
+                                "lines": [
+                                    {
+                                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                                        "product_id": 17075,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90070|100000|17077|22": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17077,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "81184||17078|24": {
+                                "course_id": "81184",
+                                "stored_course_id": "81184",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "course_id 81184 is not in TCY get_courses for this client \u2014 fix Woo product TCY Course ID.",
+                                "order_id": 17078,
+                                "product_id": 17074,
+                                "line_name": "MHCET"
+                            },
+                            "81184||17079|26": {
+                                "course_id": "81184",
+                                "stored_course_id": "81184",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "course_id 81184 is not in TCY get_courses for this client \u2014 fix Woo product TCY Course ID.",
+                                "order_id": 17079,
+                                "product_id": 17074,
+                                "line_name": "MHCET"
+                            },
+                            "81184||17080|28": {
+                                "course_id": "81184",
+                                "stored_course_id": "81184",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "course_id 81184 is not in TCY get_courses for this client \u2014 fix Woo product TCY Course ID.",
+                                "order_id": 17080,
+                                "product_id": 17074,
+                                "line_name": "MHCET"
+                            },
+                            "90070|100000|17082|31": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17082,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90070|100000|17085|33": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17085,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90070|100000|17089|35": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17089,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90071|100000|17162|42": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17162,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            81184,
+                            90070,
+                            90071
+                        ],
+                        "pairs_tcy_sync": {
+                            "90070|100000|17077|22": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17077,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "81184||17078|24": {
+                                "course_id": "81184",
+                                "stored_course_id": "81184",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "course_id 81184 is not in TCY get_courses for this client \u2014 fix Woo product TCY Course ID.",
+                                "order_id": 17078,
+                                "product_id": 17074,
+                                "line_name": "MHCET"
+                            },
+                            "81184||17079|26": {
+                                "course_id": "81184",
+                                "stored_course_id": "81184",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "course_id 81184 is not in TCY get_courses for this client \u2014 fix Woo product TCY Course ID.",
+                                "order_id": 17079,
+                                "product_id": 17074,
+                                "line_name": "MHCET"
+                            },
+                            "81184||17080|28": {
+                                "course_id": "81184",
+                                "stored_course_id": "81184",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "course_id 81184 is not in TCY get_courses for this client \u2014 fix Woo product TCY Course ID.",
+                                "order_id": 17080,
+                                "product_id": 17074,
+                                "line_name": "MHCET"
+                            },
+                            "90070|100000|17082|31": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17082,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90070|100000|17085|33": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17085,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90070|100000|17089|35": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17089,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90071|100000|17162|42": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17162,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 8,
+                        "invalid_course_ids": [
+                            "81184"
+                        ],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 8,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 5
+                },
+                "jbims_grant": {
+                    "email": "sumitdigitalpartner@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "17162-42": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17162,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17162"
+                    },
+                    "17089-35": {
+                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                        "product_id": 17075,
+                        "tcy_course_id": "90070",
+                        "order_id": 17089,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17075&ttp_tcy_course=90070&ttp_order=17089"
+                    },
+                    "17085-33": {
+                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                        "product_id": 17075,
+                        "tcy_course_id": "90070",
+                        "order_id": 17085,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17075&ttp_tcy_course=90070&ttp_order=17085"
+                    },
+                    "17082-31": {
+                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                        "product_id": 17075,
+                        "tcy_course_id": "90070",
+                        "order_id": 17082,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17075&ttp_tcy_course=90070&ttp_order=17082"
+                    },
+                    "17077-22": {
+                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                        "product_id": 17075,
+                        "tcy_course_id": "90070",
+                        "order_id": 17077,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17075&ttp_tcy_course=90070&ttp_order=17077"
+                    },
+                    "map-17093-81186": {
+                        "name": "Course 81186",
+                        "product_id": 0,
+                        "tcy_course_id": "81186",
+                        "order_id": 17093,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81186&ttp_order=17093"
+                    },
+                    "map-17162-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17162,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17162"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "sumitb9527@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 5,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 2,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 1,
+                    "course_ids": [
+                        "90070"
+                    ],
+                    "tcy_user_id": "ODEyMzg2Nw==",
+                    "all_tcy_ids": [
+                        "ODEyMzg2Nw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODEyMzg2Nw==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17076,
+                            "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEyMzg2Nw==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18405,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "sumitb9527@gmail.com",
+                        "wp_user_id": 5,
+                        "canonical_tcy": "ODEyMzg2Nw==",
+                        "all_tcy_ids": [
+                            "ODEyMzg2Nw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18406,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyMzg2Nw==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                                        "product_id": 17621,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 18405,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyMzg2Nw==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17076,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyMzg2Nw==",
+                                "lines": [
+                                    {
+                                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                                        "product_id": 17075,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17072,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyMzg2Nw==",
+                                "lines": [
+                                    {
+                                        "name": "CAT Test Series with MBA Topic wise Tests",
+                                        "product_id": 0,
+                                        "course_id": ""
+                                    },
+                                    {
+                                        "name": "Non CAT \/ MBA All-in-One Combo Pack",
+                                        "product_id": 0,
+                                        "course_id": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90070|100000|17076|20": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17076,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90334|100000|18405|560": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18405,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            },
+                            "90334|100000|18406|562": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18406,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90070,
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90070|100000|17076|20": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17076,
+                                "product_id": 17075,
+                                "line_name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)"
+                            },
+                            "90334|100000|18405|560": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18405,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            },
+                            "90334|100000|18406|562": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18406,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 3,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 3,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 3
+                },
+                "enrolled_panel": {
+                    "17076-20": {
+                        "name": "CET-MH Test Series with MBA Topic-wise Tests (Batch 2)",
+                        "product_id": 17075,
+                        "tcy_course_id": "90070",
+                        "order_id": 17076,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17075&ttp_tcy_course=90070&ttp_order=17076"
+                    },
+                    "map-17072-81192": {
+                        "name": "Course 81192",
+                        "product_id": 0,
+                        "tcy_course_id": "81192",
+                        "order_id": 17072,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81192&ttp_order=17072"
+                    },
+                    "18405-560": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18405,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18405"
+                    },
+                    "map-18406-90238": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 0,
+                        "tcy_course_id": "90238",
+                        "order_id": 18406,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=90238&ttp_order=18406"
+                    },
+                    "18406-562": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 18406,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334&ttp_order=18406"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "utkarshghatol42@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 369,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzMzOQ==",
+                    "all_tcy_ids": [
+                        "ODE2MzMzOQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzMzOQ==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18409,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "utkarshghatol42@gmail.com",
+                        "wp_user_id": 369,
+                        "canonical_tcy": "ODE2MzMzOQ==",
+                        "all_tcy_ids": [
+                            "ODE2MzMzOQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18409,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzMzOQ==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                                        "product_id": 17621,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18409|564": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18409,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18409|564": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18409,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18409-564": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 18409,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334&ttp_order=18409"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            }
+        ]
+    },
+    "total_users": 93,
+    "batch_from": 90,
+    "batch_count": 3,
+    "next_batch_url": ""
+}

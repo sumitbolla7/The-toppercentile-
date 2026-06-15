@@ -1,0 +1,461 @@
+{
+    "time": "2026-06-12T09:23:38+00:00",
+    "action": "jbims_renew",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "jbims_renew": {
+        "days": 5,
+        "orders_found": 21,
+        "ok": 21,
+        "partial": 0,
+        "errors": 0,
+        "skipped": 0,
+        "rows": [
+            {
+                "order_id": 18420,
+                "email": "dinukatke@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzMwMg=="
+            },
+            {
+                "order_id": 18419,
+                "email": "samikshameshram2001@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzI5MA=="
+            },
+            {
+                "order_id": 18417,
+                "email": "koshtitejaswini25@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzIzNQ=="
+            },
+            {
+                "order_id": 18411,
+                "email": "manvimalunjkar04@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "course_id": "90334",
+                        "sub_cat": "38033",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzI5MQ=="
+            },
+            {
+                "order_id": 18409,
+                "email": "utkarshghatol42@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "course_id": "90334",
+                        "sub_cat": "38033",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzMzOQ=="
+            },
+            {
+                "order_id": 18406,
+                "email": "sumitb9527@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "course_id": "90334",
+                        "sub_cat": "38033",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODEyMzg2Nw=="
+            },
+            {
+                "order_id": 18405,
+                "email": "sumitb9527@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODEyMzg2Nw=="
+            },
+            {
+                "order_id": 18403,
+                "email": "adityaajmi99@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzA3Ng=="
+            },
+            {
+                "order_id": 18401,
+                "email": "chaitanyawankhade8@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzA2Ng=="
+            },
+            {
+                "order_id": 18400,
+                "email": "dr.roshni1singh@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzA1Mw=="
+            },
+            {
+                "order_id": 18397,
+                "email": "omkarwaghamare001@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2Mjk4OA=="
+            },
+            {
+                "order_id": 18395,
+                "email": "sinkdevesh@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Triggered TCY registration.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "course_id": "90334",
+                        "sub_cat": "38033",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzM2NA=="
+            },
+            {
+                "order_id": 18393,
+                "email": "sekapo3692@preparmy.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2Mjc2Ng=="
+            },
+            {
+                "order_id": 18392,
+                "email": "sekapo3692@preparmy.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "course_id": "90334",
+                        "sub_cat": "38033",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2Mjc2Ng=="
+            },
+            {
+                "order_id": 18370,
+                "email": "shahanant77@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Triggered TCY registration.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "course_id": "90334",
+                        "sub_cat": "38033",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzM2NQ=="
+            },
+            {
+                "order_id": 18367,
+                "email": "rushikeshkahat4398@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "course_id": "90334",
+                        "sub_cat": "38033",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MzI5OA=="
+            },
+            {
+                "order_id": 18359,
+                "email": "sagargadhari27@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MjM2Ng=="
+            },
+            {
+                "order_id": 18350,
+                "email": "shivamghule1997@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE2MjE0Mg=="
+            },
+            {
+                "order_id": 18336,
+                "email": "anushkadgupta@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE1OTgyNQ=="
+            },
+            {
+                "order_id": 18316,
+                "email": "aditya.saharkar1503@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE1OTM3Mg=="
+            },
+            {
+                "order_id": 18300,
+                "email": "piyushbawane8@gmail.com",
+                "status": "ok",
+                "actions": [
+                    "Catalog TCY meta repaired.",
+                    "Order marked enrolled.",
+                    "Order course sync completed."
+                ],
+                "add_course": [
+                    {
+                        "line": "JBIMS MFIN MHRD Bootcamp",
+                        "course_id": "90334",
+                        "sub_cat": "38081",
+                        "outcome": "pack_conflict",
+                        "error": ""
+                    }
+                ],
+                "issues": [],
+                "tcy_user_id": "ODE1ODc3Mg=="
+            }
+        ]
+    }
+}

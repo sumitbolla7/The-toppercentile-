@@ -1,0 +1,1064 @@
+<?php
+/**
+ * Plugin Name: TTP Login Page Consolidate
+ * Description: Auth pages (/login/, /register/, /forgot-password/, /resend-email/). User Registration shortcodes in footer when active; strips raw shortcode text from page body (Elementor-safe).
+ * Version: 2.1.4
+ * Author: The Top Percentile
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+$ttp_simple_auth_mu = WPMU_PLUGIN_DIR . '/ttp-simple-auth-shortcodes.php';
+if ( is_readable( $ttp_simple_auth_mu ) ) {
+	require_once $ttp_simple_auth_mu;
+}
+
+/**
+ * @return bool
+ */
+function ttp_login_consolidate_is_user_registration() {
+	return class_exists( 'UserRegistration', false );
+}
+
+/**
+ * Ultimate Member is available (core pages fallback uses this).
+ *
+ * @return bool
+ */
+function ttp_login_consolidate_is_um_active() {
+	if ( ! defined( 'UM_PATH' ) || ! function_exists( 'UM' ) ) {
+		return false;
+	}
+	try {
+		$um = UM();
+		if ( ! is_object( $um ) || ! method_exists( $um, 'options' ) ) {
+			return false;
+		}
+		$opts = $um->options();
+		return is_object( $opts ) && method_exists( $opts, 'get' );
+	} catch ( \Throwable $e ) {
+		return false;
+	}
+}
+
+/**
+ * Current singular page is UM's assigned core login page.
+ *
+ * @return bool
+ */
+function ttp_login_consolidate_is_um_core_login_page() {
+	if ( ! ttp_login_consolidate_is_um_active() || ! is_singular( 'page' ) ) {
+		return false;
+	}
+	$qid = (int) get_queried_object_id();
+	if ( $qid < 1 ) {
+		return false;
+	}
+	$core = absint( UM()->options()->get( 'core_login' ) );
+
+	return $core > 0 && $qid === $core;
+}
+
+/**
+ * Current singular page is UM's assigned core register page.
+ *
+ * @return bool
+ */
+function ttp_login_consolidate_is_um_core_register_page() {
+	if ( ! ttp_login_consolidate_is_um_active() || ! is_singular( 'page' ) ) {
+		return false;
+	}
+	$qid = (int) get_queried_object_id();
+	if ( $qid < 1 ) {
+		return false;
+	}
+	$core = absint( UM()->options()->get( 'core_register' ) );
+
+	return $core > 0 && $qid === $core;
+}
+
+/**
+ * Login-like page slug (login, login-2, sign-in, etc.).
+ *
+ * @param string $slug Page slug.
+ * @return bool
+ */
+function ttp_login_consolidate_slug_is_login_family( $slug ) {
+	$slug = (string) $slug;
+
+	return (bool) preg_match( '/^(login|sign-in)(-\d+)?$/i', $slug );
+}
+
+/**
+ * Register-like page slug.
+ *
+ * @param string $slug Page slug.
+ * @return bool
+ */
+function ttp_login_consolidate_slug_is_register_family( $slug ) {
+	$slug = (string) $slug;
+
+	return (bool) preg_match( '/^(register|registration|sign-up)(-\d+)?$/i', $slug );
+}
+
+/**
+ * Treat as login page for footers, cache bypass, and UM/native fallbacks.
+ *
+ * @return bool
+ */
+function ttp_login_consolidate_is_probable_login_page() {
+	if ( ! is_singular( 'page' ) ) {
+		return false;
+	}
+	$slug = (string) get_post_field( 'post_name', get_queried_object_id() );
+	if ( ttp_login_consolidate_slug_is_login_family( $slug ) ) {
+		return true;
+	}
+
+	return ttp_login_consolidate_is_um_core_login_page();
+}
+
+/**
+ * @return bool
+ */
+function ttp_login_consolidate_is_probable_register_page() {
+	if ( ! is_singular( 'page' ) ) {
+		return false;
+	}
+	$slug = (string) get_post_field( 'post_name', get_queried_object_id() );
+	if ( ttp_login_consolidate_slug_is_register_family( $slug ) ) {
+		return true;
+	}
+
+	return ttp_login_consolidate_is_um_core_register_page();
+}
+
+/**
+ * Ultimate Member login HTML: prefers default-login shortcode, then core form id. Sets up global $post for UM edge cases.
+ *
+ * @param int $page_id Queried page ID (context).
+ * @return string
+ */
+function ttp_login_consolidate_um_try_render_login_html( $page_id ) {
+	if ( ! ttp_login_consolidate_is_um_active() || ! shortcode_exists( 'ultimatemember' ) ) {
+		return '';
+	}
+
+	global $post;
+	$saved     = $post;
+	$page_id   = absint( $page_id );
+	$ctx       = $page_id > 0 ? get_post( $page_id ) : null;
+	$html      = '';
+	$add_um_sg = static function () {
+		add_filter( 'um_ultimatemember_shortcode_disable_singleton', '__return_false', 1 );
+	};
+	$rm_um_sg = static function () {
+		remove_filter( 'um_ultimatemember_shortcode_disable_singleton', '__return_false', 1 );
+	};
+
+	if ( $ctx instanceof WP_Post ) {
+		$post = $ctx;
+		setup_postdata( $ctx );
+	}
+	$add_um_sg();
+	$html = (string) do_shortcode( '[ultimatemember_login]' );
+	$rm_um_sg();
+	if ( $ctx instanceof WP_Post ) {
+		wp_reset_postdata();
+	}
+	$post = $saved;
+
+	if ( '' !== trim( $html ) ) {
+		return $html;
+	}
+
+	$form_id = 0;
+	if ( ttp_login_consolidate_is_um_active() ) {
+		$um = UM();
+		if ( is_object( $um ) && method_exists( $um, 'shortcodes' ) ) {
+			$sc = $um->shortcodes();
+			if ( is_object( $sc ) && method_exists( $sc, 'core_login_form' ) ) {
+				$form_id = (int) $sc->core_login_form();
+			}
+		}
+	}
+	if ( $form_id < 1 ) {
+		return '';
+	}
+
+	if ( $ctx instanceof WP_Post ) {
+		$post = $ctx;
+		setup_postdata( $ctx );
+	}
+	$add_um_sg();
+	$html = (string) do_shortcode( '[ultimatemember form_id="' . $form_id . '"]' );
+	$rm_um_sg();
+	if ( $ctx instanceof WP_Post ) {
+		wp_reset_postdata();
+	}
+	$post = $saved;
+
+	return trim( $html ) !== '' ? $html : '';
+}
+
+/**
+ * Ultimate Member register HTML.
+ *
+ * @param int $page_id Queried page ID.
+ * @return string
+ */
+function ttp_login_consolidate_um_try_render_register_html( $page_id ) {
+	if ( ! ttp_login_consolidate_is_um_active() || ! shortcode_exists( 'ultimatemember' ) ) {
+		return '';
+	}
+
+	global $post;
+	$saved   = $post;
+	$page_id = absint( $page_id );
+	$ctx     = $page_id > 0 ? get_post( $page_id ) : null;
+	$html    = '';
+	$add_um_sg = static function () {
+		add_filter( 'um_ultimatemember_shortcode_disable_singleton', '__return_false', 1 );
+	};
+	$rm_um_sg = static function () {
+		remove_filter( 'um_ultimatemember_shortcode_disable_singleton', '__return_false', 1 );
+	};
+
+	if ( $ctx instanceof WP_Post ) {
+		$post = $ctx;
+		setup_postdata( $ctx );
+	}
+	$add_um_sg();
+	$html = (string) do_shortcode( '[ultimatemember_register]' );
+	$rm_um_sg();
+	if ( $ctx instanceof WP_Post ) {
+		wp_reset_postdata();
+	}
+	$post = $saved;
+
+	if ( '' !== trim( $html ) ) {
+		return $html;
+	}
+
+	$form_id = ttp_login_consolidate_um_core_register_form_id();
+	if ( $form_id < 1 ) {
+		return '';
+	}
+
+	if ( $ctx instanceof WP_Post ) {
+		$post = $ctx;
+		setup_postdata( $ctx );
+	}
+	$add_um_sg();
+	$html = (string) do_shortcode( '[ultimatemember form_id="' . $form_id . '"]' );
+	$rm_um_sg();
+	if ( $ctx instanceof WP_Post ) {
+		wp_reset_postdata();
+	}
+	$post = $saved;
+
+	return trim( $html ) !== '' ? $html : '';
+}
+
+/**
+ * Branded native WP login (always works if shortcode exists).
+ *
+ * @return string
+ */
+function ttp_login_consolidate_native_bro_login_html() {
+	if ( ! shortcode_exists( 'ttp_login' ) ) {
+		return '';
+	}
+
+	return (string) do_shortcode( '[ttp_login]' );
+}
+
+/**
+ * @param string $html HTML.
+ * @return bool
+ */
+function ttp_login_consolidate_content_has_um_form_markup( $html ) {
+	if ( ! is_string( $html ) || '' === $html ) {
+		return false;
+	}
+	if ( false !== stripos( $html, 'ttp-um-core-fallback-wrap' ) || false !== stripos( $html, 'ttp-bro-login-shell' ) ) {
+		return true;
+	}
+	if ( false !== stripos( $html, 'um-form' ) || false !== stripos( $html, 'um_form_' ) ) {
+		return true;
+	}
+	if ( false !== stripos( $html, 'um-login' ) || false !== stripos( $html, 'um-register' ) ) {
+		return true;
+	}
+
+	return false;
+}
+
+/**
+ * @return int
+ */
+function ttp_login_consolidate_um_core_register_form_id() {
+	$forms = get_posts(
+		array(
+			'post_type'      => 'um_form',
+			'post_status'    => 'publish',
+			'posts_per_page' => 1,
+			'meta_key'       => '_um_core',
+			'meta_value'     => 'register',
+			'fields'         => 'ids',
+		)
+	);
+
+	return $forms ? (int) $forms[0] : 0;
+}
+
+/**
+ * Build UM + branded native fallback HTML for login or register intent pages.
+ *
+ * @param string $mode login|register.
+ * @param int    $qid  Page ID.
+ * @return string
+ */
+function ttp_login_consolidate_render_bro_fallback_inner( $mode, $qid ) {
+	$mode = (string) $mode;
+	$qid  = absint( $qid );
+	$um   = '';
+	$bro  = '';
+
+	if ( 'login' === $mode ) {
+		if ( ttp_login_consolidate_is_um_active() ) {
+			$um = ttp_login_consolidate_um_try_render_login_html( $qid );
+		}
+		$bro = ttp_login_consolidate_native_bro_login_html();
+		if ( '' === trim( (string) $bro ) ) {
+			$bro = ttp_login_consolidate_fallback_login_shortcode();
+		}
+	} elseif ( 'register' === $mode ) {
+		if ( ttp_login_consolidate_is_um_active() ) {
+			$um = ttp_login_consolidate_um_try_render_register_html( $qid );
+		}
+		if ( '' === trim( (string) $um ) && shortcode_exists( 'ttp_register' ) ) {
+			$bro = (string) do_shortcode( '[ttp_register]' );
+		}
+	}
+
+	$block = '';
+	if ( '' !== trim( (string) $um ) ) {
+		$block .= '<div class="ttp-bro-um" style="margin-bottom:1.5rem">' . $um . '</div>';
+	}
+	if ( '' !== trim( (string) $bro ) ) {
+		$label = '';
+		if ( 'login' === $mode && '' !== trim( (string) $um ) ) {
+			$label = '<p class="ttp-bro-label" style="margin:0 0 .75rem;font-size:.8rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:.04em">' . esc_html__( 'Site password login', 'ttp-auth' ) . '</p>';
+		}
+		$block .= $label . '<div class="ttp-bro-native">' . $bro . '</div>';
+	}
+
+	return $block;
+}
+
+/**
+ * If the login/register page has no UM markup, inject UM (default + core form) and/or branded native login.
+ *
+ * @param string $content Content.
+ * @return string
+ */
+function ttp_login_consolidate_um_core_page_form_fallback( $content ) {
+	if ( is_admin() || ! is_singular( 'page' ) ) {
+		return $content;
+	}
+
+	if ( is_user_logged_in() ) {
+		return $content;
+	}
+
+	if ( false !== strpos( (string) $content, 'id="ttp-bro-login-shell"' ) ) {
+		return $content;
+	}
+
+	$mode = '';
+	if ( ttp_login_consolidate_is_probable_login_page() ) {
+		$mode = 'login';
+	} elseif ( ttp_login_consolidate_is_probable_register_page() ) {
+		$mode = 'register';
+	} else {
+		return $content;
+	}
+
+	if ( ttp_login_consolidate_content_has_um_form_markup( (string) $content ) ) {
+		$GLOBALS['ttp_um_core_fallback_printed'] = true;
+
+		return $content;
+	}
+
+	$qid   = (int) get_queried_object_id();
+	$block = ttp_login_consolidate_render_bro_fallback_inner( $mode, $qid );
+
+	if ( '' === trim( wp_strip_all_tags( $block, true ) ) ) {
+		return $content;
+	}
+
+	$GLOBALS['ttp_um_core_fallback_printed'] = true;
+
+	return $content . '<div id="ttp-bro-login-shell" class="ttp-um-core-fallback-wrap" style="max-width:640px;margin:2rem auto;padding:0 1.25rem">' . $block . '</div>';
+}
+add_filter( 'the_content', 'ttp_login_consolidate_um_core_page_form_fallback', 999 );
+
+/**
+ * @return string
+ */
+function ttp_login_consolidate_ur_redirect_url() {
+	return function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'myaccount' ) : home_url( '/' );
+}
+
+/**
+ * @return int
+ */
+function ttp_login_consolidate_ur_registration_form_id() {
+	$opt = (int) get_option( 'ttp_ur_default_registration_form_id', 0 );
+	if ( $opt > 0 ) {
+		return $opt;
+	}
+	if ( ! post_type_exists( 'user_registration' ) ) {
+		return 0;
+	}
+	$ids = get_posts(
+		array(
+			'post_type'      => 'user_registration',
+			'post_status'    => 'publish',
+			'posts_per_page' => 1,
+			'orderby'        => 'ID',
+			'order'          => 'ASC',
+			'fields'         => 'ids',
+		)
+	);
+	$id  = $ids ? (int) $ids[0] : 0;
+	if ( $id ) {
+		update_option( 'ttp_ur_default_registration_form_id', $id );
+	}
+
+	return $id;
+}
+
+/**
+ * Current auth route slug from the main queried page or request path (Elementor / cache edge cases).
+ *
+ * @return string One of login|register|forgot-password|resend-email or empty string.
+ */
+function ttp_login_consolidate_current_auth_slug() {
+	if ( is_admin() ) {
+		return '';
+	}
+
+	$auth_slugs = array( 'login', 'register', 'forgot-password', 'resend-email' );
+
+	/*
+	 * Main query request (works behind reverse proxies where REQUEST_URI is only /index.php).
+	 */
+	global $wp;
+	if ( isset( $wp ) && is_object( $wp ) && isset( $wp->request ) && is_string( $wp->request ) && '' !== $wp->request ) {
+		$parts = array_values( array_filter( explode( '/', trim( $wp->request, '/' ) ) );
+		$last  = end( $parts );
+		if ( is_string( $last ) && in_array( $last, $auth_slugs, true ) ) {
+			return $last;
+		}
+		if ( is_string( $last ) && ttp_login_consolidate_slug_is_login_family( $last ) ) {
+			return 'login';
+		}
+		if ( is_string( $last ) && ttp_login_consolidate_slug_is_register_family( $last ) ) {
+			return 'register';
+		}
+	}
+
+	/*
+	 * Raw URI path (fallback).
+	 */
+	$uri = isset( $_SERVER['REQUEST_URI'] ) ? (string) wp_unslash( $_SERVER['REQUEST_URI'] ) : '';
+	$path = wp_parse_url( $uri, PHP_URL_PATH );
+	if ( is_string( $path ) ) {
+		$path = untrailingslashit( $path );
+		if ( preg_match( '#/(forgot-password|resend-email|registration|register(-\d+)?|login(-\d+)?)$#i', $path, $m ) ) {
+			$seg = isset( $m[1] ) ? strtolower( (string) $m[1] ) : '';
+			if ( 'registration' === $seg || 0 === strpos( $seg, 'register' ) ) {
+				return 'register';
+			}
+			if ( 0 === strpos( $seg, 'login' ) ) {
+				return 'login';
+			}
+			if ( 'forgot-password' === $seg ) {
+				return 'forgot-password';
+			}
+			if ( 'resend-email' === $seg ) {
+				return 'resend-email';
+			}
+		}
+	}
+
+	if ( is_singular( 'page' ) ) {
+		$slug = (string) get_post_field( 'post_name', get_queried_object_id() );
+		if ( in_array( $slug, $auth_slugs, true ) ) {
+			return $slug;
+		}
+		if ( ttp_login_consolidate_slug_is_login_family( $slug ) ) {
+			return 'login';
+		}
+		if ( ttp_login_consolidate_slug_is_register_family( $slug ) ) {
+			return 'register';
+		}
+	}
+
+	return '';
+}
+
+/**
+ * Strip auth-related shortcode markers from a string (HTML or plain).
+ *
+ * @param string $content Content.
+ * @return string
+ */
+function ttp_login_consolidate_strip_auth_shortcode_markers( $content ) {
+	$patterns = array(
+		'/\[ttp_login[^\]]*\]/i',
+		'/\[ttp_register[^\]]*\]/i',
+		'/\[ttp_auth[^\]]*\]/i',
+		'/\[ttp_lost_password[^\]]*\]/i',
+		'/\[ttp_resend_welcome[^\]]*\]/i',
+		'/\[user_registration_form[^\]]*\]/i',
+		'/\[user_registration_login[^\]]*\]/i',
+		'/\[user_registration_lost_password[^\]]*\]/i',
+		'/\[user_registration_my_account[^\]]*\]/i',
+	);
+	foreach ( $patterns as $p ) {
+		$content = preg_replace( $p, '', $content );
+	}
+
+	return $content;
+}
+
+/**
+ * Whether auth shortcode strip / cleanup should run (login/register intent, including login-2 / registration slugs).
+ *
+ * @return bool
+ */
+function ttp_login_consolidate_is_auth_shortcode_cleanup_context() {
+	if ( is_admin() ) {
+		return false;
+	}
+	if ( '' !== ttp_login_consolidate_current_auth_slug() ) {
+		return true;
+	}
+
+	return ttp_login_consolidate_is_probable_login_page()
+		|| ttp_login_consolidate_is_probable_register_page();
+}
+
+/**
+ * Turn visible [user_registration_login …] into a real form (Elementor often leaves it as plain text).
+ *
+ * @param string $content Content.
+ * @return string
+ */
+function ttp_login_consolidate_process_user_registration_login_snippet( $content ) {
+	if ( is_admin() || ! is_string( $content ) || '' === $content ) {
+		return $content;
+	}
+	if ( is_user_logged_in() ) {
+		return $content;
+	}
+	/*
+	 * Live-site fetch showed raw `<p>[user_registration_login]</p>` because is_singular()/queried object
+	 * can be unset during some the_content passes—also trust global $post when it is the login page.
+	 */
+	global $post;
+	$login_ctx = false;
+	if ( $post instanceof WP_Post && 'page' === $post->post_type ) {
+		$login_ctx = ttp_login_consolidate_slug_is_login_family( (string) $post->post_name );
+	}
+	if ( ! $login_ctx ) {
+		$login_ctx = ttp_login_consolidate_is_probable_login_page();
+	}
+	if ( ! $login_ctx ) {
+		$login_ctx = ( 'login' === ttp_login_consolidate_current_auth_slug() );
+	}
+	if ( ! $login_ctx ) {
+		$login_ctx = ttp_login_consolidate_is_um_core_login_page();
+	}
+	if ( ! $login_ctx ) {
+		return $content;
+	}
+	if ( false === stripos( $content, 'user_registration_login' ) ) {
+		return $content;
+	}
+
+	return (string) preg_replace_callback(
+		'/\[\s*user_registration_login[^\]]*\]/i',
+		static function ( $m ) {
+			$raw = isset( $m[0] ) ? (string) $m[0] : '';
+			if ( shortcode_exists( 'user_registration_login' ) ) {
+				$out = do_shortcode( $raw );
+				if ( '' !== trim( $out ) && trim( $out ) !== trim( $raw ) ) {
+					return $out;
+				}
+			}
+
+			return ttp_login_consolidate_render_bro_fallback_inner( 'login', (int) get_queried_object_id() );
+		},
+		$content
+	);
+}
+
+/**
+ * Remove plain-text auth shortcodes from page body (fixes Elementor Text widgets showing [ttp_login] etc.).
+ *
+ * @param string $content Content.
+ * @return string
+ */
+function ttp_login_consolidate_strip_raw_auth_shortcodes( $content ) {
+	if ( is_admin() || ! ttp_login_consolidate_is_auth_shortcode_cleanup_context() ) {
+		return $content;
+	}
+
+	return ttp_login_consolidate_strip_auth_shortcode_markers( $content );
+}
+
+/**
+ * Elementor widget output may never pass through {@see the_content()} at an early priority; strip here too.
+ *
+ * @param string $widget_content Widget HTML.
+ * @param mixed $widget Elementor widget instance.
+ * @return string
+ */
+function ttp_login_consolidate_elementor_widget_strip( $widget_content, $widget ) {
+	unset( $widget );
+	if ( is_admin() || ! ttp_login_consolidate_is_auth_shortcode_cleanup_context() ) {
+		return $widget_content;
+	}
+
+	return ttp_login_consolidate_strip_auth_shortcode_markers( $widget_content );
+}
+
+/*
+ * Priority 6 + 999: replace dead UR login shortcode (is_singular can be unreliable at priority 6).
+ * Priority 20 runs after Elementor's the_content callback (priority 9) so builder HTML is visible to strip filters.
+ */
+add_filter( 'the_content', 'ttp_login_consolidate_process_user_registration_login_snippet', 6 );
+add_filter( 'the_content', 'ttp_login_consolidate_process_user_registration_login_snippet', 999 );
+add_filter( 'the_content', 'ttp_login_consolidate_strip_raw_auth_shortcodes', 20 );
+add_filter( 'widget_text', 'ttp_login_consolidate_strip_raw_auth_shortcodes', 20 );
+add_filter( 'widget_text_content', 'ttp_login_consolidate_strip_raw_auth_shortcodes', 20 );
+add_filter( 'widget_block_content', 'ttp_login_consolidate_strip_raw_auth_shortcodes', 20 );
+
+/**
+ * Fallback shortcode if ttp-simple-auth is missing.
+ *
+ * @return string
+ */
+function ttp_login_consolidate_fallback_login_shortcode() {
+	if ( is_user_logged_in() ) {
+		$url = ttp_login_consolidate_ur_redirect_url();
+		return '<div class="ttp-auth-wrap" style="max-width:440px;margin:1.5rem auto;padding:1rem"><p>' . esc_html__( 'You are already logged in.', 'ttp-auth' ) . ' <a href="' . esc_url( $url ) . '">' . esc_html__( 'My account', 'ttp-auth' ) . '</a></p></div>';
+	}
+
+	$redirect = '';
+	if ( isset( $_GET['redirect_to'] ) ) {
+		$redirect = esc_url_raw( wp_unslash( $_GET['redirect_to'] ) );
+	}
+	if ( '' === $redirect ) {
+		$redirect = ttp_login_consolidate_ur_redirect_url();
+	}
+
+	ob_start();
+	echo '<div class="ttp-auth-wrap" style="max-width:440px;margin:1.5rem auto;padding:1rem">';
+	echo '<div class="ttp-auth-card" style="background:#111827;color:#f9fafb;border:1px solid #1f2937;border-radius:14px;padding:1.75rem">';
+	echo '<h2 style="margin:0 0 1rem">' . esc_html__( 'Log in', 'ttp-auth' ) . '</h2>';
+	wp_login_form(
+		array(
+			'redirect'       => $redirect,
+			'form_id'        => 'ttp-simple-loginform',
+			'label_username' => __( 'Username or email', 'ttp-auth' ),
+			'label_password' => __( 'Password', 'ttp-auth' ),
+			'label_remember' => __( 'Remember me', 'ttp-auth' ),
+			'label_log_in'   => __( 'Log in', 'ttp-auth' ),
+		)
+	);
+	echo '<p style="margin-top:14px;font-size:.875rem"><a style="color:#fbbf24" href="' . esc_url( wp_lostpassword_url( $redirect ) ) . '">' . esc_html__( 'Forgot password?', 'ttp-auth' ) . '</a></p>';
+	echo '</div></div>';
+
+	return (string) ob_get_clean();
+}
+
+/**
+ * @return void
+ */
+function ttp_login_consolidate_register_shortcode_fallback() {
+	if ( shortcode_exists( 'ttp_login' ) ) {
+		return;
+	}
+	add_shortcode( 'ttp_login', 'ttp_login_consolidate_fallback_login_shortcode' );
+}
+add_action( 'init', 'ttp_login_consolidate_register_shortcode_fallback', 1 );
+
+/**
+ * @return void
+ */
+function ttp_login_consolidate_redirect() {
+	if ( is_admin() ) {
+		return;
+	}
+
+	if ( ! is_singular( 'page' ) ) {
+		return;
+	}
+
+	$slug   = (string) get_post_field( 'post_name', get_queried_object_id() );
+	$qid    = (int) get_queried_object_id();
+	$um_log = 0;
+	$um_reg = 0;
+	if ( ttp_login_consolidate_is_um_active() ) {
+		$um_log = absint( UM()->options()->get( 'core_login' ) );
+		$um_reg = absint( UM()->options()->get( 'core_register' ) );
+	} else {
+		$uopt = get_option( 'um_options', array() );
+		if ( is_array( $uopt ) ) {
+			$um_log = isset( $uopt['core_login'] ) ? absint( $uopt['core_login'] ) : 0;
+			$um_reg = isset( $uopt['core_register'] ) ? absint( $uopt['core_register'] ) : 0;
+		}
+	}
+
+	if ( preg_match( '/^login-\d+$/', $slug ) ) {
+		if ( $um_log > 0 && $qid === $um_log ) {
+			return;
+		}
+		wp_safe_redirect( home_url( '/login/' ), 301 );
+		exit;
+	}
+
+	if ( preg_match( '/^register-\d+$/', $slug ) ) {
+		if ( $um_reg > 0 && $qid === $um_reg ) {
+			return;
+		}
+		wp_safe_redirect( home_url( '/register/' ), 301 );
+		exit;
+	}
+
+	if ( preg_match( '/^forgot-password-\d+$/', $slug ) ) {
+		wp_safe_redirect( home_url( '/forgot-password/' ), 301 );
+		exit;
+	}
+
+	if ( preg_match( '/^resend-email-\d+$/', $slug ) ) {
+		wp_safe_redirect( home_url( '/resend-email/' ), 301 );
+		exit;
+	}
+}
+add_action( 'template_redirect', 'ttp_login_consolidate_redirect', 0 );
+
+/**
+ * @return void
+ */
+function ttp_login_consolidate_queue_footer_form() {
+	if ( is_admin() ) {
+		return;
+	}
+
+	$slug = ttp_login_consolidate_current_auth_slug();
+	if ( 'login' === $slug ) {
+		if ( ttp_login_consolidate_is_probable_login_page() ) {
+			return;
+		}
+		add_action( 'wp_footer', 'ttp_login_consolidate_print_footer_form', 5 );
+		return;
+	}
+
+	if ( 'register' === $slug ) {
+		if ( ttp_login_consolidate_is_probable_register_page() ) {
+			return;
+		}
+		add_action( 'wp_footer', 'ttp_login_consolidate_print_footer_register_form', 5 );
+		return;
+	}
+
+	if ( 'forgot-password' === $slug ) {
+		add_action( 'wp_footer', 'ttp_login_consolidate_print_footer_forgot_form', 5 );
+		return;
+	}
+
+	if ( 'resend-email' === $slug ) {
+		add_action( 'wp_footer', 'ttp_login_consolidate_print_footer_resend_form', 5 );
+	}
+}
+add_action( 'wp', 'ttp_login_consolidate_queue_footer_form', 20 );
+
+/**
+ * @return void
+ */
+function ttp_login_consolidate_print_footer_form() {
+	static $done = false;
+	if ( $done ) {
+		return;
+	}
+	$done = true;
+
+	if ( is_user_logged_in() ) {
+		return;
+	}
+
+	if ( ttp_login_consolidate_is_um_active() ) {
+		$um_html = ttp_login_consolidate_um_try_render_login_html( (int) get_queried_object_id() );
+		if ( '' !== trim( (string) $um_html ) ) {
+			echo '<section id="ttp-login-fallback-anchor" class="ttp-login-fallback-anchor" style="max-width:640px;margin:2rem auto;padding:0 1.25rem;position:relative;z-index:50">'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			echo $um_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			echo '</section>';
+			return;
+		}
+	}
+
+	echo '<section id="ttp-login-fallback-anchor" class="ttp-login-fallback-anchor" style="max-width:640px;margin:2rem auto;padding:0 1.25rem;position:relative;z-index:50">';
+	if ( ttp_login_consolidate_is_user_registration() ) {
+		$red = esc_url( ttp_login_consolidate_ur_redirect_url() );
+		echo do_shortcode( '[user_registration_login redirect_url="' . $red . '"]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	} else {
+		echo do_shortcode( '[ttp_login]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		echo '<script>
+(function(){
+function dedupe(){
+  var forms=document.querySelectorAll("#ttp-simple-loginform");
+  if(forms.length<=1)return;
+  for(var i=1;i<forms.length;i++){
+    var el=forms[i];
+    var sec=el.closest("#ttp-login-fallback-anchor");
+    if(sec){sec.remove();} else {var p=el.closest("form"); if(p)p.remove();}
+  }
+}
+if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",dedupe);}else{dedupe();}
+})();
+</script>';
+	}
+	echo '</section>';
+}
+
+/**
+ * @return void
+ */
+function ttp_login_consolidate_print_footer_register_form() {
+	static $done = false;
+	if ( $done ) {
+		return;
+	}
+	$done = true;
+
+	if ( is_user_logged_in() ) {
+		return;
+	}
+
+	if ( ! get_option( 'users_can_register' ) && ! ttp_login_consolidate_is_user_registration() ) {
+		return;
+	}
+
+	if ( ttp_login_consolidate_is_um_active() ) {
+		$um_reg = ttp_login_consolidate_um_try_render_register_html( (int) get_queried_object_id() );
+		if ( '' !== trim( (string) $um_reg ) ) {
+			echo '<section id="ttp-register-fallback-anchor" class="ttp-register-fallback-anchor" style="max-width:640px;margin:2rem auto;padding:0 1.25rem;position:relative;z-index:50">'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			echo $um_reg; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			echo '</section>';
+			return;
+		}
+	}
+
+	echo '<section id="ttp-register-fallback-anchor" class="ttp-register-fallback-anchor" style="max-width:640px;margin:2rem auto;padding:0 1.25rem;position:relative;z-index:50">';
+	if ( ttp_login_consolidate_is_user_registration() ) {
+		$fid = ttp_login_consolidate_ur_registration_form_id();
+		if ( $fid > 0 ) {
+			echo do_shortcode( '[user_registration_form id="' . (int) $fid . '"]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		} else {
+			echo '<p style="text-align:center;padding:1rem">' . esc_html__( 'No User Registration form was found. In WP Admin go to User Registration → Add New to create a form.', 'ttp-auth' ) . '</p>';
+		}
+	} else {
+		echo do_shortcode( '[ttp_register]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	}
+	echo '</section>';
+}
+
+/**
+ * @return void
+ */
+function ttp_login_consolidate_print_footer_forgot_form() {
+	static $done = false;
+	if ( $done ) {
+		return;
+	}
+	$done = true;
+
+	if ( is_user_logged_in() ) {
+		return;
+	}
+
+	echo '<section id="ttp-forgot-fallback-anchor" class="ttp-forgot-fallback-anchor" style="max-width:640px;margin:2rem auto;padding:0 1.25rem;position:relative;z-index:50">';
+	if ( ttp_login_consolidate_is_user_registration() ) {
+		echo do_shortcode( '[user_registration_lost_password]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	} else {
+		echo do_shortcode( '[ttp_lost_password]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	}
+	echo '</section>';
+}
+
+/**
+ * @return void
+ */
+function ttp_login_consolidate_print_footer_resend_form() {
+	static $done = false;
+	if ( $done ) {
+		return;
+	}
+	$done = true;
+
+	if ( is_user_logged_in() ) {
+		return;
+	}
+
+	echo '<section id="ttp-resend-fallback-anchor" class="ttp-resend-fallback-anchor" style="max-width:640px;margin:2rem auto;padding:0 1.25rem;position:relative;z-index:50">';
+	if ( ttp_login_consolidate_is_user_registration() ) {
+		echo do_shortcode( '[user_registration_login]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped — includes pending verification + resend link when enabled in UR.
+	} else {
+		echo do_shortcode( '[ttp_resend_welcome]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	}
+	echo '</section>';
+}
+
+/**
+ * Register Elementor-specific filters after Elementor has loaded (avoid registering before the class exists).
+ *
+ * @return void
+ */
+function ttp_login_consolidate_register_elementor_filters() {
+	add_filter( 'elementor/frontend/the_content', 'ttp_login_consolidate_process_user_registration_login_snippet', 6 );
+	add_filter( 'elementor/frontend/the_content', 'ttp_login_consolidate_strip_raw_auth_shortcodes', 15 );
+	add_filter( 'elementor/frontend/the_content', 'ttp_login_consolidate_um_core_page_form_fallback', 999 );
+	add_filter( 'elementor/widget/render_content', 'ttp_login_consolidate_process_user_registration_login_snippet', 5, 2 );
+	add_filter( 'elementor/widget/render_content', 'ttp_login_consolidate_elementor_widget_strip', 10, 2 );
+}
+add_action( 'elementor/loaded', 'ttp_login_consolidate_register_elementor_filters' );
+
+/**
+ * Elementor Canvas (and similar) may not run {@see the_content}; print the UM core form once in the footer.
+ *
+ * @return void
+ */
+function ttp_login_consolidate_um_core_page_footer_fallback() {
+	if ( is_admin() || ! is_singular( 'page' ) || is_user_logged_in() ) {
+		return;
+	}
+	if ( ! empty( $GLOBALS['ttp_um_core_fallback_printed'] ) ) {
+		return;
+	}
+
+	$mode = '';
+	if ( ttp_login_consolidate_is_probable_login_page() ) {
+		$mode = 'login';
+	} elseif ( ttp_login_consolidate_is_probable_register_page() ) {
+		$mode = 'register';
+	} else {
+		return;
+	}
+
+	$qid   = (int) get_queried_object_id();
+	$block = ttp_login_consolidate_render_bro_fallback_inner( $mode, $qid );
+	if ( '' === trim( wp_strip_all_tags( $block, true ) ) ) {
+		return;
+	}
+
+	$GLOBALS['ttp_um_core_fallback_printed'] = true;
+	echo '<section id="ttp-bro-login-shell" class="ttp-um-core-fallback-wrap" style="max-width:640px;margin:2rem auto;padding:0 1.25rem">'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	echo $block; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	echo '</section>';
+}
+add_action( 'wp_footer', 'ttp_login_consolidate_um_core_page_footer_fallback', 999999 );
+
+/**
+ * LiteSpeed / CDN often serves a full-page cache built before MU fixes ran; auth routes must stay dynamic.
+ * Also buffer final HTML so stray [ttp_login] markers are removed even when a theme bypasses the_content.
+ *
+ * @param string $buffer Full HTML (output buffer).
+ * @param int    $phase  Output buffer phase (ignored).
+ * @return string
+ */
+function ttp_login_consolidate_ob_strip_markers( $buffer, $phase = 0 ) {
+	unset( $phase );
+	if ( ! is_string( $buffer ) || '' === $buffer ) {
+		return $buffer;
+	}
+
+	$out = ttp_login_consolidate_strip_auth_shortcode_markers( $buffer );
+	/*
+	 * Plain post_content often stores this exact fragment; catch it if another layer escaped the brackets.
+	 */
+	$out = str_replace( array( '<p>[ttp_login] </p>', '<p>[ttp_login]</p>' ), '', $out );
+
+	return $out;
+}
+
+/**
+ * LiteSpeed / CDN cache + full-page buffer strip (runs after the main query is set).
+ *
+ * @return void
+ */
+function ttp_login_consolidate_auth_page_runtime_fixes() {
+	if ( is_admin() || wp_doing_ajax() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) ) {
+		return;
+	}
+	if ( '' === ttp_login_consolidate_current_auth_slug() ) {
+		return;
+	}
+
+	/**
+	 * @see https://docs.litespeedtech.com/lscache/lscwp/api/
+	 */
+	do_action( 'litespeed_control_set_nocache', 'ttp-auth-pages-dynamic' );
+
+	if ( ! headers_sent() ) {
+		nocache_headers();
+	}
+
+	ob_start( 'ttp_login_consolidate_ob_strip_markers' );
+}
+add_action( 'template_redirect', 'ttp_login_consolidate_auth_page_runtime_fixes', 0 );
+
+/**
+ * Shortcode: full Ultimate Member + branded native stack. Use in Elementor Shortcode widget: [ttp_bro_stack] or [ttp_bro_stack mode="register"].
+ *
+ * @param string[] $atts Shortcode attributes.
+ * @return string
+ */
+function ttp_login_consolidate_shortcode_bro_stack( $atts ) {
+	if ( is_admin() || is_user_logged_in() ) {
+		return '';
+	}
+
+	$atts = shortcode_atts(
+		array(
+			'mode' => 'auto',
+		),
+		$atts,
+		'ttp_bro_stack'
+	);
+
+	$which = strtolower( trim( (string) $atts['mode'] ) );
+	if ( 'login' === $which ) {
+		$mode = 'login';
+	} elseif ( 'register' === $which ) {
+		$mode = 'register';
+	} elseif ( ttp_login_consolidate_is_probable_register_page() ) {
+		$mode = 'register';
+	} elseif ( ttp_login_consolidate_is_probable_login_page() ) {
+		$mode = 'login';
+	} else {
+		$mode = 'login';
+	}
+
+	$pid = is_singular() ? (int) get_queried_object_id() : 0;
+
+	return ttp_login_consolidate_render_bro_fallback_inner( $mode, $pid );
+}
+add_shortcode( 'ttp_bro_stack', 'ttp_login_consolidate_shortcode_bro_stack' );

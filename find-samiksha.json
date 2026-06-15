@@ -1,0 +1,35 @@
+{
+    "time": "2026-06-14T20:13:46+00:00",
+    "action": "find_user",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "find": {
+        "fragment": "samiksha",
+        "users": [
+            {
+                "wp_user_id": 368,
+                "email": "samikshameshram2001@gmail.com",
+                "name": "Samiksha meshram",
+                "panel": {
+                    "18419-568": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18419,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18419"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                }
+            }
+        ],
+        "orders": []
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "php.validate.enable": false,
+  "sftp.debug": true,
+  "sftp.printDebugLog": true
+}

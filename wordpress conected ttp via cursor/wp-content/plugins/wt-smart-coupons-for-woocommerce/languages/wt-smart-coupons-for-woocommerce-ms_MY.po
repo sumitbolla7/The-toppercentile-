@@ -1,0 +1,5029 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TheTopPercentile Coupons\n"
+"POT-Creation-Date: 2024-12-31 17:28+0530\n"
+"PO-Revision-Date: 2024-12-31 17:28+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ms_MY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-WPHeader: wt-smart-coupon.php\n"
+
+#: admin/class-wt-duplicate-coupon.php:53
+#: admin/class-wt-smart-coupon-admin.php:151
+#: admin/modules/checkout_options/checkout_options.php:228
+#: admin/modules/coupon_restriction/coupon_restriction.php:105
+#: admin/modules/giveaway_product/giveaway_product.php:71
+#: admin/modules/giveaway_product/giveaway_product.php:250
+msgid "You do not have sufficient permission to perform this operation"
+msgstr ""
+"Anda tidak mempunyai kebenaran yang mencukupi untuk melaksanakan operasi ini"
+
+#: admin/class-wt-duplicate-coupon.php:60
+msgid "No post to duplicate has been supplied!"
+msgstr "Tiada kiriman untuk diduplikasi telah disediakan!"
+
+#: admin/class-wt-duplicate-coupon.php:64
+msgid "Invalid nonce"
+msgstr "Nonce tidak sah"
+
+#: admin/class-wt-duplicate-coupon.php:77
+#, php-format
+msgid "Post creation failed, could not find original post: %s"
+msgstr "Penciptaan pos gagal, tidak dapat mencari pos asal: %s"
+
+#: admin/class-wt-duplicate-coupon.php:92
+#: admin/modules/bogo/views/--bogo-listing.php:402
+msgid "Duplicate"
+msgstr "Pendua"
+
+#: admin/class-wt-duplicate-coupon.php:93
+msgid "Duplicate this item"
+msgstr "Duplikat item ini"
+
+#: admin/class-wt-smart-coupon-admin.php:122
+msgid "Quick links"
+msgstr "Pautan pantas"
+
+#: admin/class-wt-smart-coupon-admin.php:228
+msgid "is required"
+msgstr "diperlukan"
+
+#: admin/class-wt-smart-coupon-admin.php:229
+msgid "Copied!"
+msgstr "Disalin!"
+
+#: admin/class-wt-smart-coupon-admin.php:230 admin/modules/bogo/bogo.php:192
+#: admin/modules/coupon_style/coupon_style.php:61
+msgid "Error"
+msgstr "Ralat"
+
+#: admin/class-wt-smart-coupon-admin.php:231
+msgid "Loading..."
+msgstr "Memuat..."
+
+#: admin/class-wt-smart-coupon-admin.php:232
+#: public/class-wt-smart-coupon-public.php:143
+msgid "Please wait..."
+msgstr "Sila tunggu..."
+
+#: admin/class-wt-smart-coupon-admin.php:233
+msgid "Are you sure?"
+msgstr "Adakah anda pasti?"
+
+#: admin/class-wt-smart-coupon-admin.php:234
+msgid "Are you sure you want to delete?"
+msgstr "Adakah anda pasti mahu memadam?"
+
+#: admin/class-wt-smart-coupon-admin.php:235
+msgid "Old BOGO module is disabled"
+msgstr "Modul BOGO lama dinyahaktifkan"
+
+#: admin/class-wt-smart-coupon-admin.php:269
+#: admin/modules/bogo/views/-bogo-main.php:48
+#: admin/views/general_settings.php:19
+msgid "Settings"
+msgstr "Tetapan"
+
+#: admin/class-wt-smart-coupon-admin.php:281
+msgid "Premium Upgrade"
+msgstr "Naik Taraf Premium"
+
+#: admin/class-wt-smart-coupon-admin.php:282
+msgid "Review"
+msgstr "Ulasan"
+
+#: admin/class-wt-smart-coupon-admin.php:297
+msgid "Docs"
+msgstr "Dokumen"
+
+#: admin/class-wt-smart-coupon-admin.php:298
+#: admin/modules/premium_upgrade/views/page_content.php:296
+msgid "Support"
+msgstr "Sokongan"
+
+#: admin/class-wt-smart-coupon-admin.php:314
+#: admin/modules/bogo/views/---edit-general.php:117
+msgid "My Account"
+msgstr "Akaun Saya"
+
+#: admin/class-wt-smart-coupon-admin.php:315
+#: admin/modules/bogo/views/---edit-general.php:118
+msgid "Checkout"
+msgstr "Pembayaran"
+
+#: admin/class-wt-smart-coupon-admin.php:316
+#: admin/modules/bogo/views/---edit-general.php:119
+msgid "Cart"
+msgstr "Troli"
+
+#: admin/class-wt-smart-coupon-admin.php:320
+msgid "Display coupon in"
+msgstr "Pamerkan kupon dalam"
+
+#: admin/class-wt-smart-coupon-admin.php:321
+msgid "Please select"
+msgstr "Sila pilih"
+
+#: admin/class-wt-smart-coupon-admin.php:330
+msgid "Display coupon in the selected pages"
+msgstr "Paparkan kupon di halaman terpilih"
+
+#: admin/class-wt-smart-coupon-admin.php:346
+msgid "Did You Know?"
+msgstr "Tahukah Anda?"
+
+#: admin/class-wt-smart-coupon-admin.php:347
+msgid "You can create advanced Buy One Get One (BOGO) offers in WooCommerce."
+msgstr ""
+"Anda boleh membuat tawaran Beli Satu Dapatkan Satu (BOGO) lanjutan dalam "
+"WooCommerce."
+
+#: admin/class-wt-smart-coupon-admin.php:350
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:107
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:30
+msgid "Check out this plugin"
+msgstr "Lihat pemalam ini"
+
+#: admin/class-wt-smart-coupon-admin.php:528
+#: admin/class-wt-smart-coupon-admin.php:555
+#: admin/class-wt-smart-coupon-admin.php:556
+#: admin/modules/bogo/views/--bogo-main-general.php:30
+#: admin/modules/bogo/views/-bogo-main.php:48
+msgid "General settings"
+msgstr "Tetapan am"
+
+#: admin/class-wt-smart-coupon-admin.php:529
+msgid "TheTopPercentile Coupons"
+msgstr "Kupon Pintar"
+
+#: admin/class-wt-smart-coupon-admin.php:539
+#: admin/class-wt-smart-coupon-admin.php:540
+#: admin/views/general_settings.php:21
+msgid "All coupons"
+msgstr "Semua kupon"
+
+#: admin/class-wt-smart-coupon-admin.php:547
+#: admin/class-wt-smart-coupon-admin.php:548
+#: admin/views/general_settings.php:22
+msgid "Add coupon"
+msgstr "Tambah kupon"
+
+#: admin/class-wt-smart-coupon-admin.php:671
+msgid "Smart coupon settings"
+msgstr "Tetapan kupon pintar"
+
+#: admin/class-wt-smart-coupon-admin.php:676
+#: admin/modules/bogo/views/---step1.php:202
+msgid "Did you know?"
+msgstr "Adakah anda tahu?"
+
+#: admin/class-wt-smart-coupon-admin.php:676
+msgid "Maybe later"
+msgstr "Mungkin nanti"
+
+#: admin/class-wt-smart-coupon-admin.php:776
+msgid "Smart coupon database update in progress"
+msgstr "Pengemaskinian pangkalan data kupon pintar sedang berlangsung"
+
+#: admin/class-wt-smart-coupon-admin.php:777
+msgid "The site may experience a slow response for few minutes."
+msgstr ""
+"Tapak mungkin mengalami tindak balas yang perlahan selama beberapa minit."
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:39
+msgid "Coupon start date"
+msgstr "Tarikh mula kupon"
+
+#: admin/coupon-start-date/class-wt-smart-coupon-start-date.php:89
+#, php-format
+msgid "Sorry, this coupon is only available after %s"
+msgstr "Maaf, kupon ini hanya tersedia selepas %s"
+
+#: admin/data/data.hooks-help.php:14
+msgid "Coupon style"
+msgstr "Gaya kupon"
+
+#: admin/data/data.hooks-help.php:15
+msgid "Coupon clone"
+msgstr "Klon kupon"
+
+#: admin/data/data.hooks-help.php:16 blocks/wt-sc-blocks.php:96
+msgid "Coupon message"
+msgstr "Mesej kupon"
+
+#: admin/data/data.hooks-help.php:17
+msgid "My account"
+msgstr "Akaun saya"
+
+#: admin/data/data.hooks-help.php:18
+msgid "Checkout page"
+msgstr "Halaman pembayaran"
+
+#: admin/data/data.hooks-help.php:19
+msgid "Others"
+msgstr "Lain-lain"
+
+#: admin/data/data.hooks-help.php:27
+msgid "Alter coupon template HTML."
+msgstr "Ubah HTML templat kupon."
+
+#: admin/data/data.hooks-help.php:28
+msgid "Alter the coupon block HTML before printing."
+msgstr "Ubah HTML blok kupon sebelum mencetak."
+
+#: admin/data/data.hooks-help.php:45
+msgid "Add value to custom placeholder."
+msgstr "Tambahkan nilai pada pemegang tempat tersuai."
+
+#: admin/data/data.hooks-help.php:46
+msgid ""
+"If you want to add any custom dynamic values to the coupon block. Add a "
+"placeholder to the coupon template first and assign the value to that "
+"placeholder via this filter."
+msgstr ""
+"Jika anda ingin menambah sebarang nilai dinamik tersuai pada blok kupon. "
+"Tambahkan pemegang tempat pada templat kupon dahulu dan tetapkan nilai "
+"kepada pemegang tempat itu melalui penapis ini."
+
+#: admin/data/data.hooks-help.php:57
+msgid "Alter the coupon default style."
+msgstr "Ubah gaya lalai kupon."
+
+#: admin/data/data.hooks-help.php:58
+msgid "If you want to customize the style, you can use this filter."
+msgstr ""
+"Jika anda ingin menyesuaikan gaya, anda boleh menggunakan penapis ini."
+
+#: admin/data/data.hooks-help.php:67
+msgid "Alter the coupon title."
+msgstr "Ubah tajuk kupon."
+
+#: admin/data/data.hooks-help.php:68
+msgid "Alter the coupon title in the coupon block."
+msgstr "Ubah tajuk kupon dalam blok kupon."
+
+#: admin/data/data.hooks-help.php:76
+msgid "Change the text of the coupon's start and expire dates."
+msgstr "Tukar teks tarikh mula dan tamat tempoh kupon."
+
+#: admin/data/data.hooks-help.php:77
+msgid ""
+"By default, \"Start on\" and \"Expires on\" will be the text if a coupon has"
+" a starting date and an expiration date; it can be changed by this hook."
+msgstr ""
+"Secara lalai, \"Mula pada\" dan \"Tamat tempoh pada\" akan menjadi teks jika"
+" kupon mempunyai tarikh mula dan tarikh tamat tempoh; ia boleh ditukar "
+"dengan cangkuk ini."
+
+#: admin/data/data.hooks-help.php:93
+msgid "Set the cloned coupon status"
+msgstr "Tetapkan status kupon yang diklon"
+
+#: admin/data/data.hooks-help.php:94
+msgid "Set the cloned coupon status."
+msgstr "Tetapkan status kupon klon."
+
+#: admin/data/data.hooks-help.php:108
+msgid "Change auto coupon message."
+msgstr "Tukar mesej kupon automatik."
+
+#: admin/data/data.hooks-help.php:109
+msgid ""
+"To change the coupon applied message when the coupon is applied "
+"automatically."
+msgstr ""
+"Untuk menukar mesej kupon yang digunakan apabila kupon digunakan secara "
+"automatik."
+
+#: admin/data/data.hooks-help.php:119
+msgid "Change user role validation message."
+msgstr "Tukar mesej pengesahan peranan pengguna."
+
+#: admin/data/data.hooks-help.php:120
+msgid ""
+"To change user role invalid message when coupon applied by an invalid user."
+msgstr ""
+"Untuk menukar mesej tidak sah peranan pengguna apabila kupon digunakan oleh "
+"pengguna yang tidak sah."
+
+#: admin/data/data.hooks-help.php:129
+msgid "Change the minimum and maximum individual quantity validation message."
+msgstr "Tukar mesej pengesahan kuantiti individu minimum dan maksimum."
+
+#: admin/data/data.hooks-help.php:130
+msgid ""
+"To change the minimum and maximum quantity validation messages when enabling"
+" \"Product/Category restrictions\" and \"Individual quantity restriction\" "
+"in coupon settings."
+msgstr ""
+"Untuk menukar mesej pengesahan kuantiti minimum dan maksimum apabila "
+"mendayakan \"Sekatan Produk/Kategori\" dan \"Sekatan kuantiti individu\" "
+"dalam tetapan kupon."
+
+#: admin/data/data.hooks-help.php:148
+msgid "Change quantity restriction message"
+msgstr "Tukar mesej had kuantiti"
+
+#: admin/data/data.hooks-help.php:149
+msgid ""
+"To change the minimum and maximum quantity validation messages when "
+"\"Product/Category restrictions\" is disabled. If “Individual quantity "
+"restriction” is disabled, the message in if($is_global) will appear."
+msgstr ""
+"Untuk menukar mesej pengesahan kuantiti minimum dan maksimum apabila "
+"\"Sekatan Produk/Kategori\" dilumpuhkan. Jika \"Sekatan kuantiti individu\" "
+"dilumpuhkan, mesej dalam if($is_global) akan muncul."
+
+#: admin/data/data.hooks-help.php:177
+msgid "Change message when multiple giveaway products added"
+msgstr "Tukar mesej apabila berbilang produk hadiah ditambah"
+
+#: admin/data/data.hooks-help.php:178
+msgid ""
+"To change the message when more than one giveaway product is added to the "
+"cart."
+msgstr ""
+"Untuk menukar mesej apabila lebih daripada satu produk pemberian ditambahkan"
+" pada troli."
+
+#: admin/data/data.hooks-help.php:187
+msgid "Change message for choosing giveaway products"
+msgstr "Tukar mesej untuk memilih produk hadiah"
+
+#: admin/data/data.hooks-help.php:188
+msgid ""
+"When a giveaway product is a variable product, a message with a product "
+"variation will show to choose. This hook will help to change the title."
+msgstr ""
+"Apabila produk giveaway ialah produk berubah-ubah, mesej dengan variasi "
+"produk akan ditunjukkan untuk dipilih. Cangkuk ini akan membantu untuk "
+"menukar tajuk."
+
+#: admin/data/data.hooks-help.php:197
+msgid "Change url coupon message."
+msgstr "Tukar mesej kupon url."
+
+#: admin/data/data.hooks-help.php:198
+msgid ""
+"To change the coupon applied message when the coupon is applied by url."
+msgstr ""
+"Untuk menukar mesej kupon yang digunakan apabila kupon digunakan oleh url."
+
+#: admin/data/data.hooks-help.php:221
+msgid "Message when no coupons available to show in my account coupons page."
+msgstr ""
+"Mesej apabila tiada kupon tersedia untuk ditunjukkan dalam halaman kupon "
+"akaun saya."
+
+#: admin/data/data.hooks-help.php:222
+msgid "To change the no coupons available message, use this filter."
+msgstr "Untuk menukar mesej tiada kupon tersedia, gunakan penapis ini."
+
+#: admin/data/data.hooks-help.php:231
+msgid ""
+"Message when no used coupons available to show in my account coupons page."
+msgstr ""
+"Mesej apabila tiada kupon terpakai tersedia untuk ditunjukkan dalam halaman "
+"kupon akaun saya."
+
+#: admin/data/data.hooks-help.php:232
+msgid "To change the no used coupons available message, use this filter."
+msgstr ""
+"Untuk menukar mesej tiada kupon terpakai tersedia, gunakan penapis ini."
+
+#: admin/data/data.hooks-help.php:241
+msgid ""
+"Message when no expired coupons available to show in my account coupons "
+"page."
+msgstr ""
+"Mesej apabila tiada kupon tamat tempoh tersedia untuk ditunjukkan dalam "
+"halaman kupon akaun saya."
+
+#: admin/data/data.hooks-help.php:242
+msgid "To change the no expired coupons available message, use this filter."
+msgstr ""
+"Untuk menukar mesej tiada kupon tamat tempoh tersedia, gunakan penapis ini."
+
+#: admin/data/data.hooks-help.php:251
+msgid "Change the default sort order for my account coupons."
+msgstr "Tukar susunan isihan lalai untuk kupon akaun saya."
+
+#: admin/data/data.hooks-help.php:252
+msgid ""
+"By default the sort order is `Latest last`. You can use this filter to alter"
+" the sort order."
+msgstr ""
+"Secara lalai, susunan pengisihan adalah `Terbaru terakhir`. Anda boleh "
+"menggunakan penapis ini untuk mengubah susunan pengisihan."
+
+#: admin/data/data.hooks-help.php:253
+msgid "Applicable values: "
+msgstr "Nilai yang boleh digunakan: "
+
+#: admin/data/data.hooks-help.php:262
+msgid "Change my account coupons display count per page."
+msgstr "Tukar kiraan paparan kupon akaun saya setiap halaman."
+
+#: admin/data/data.hooks-help.php:263
+msgid ""
+"By default maximum 20 coupons will display in the my account page. You can "
+"change the count by using this filter."
+msgstr ""
+"Secara lalai maksimum 20 kupon akan dipaparkan dalam halaman akaun saya. "
+"Anda boleh menukar kiraan dengan menggunakan penapis ini."
+
+#: admin/data/data.hooks-help.php:272
+msgid "Change my account expired coupons display count."
+msgstr "Tukar kiraan paparan kupon saya yang telah tamat tempoh akaun."
+
+#: admin/data/data.hooks-help.php:273
+msgid ""
+"By default maximum 50 expired coupons will display in the my account page. "
+"You can change the count by using this filter."
+msgstr ""
+"Secara lalai maksimum 50 kupon tamat tempoh akan dipaparkan dalam halaman "
+"akaun saya. Anda boleh menukar kiraan dengan menggunakan penapis ini."
+
+#: admin/data/data.hooks-help.php:282
+msgid "Add heading before My coupons in my account."
+msgstr "Tambahkan tajuk sebelum kupon saya dalam akaun saya."
+
+#: admin/data/data.hooks-help.php:283
+msgid "You can add a custom heading before my coupons in my account."
+msgstr ""
+"Anda boleh menambah tajuk tersuai sebelum kupon saya dalam akaun saya."
+
+#: admin/data/data.hooks-help.php:298
+msgid "Change checkout coupons display count."
+msgstr "Tukar kiraan paparan kupon daftar keluar."
+
+#: admin/data/data.hooks-help.php:299
+msgid ""
+"By default maximum 20 coupons will display in the checkout page. You can "
+"change the count by using this filter."
+msgstr ""
+"Secara lalai maksimum 20 kupon akan dipaparkan dalam halaman pembayaran. "
+"Anda boleh menukar kiraan dengan menggunakan penapis ini."
+
+#: admin/data/data.hooks-help.php:308
+msgid "Add a heading before coupons on the checkout page."
+msgstr "Tambahkan tajuk sebelum kupon pada halaman pembayaran."
+
+#: admin/data/data.hooks-help.php:309
+msgid "You can add a custom heading before coupons on the checkout page."
+msgstr ""
+"Anda boleh menambah tajuk tersuai sebelum kupon pada halaman pembayaran."
+
+#: admin/data/data.hooks-help.php:325
+msgid "Change cart coupons display count."
+msgstr "Tukar kiraan paparan kupon troli."
+
+#: admin/data/data.hooks-help.php:326
+msgid ""
+"By default maximum 20 coupons will display in the cart page. You can change "
+"the count by using this filter."
+msgstr ""
+"Secara lalai, maksimum 20 kupon akan dipaparkan di halaman troli. Anda boleh"
+" menukar bilangan dengan menggunakan penapis ini"
+
+#: admin/data/data.hooks-help.php:335
+msgid "Change auto coupon apply count."
+msgstr "Tukar kiraan penggunaan kupon automatik"
+
+#: admin/data/data.hooks-help.php:336
+msgid ""
+"By default, a maximum of 5 coupons will be applied automatically. You can "
+"change the count by using this filter. Note: Setting a high number may "
+"affect the performance of the website."
+msgstr ""
+"Secara lalai, maksimum 5 kupon akan digunakan secara automatik. Anda boleh "
+"menukar jumlah ini dengan menggunakan penapis ini. Nota: Menetapkan bilangan"
+" yang tinggi mungkin menjejaskan prestasi laman web."
+
+#: admin/data/data.hooks-help.php:345
+msgid "Remove pagination after available coupon."
+msgstr "Keluarkan paginasi selepas kupon tersedia"
+
+#: admin/data/data.hooks-help.php:346
+msgid ""
+"By default, a next and prev button will be available after the available "
+"coupons. The count of available coupons will be basically 20, but it can be "
+"changed with the help of hooks."
+msgstr ""
+"Secara lalai, butang seterusnya dan sebelumnya akan tersedia selepas kupon "
+"yang tersedia. Bilangan kupon yang tersedia pada dasarnya adalah 20, tetapi "
+"ia boleh diubah dengan bantuan persediaan."
+
+#: admin/data/data.hooks-help.php:351
+msgid "Change giveaway product label in the order details."
+msgstr "Tukar label produk percuma dalam butiran pesanan"
+
+#: admin/data/data.hooks-help.php:352
+msgid ""
+"By default, \"Free gift\" is the label of the giveaway product in the order "
+"details, which can be changed by this hook."
+msgstr ""
+"Secara lalai, 'Gift Percuma' adalah label bagi produk pemberian dalam "
+"butiran pesanan, yang boleh diubah oleh cangkuk ini"
+
+#: admin/data/data.hooks-help.php:361
+msgid "Change giveaway product label in the cart summary."
+msgstr "Tukar label produk pemberian di ringkasan troli"
+
+#: admin/data/data.hooks-help.php:362
+msgid ""
+"By default, \"Free gift\" is the label of the giveaway product in the cart "
+"summary, which can be changed by this hook."
+msgstr ""
+"Secara lalai, 'Hadiah Percuma' adalah label produk pemberian dalam ringkasan"
+" troli, yang boleh diubah oleh cangkuk ini"
+
+#: admin/modules/auto_coupon/auto_coupon.php:104
+#: admin/modules/freevspro/views/comparison-table.php:72
+#: admin/modules/freevspro/views/comparison-table.php:76
+msgid "Apply coupon automatically"
+msgstr "Gunakan kupon secara automatik"
+
+#: admin/modules/auto_coupon/auto_coupon.php:106
+msgid ""
+"Enable to apply coupon automatically without applying code. By default, it "
+"works for up to 5 recently created coupons."
+msgstr ""
+"Benarkan untuk menggunakan kupon secara automatik tanpa memasukkan kod. "
+"Secara lalai, ia berfungsi untuk sehingga 5 kupon yang baru dibuat."
+
+#: admin/modules/auto_coupon/auto_coupon.php:162
+#: admin/modules/auto_coupon/auto_coupon.php:393
+msgid "Auto-apply coupons"
+msgstr "Guna kupon secara automatik"
+
+#: admin/modules/auto_coupon/auto_coupon.php:294
+msgid "Auto-apply coupon settings"
+msgstr "Tetapan kupon auto-terpakai"
+
+#: admin/modules/auto_coupon/auto_coupon.php:377
+msgid "Available"
+msgstr "Tersedia"
+
+#: admin/modules/auto_coupon/auto_coupon.php:403
+#, php-format
+msgid "Total auto-apply coupons: %d"
+msgstr "Jumlah kupon auto-terpakai: %d"
+
+#: admin/modules/auto_coupon/auto_coupon.php:409
+msgid "No of coupons that will be checked for auto apply eligibility"
+msgstr "Bilangan kupon yang akan diperiksa untuk kelayakan aplikasi automatik"
+
+#: admin/modules/auto_coupon/auto_coupon.php:420
+msgid "Max auto-apply coupons per cart"
+msgstr "Maksimum kupon auto-guna per troli"
+
+#: admin/modules/auto_coupon/auto_coupon.php:431
+#: admin/modules/bogo/views/---edit-general.php:203
+msgid "Save"
+msgstr "Simpan"
+
+#: admin/modules/auto_coupon/auto_coupon.php:464
+msgid "Priority"
+msgstr "Keutamaan"
+
+#: admin/modules/auto_coupon/auto_coupon.php:523
+msgid "Reset auto coupon priority"
+msgstr "Set semula keutamaan kupon automatik"
+
+#: admin/modules/auto_coupon/auto_coupon.php:525
+msgid "Reset now"
+msgstr "Tetapkan semula sekarang"
+
+#: admin/modules/auto_coupon/auto_coupon.php:529
+msgid "Set priority to missing auto coupons"
+msgstr "Tetapkan keutamaan kepada kupon auto yang hilang"
+
+#: admin/modules/auto_coupon/auto_coupon.php:531
+msgid "Set now"
+msgstr "Tetapkan sekarang"
+
+#: admin/modules/auto_coupon/auto_coupon.php:536
+msgid "Are you sure? All custom priorities will be reset."
+msgstr "Adakah anda pasti? Semua keutamaan tersuai akan diset semula"
+
+#: admin/modules/auto_coupon/auto_coupon.php:564
+msgid "Success !!!"
+msgstr "Kejayaan !!!"
+
+#: admin/modules/auto_coupon/auto_coupon.php:566
+msgid "Goto dashboard"
+msgstr "Pergi ke papan pemuka"
+
+#: admin/modules/auto_coupon/auto_coupon.php:604
+msgid ""
+"The cart will apply the selected number of auto apply coupons based on "
+"priority"
+msgstr ""
+"Troli akan menggunakan bilangan kupon auto yang dipilih berdasarkan "
+"keutamaan"
+
+#: admin/modules/auto_coupon/auto_coupon.php:605
+msgid ""
+"The chosen quantity of coupons will undergo eligibility verification among "
+"the entire pool of auto-apply coupons based on priority. If the limit is set"
+" to 100, any coupon with a priority of 101 or lower, will not be considered "
+"to apply to the cart, even if eligible"
+msgstr ""
+"Jumlah kupon yang dipilih akan menjalani pengesahan kelayakan dalam "
+"keseluruhan kumpulan kupon 'auto-apply' berdasarkan keutamaan. Jika had "
+"ditetapkan kepada 100, sebarang kupon dengan keutamaan 101 atau lebih rendah"
+" tidak akan dianggap untuk diterapkan pada troli, walaupun layak"
+
+#: admin/modules/auto_coupon/auto_coupon.php:624
+msgid "Unauthorized"
+msgstr "Tidak dibenarkan"
+
+#: admin/modules/auto_coupon/auto_coupon.php:640
+msgid "Settings Updated"
+msgstr "Tetapan Dikemas kini"
+
+#: admin/modules/bogo/bogo.php:133 common/modules/bogo/bogo.php:260
+msgid "BOGO"
+msgstr "BOGO"
+
+#: admin/modules/bogo/bogo.php:193
+msgid "Buy"
+msgstr "Beli"
+
+#: admin/modules/bogo/bogo.php:194
+msgid "Spend"
+msgstr "Belanja"
+
+#: admin/modules/bogo/bogo.php:195
+msgid "And so on"
+msgstr "Dan seterusnya"
+
+#: admin/modules/bogo/bogo.php:197
+#: admin/modules/bogo/views/--bogo-listing.php:181
+msgid "selected"
+msgstr "dipilih"
+
+#: admin/modules/bogo/bogo.php:198
+msgid "Are you sure you want to disable the old BOGO coupons?"
+msgstr "Adakah anda pasti mahu menyahdayakan kupon BOGO lama?"
+
+#: admin/modules/bogo/bogo.php:248
+#, php-format
+msgid "Customer %s Spends %s at least %s on %s Selected product(s) %s"
+msgstr ""
+"Pelanggan %s Membelanjakan %s sekurang-kurangnya %s pada %s Produk terpilih "
+"%s"
+
+#: admin/modules/bogo/bogo.php:301
+#, php-format
+msgid "Spend %s to %s on items, Get %s Specific product(s) %s x %s"
+msgstr ""
+"Belanja %s hingga %s pada barangan, Dapatkan %s Produk tertentu %s x %s"
+
+#: admin/modules/bogo/bogo.php:326
+msgid "Enter a number greater than or equal to 1"
+msgstr "Masukkan nombor yang lebih besar atau sama dengan 1"
+
+#: admin/modules/bogo/bogo.php:327
+msgid "Enter a number greater than the minimum value."
+msgstr "Masukkan nombor yang lebih besar daripada nilai minimum"
+
+#: admin/modules/bogo/bogo.php:328
+msgid "Enter a value greater than 0."
+msgstr "Masukkan nilai lebih besar daripada 0"
+
+#: admin/modules/bogo/bogo.php:329
+msgid "Select at least one product"
+msgstr "Pilih sekurang-kurangnya satu produk"
+
+#: admin/modules/bogo/bogo.php:330
+msgid "Select at least one product to exclude."
+msgstr "Pilih sekurang-kurangnya satu produk untuk dikecualikan"
+
+#: admin/modules/bogo/bogo.php:331
+msgid "Enter a valid input"
+msgstr "Masukkan input yang sah"
+
+#: admin/modules/bogo/bogo.php:332
+msgid "Enter a value not greater than 100"
+msgstr "Masukkan nilai yang tidak lebih besar daripada 100"
+
+#: admin/modules/bogo/bogo.php:333
+msgid "Enter a valid email address"
+msgstr "Masukkan alamat emel yang sah"
+
+#: admin/modules/bogo/bogo.php:334
+msgid "Enter a valid input (letters or numbers)."
+msgstr "Masukkan input yang sah (huruf atau nombor)"
+
+#: admin/modules/bogo/bogo.php:335
+msgid ""
+"Are you sure you want to leave this page? Your changes will not be saved."
+msgstr ""
+"Adakah anda pasti mahu meninggalkan halaman ini? Perubahan anda tidak akan "
+"disimpan"
+
+#: admin/modules/bogo/bogo.php:336
+msgid "Please select a schedule"
+msgstr "Sila pilih jadual"
+
+#: admin/modules/bogo/bogo.php:339
+msgid "Additional conditions:"
+msgstr "Syarat tambahan:"
+
+#: admin/modules/bogo/bogo.php:342
+#, php-format
+msgid "Usage limit of %s per user."
+msgstr "Had penggunaan %s bagi setiap pengguna"
+
+#: admin/modules/bogo/bogo.php:347
+#, php-format
+msgid "Usage limit of %s per offer."
+msgstr "Had penggunaan sebanyak %s setiap tawaran"
+
+#: admin/modules/bogo/bogo.php:364
+#, php-format
+msgid "Minimum %s quantity of any item."
+msgstr "Kuantiti minimum %s bagi mana-mana item"
+
+#: admin/modules/bogo/bogo.php:369
+#, php-format
+msgid "Minimum %s quantity of each item."
+msgstr "Kuantiti minimum %s bagi setiap item"
+
+#: admin/modules/bogo/bogo.php:372
+msgid "Allowed emails:"
+msgstr "Emel yang dibenarkan:"
+
+#: admin/modules/bogo/bogo.php:545
+msgid "General settings updated successfully!"
+msgstr "Tetapan umum berjaya dikemas kini"
+
+#: admin/modules/bogo/bogo.php:715
+msgid "Enter a valid coupon code"
+msgstr "Masukkan kod kupon yang sah"
+
+#: admin/modules/bogo/bogo.php:720
+msgid "Coupon code already exists"
+msgstr "Kod kupon sudah wujud"
+
+#: admin/modules/bogo/bogo.php:781
+msgid "Your BOGO offer saved successfully!"
+msgstr "Tawaran BOGO anda berjaya disimpan!"
+
+#: admin/modules/bogo/bogo.php:787
+msgid "Your BOGO offer is now live!"
+msgstr "Tawaran BOGO anda kini tersedia!"
+
+#: admin/modules/bogo/bogo.php:927
+msgid "BOGO promotion removed successfully!"
+msgstr "Promosi BOGO berjaya dibuang!"
+
+#: admin/modules/bogo/bogo.php:1020 admin/modules/bogo/bogo.php:1074
+#: admin/modules/bogo/views/---edit-general.php:40
+#: admin/modules/bogo/views/--bogo-listing.php:266
+#: admin/modules/bogo/views/--bogo-listing.php:307
+msgid "Active"
+msgstr "Aktif"
+
+#: admin/modules/bogo/bogo.php:1022
+msgid "BOGO promotion enabled successfully!"
+msgstr "Promosi BOGO berjaya diaktifkan!"
+
+#: admin/modules/bogo/bogo.php:1030 admin/modules/bogo/bogo.php:1116
+#: admin/modules/bogo/views/---edit-general.php:52
+#: admin/modules/bogo/views/--bogo-listing.php:267
+#: admin/modules/bogo/views/--bogo-listing.php:308
+msgid "Inactive"
+msgstr "Tidak aktif"
+
+#: admin/modules/bogo/bogo.php:1032
+msgid "BOGO promotion disabled successfully!"
+msgstr "Promosi BOGO dinyahaktifkan dengan jayanya!"
+
+#: admin/modules/bogo/bogo.php:1077
+msgid "BOGO promotions enabled successfully!"
+msgstr "Promosi BOGO diaktifkan dengan jayanya!"
+
+#: admin/modules/bogo/bogo.php:1119
+msgid "BOGO promotions disabled successfully!"
+msgstr "Promosi BOGO telah dinyahaktifkan dengan berjaya!"
+
+#: admin/modules/bogo/bogo.php:1293
+msgid "Update"
+msgstr "Kemas kini"
+
+#: admin/modules/bogo/views/----edit-hor-banner.php:33
+#, php-format
+msgid "Check out this plugin %s"
+msgstr "Lihat pemalam ini %s"
+
+#: admin/modules/bogo/views/---edit-general.php:30
+msgid "Offer:"
+msgstr "Tawaran:"
+
+#: admin/modules/bogo/views/---edit-general.php:60
+#: admin/modules/bogo/views/---edit-general.php:62
+#: admin/modules/bogo/views/--first-bogo-campaign.php:99
+#: admin/modules/bogo/views/--first-bogo-campaign.php:100
+msgid "Offer name"
+msgstr "Nama tawaran"
+
+#: admin/modules/bogo/views/---edit-general.php:61
+msgid ""
+"The offer title is used to identify a BOGO campaign within the plugin and "
+"the store."
+msgstr ""
+"Tajuk tawaran digunakan untuk mengenal pasti kempen BOGO dalam plugin dan "
+"kedai"
+
+#: admin/modules/bogo/views/---edit-general.php:66
+#: admin/modules/bogo/views/---edit-general.php:69
+#: admin/modules/bogo/views/--bogo-listing.php:114
+#: admin/modules/bogo/views/--bogo-listing.php:254
+#: admin/modules/bogo/views/--first-bogo-campaign.php:102
+#: admin/modules/bogo/views/--first-bogo-campaign.php:103
+msgid "Description"
+msgstr "Penerangan"
+
+#: admin/modules/bogo/views/---edit-general.php:67
+msgid ""
+"Add a short note to display on the coupon to help customers better "
+"understand the rules."
+msgstr ""
+"Tambahkan nota ringkas untuk dipaparkan pada kupon untuk membantu pelanggan "
+"lebih memahami peraturan"
+
+#: admin/modules/bogo/views/---edit-general.php:71
+msgid "Activate offer"
+msgstr "Aktifkan tawaran"
+
+#: admin/modules/bogo/views/---edit-general.php:76
+msgid ""
+"The offer is automatically applied when eligible products are added to the "
+"cart"
+msgstr ""
+"Tawaran tersebut diterapkan secara automatik apabila produk yang layak "
+"ditambahkan ke dalam troli"
+
+#: admin/modules/bogo/views/---edit-general.php:82
+msgid "Offer name will be displayed in the cart summary when offer is applied"
+msgstr ""
+"Nama tawaran akan dipaparkan dalam ringkasan troli apabila tawaran digunakan"
+
+#: admin/modules/bogo/views/---edit-general.php:91
+msgid "Through coupon code"
+msgstr "Melalui kod kupon"
+
+#: admin/modules/bogo/views/---edit-general.php:92
+msgid ""
+"The user must enter the coupon code after adding eligible items to the cart "
+"to redeem the offer"
+msgstr ""
+"Pengguna mesti memasukkan kod kupon setelah menambah item yang layak ke "
+"dalam troli untuk menebus tawaran"
+
+#: admin/modules/bogo/views/---edit-general.php:99
+msgid "Coupon code"
+msgstr "Kod kupon"
+
+#: admin/modules/bogo/views/---edit-general.php:103
+msgid "Enter a new coupon code"
+msgstr "Masukkan kod kupon baru"
+
+#: admin/modules/bogo/views/---edit-general.php:124
+msgid "Display offer on"
+msgstr "Paparkan tawaran di"
+
+#: admin/modules/bogo/views/---edit-general.php:125
+msgid "The available BOGO offers will be listed on the selected pages"
+msgstr ""
+"Tawaran BOGO yang tersedia akan disenaraikan pada halaman yang dipilih"
+
+#: admin/modules/bogo/views/---edit-general.php:128
+#: admin/modules/bogo/views/---step2.php:107
+#: admin/modules/bogo/views/---step2.php:194
+msgid "+ Add"
+msgstr "+ Tambah"
+
+#: admin/modules/bogo/views/---edit-general.php:133
+#: admin/modules/bogo/views/--bogo-listing.php:400
+msgid "Edit"
+msgstr "Sunting"
+
+#: admin/modules/bogo/views/---edit-general.php:159
+#: admin/modules/bogo/views/--bogo-listing.php:291
+msgid "Schedule"
+msgstr "Jadual"
+
+#: admin/modules/bogo/views/---edit-general.php:160
+msgid ""
+"Set a start and end date for your offer. The offer will be active only "
+"within this period"
+msgstr ""
+"Tetapkan tarikh mula dan tamat untuk tawaran anda. Tawaran akan aktif hanya "
+"dalam tempoh ini"
+
+#: admin/modules/bogo/views/---edit-general.php:167
+msgid "Starts on"
+msgstr "Bermula pada"
+
+#: admin/modules/bogo/views/---edit-general.php:174
+msgid "Ends on"
+msgstr "Berakhir pada"
+
+#: admin/modules/bogo/views/---edit-general.php:180
+msgid "Expiry date already passed"
+msgstr "Tarikh luput sudah lepas"
+
+#: admin/modules/bogo/views/---edit-general.php:181
+msgid "Set a new end date as the scheduled one has already passed"
+msgstr "Tetapkan tarikh tamat baru kerana yang dijadualkan telah berlalu"
+
+#: admin/modules/bogo/views/---edit-general.php:192
+msgid "Save & Activate"
+msgstr "Simpan & Aktifkan"
+
+#: admin/modules/bogo/views/---multiple-dlt-popup.php:23
+#: admin/modules/bogo/views/---single-dlt-popup.php:23
+#: admin/modules/bogo/views/--bogo-listing.php:100
+#: admin/modules/bogo/views/--bogo-listing.php:123
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:107
+msgid "Cancel"
+msgstr "Batal"
+
+#: admin/modules/bogo/views/---multiple-dlt-popup.php:33
+#: admin/modules/bogo/views/---single-dlt-popup.php:33
+#: admin/modules/bogo/views/--bogo-listing.php:221
+msgid "Delete permanently"
+msgstr "Padam secara kekal"
+
+#: admin/modules/bogo/views/---step1.php:16
+msgid "Step 1"
+msgstr "Langkah 1"
+
+#: admin/modules/bogo/views/---step1.php:17
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:8
+msgid "Customer gets"
+msgstr "Pelanggan mendapat"
+
+#: admin/modules/bogo/views/---step1.php:28
+#: admin/modules/bogo/views/---step1.php:40
+#: admin/modules/bogo/views/---step1.php:74
+msgid "Specific product(s)"
+msgstr "Produk tertentu"
+
+#: admin/modules/bogo/views/---step1.php:45
+msgid "Same product"
+msgstr "Produk yang sama"
+
+#: admin/modules/bogo/views/---step1.php:45
+#: admin/modules/bogo/views/---step1.php:51
+#: admin/modules/bogo/views/---step1.php:57
+#: admin/modules/bogo/views/---step2.php:112
+#: admin/modules/bogo/views/---step3.php:44
+#: admin/modules/bogo/views/---step3.php:73
+#: admin/modules/bogo/views/--bogo-listing.php:73
+#: admin/modules/bogo/views/--bogo-main-general.php:79
+#: admin/modules/bogo/views/--first-bogo-campaign.php:76
+msgid "premium"
+msgstr "premium"
+
+#: admin/modules/bogo/views/---step1.php:51
+msgid "Product from specific category"
+msgstr "Produk dari kategori tertentu"
+
+#: admin/modules/bogo/views/---step1.php:57
+#: admin/modules/freevspro/views/comparison-table.php:46
+msgid "Any product in store"
+msgstr "Mana-mana produk dalam kedai"
+
+#: admin/modules/bogo/views/---step1.php:75
+#: admin/modules/bogo/views/---step2.php:139
+#: admin/modules/bogo/views/---step2.php:168
+msgid "Search for product"
+msgstr "Cari produk"
+
+#: admin/modules/bogo/views/---step1.php:92
+msgid "Customer gets "
+msgstr "Pelanggan mendapat "
+
+#: admin/modules/bogo/views/---step1.php:103
+msgid "Any of the above"
+msgstr "Mana-mana yang di atas"
+
+#: admin/modules/bogo/views/---step1.php:108
+msgid "All of the above"
+msgstr "Semua yang di atas"
+
+#: admin/modules/bogo/views/---step1.php:121
+msgid "In quantity of"
+msgstr "Dalam kuantiti"
+
+#: admin/modules/bogo/views/---step1.php:129
+msgid "Discount type "
+msgstr "Jenis diskaun "
+
+#: admin/modules/bogo/views/---step1.php:141
+msgid "Free"
+msgstr "Percuma"
+
+#: admin/modules/bogo/views/---step1.php:146
+msgid "Percentage"
+msgstr "Peratusan"
+
+#: admin/modules/bogo/views/---step1.php:151
+msgid "Fixed"
+msgstr "Tetap"
+
+#: admin/modules/bogo/views/---step1.php:166
+#: admin/modules/bogo/views/---step1.php:182
+msgid "Discount "
+msgstr "Diskaun"
+
+#: admin/modules/bogo/views/---step1.php:203
+msgid ""
+"You can now set a final slash price for giveaway products in your store with"
+" our premium plugin!"
+msgstr ""
+"Anda kini boleh menetapkan harga akhir dengan tawaran untuk produk percuma "
+"di kedai anda dengan plugin premium kami!"
+
+#: admin/modules/bogo/views/---step2.php:14
+msgid "Invalid email address"
+msgstr "Alamat e-mel tidak sah"
+
+#: admin/modules/bogo/views/---step2.php:19
+msgid "Step 2"
+msgstr "Langkah 2"
+
+#: admin/modules/bogo/views/---step2.php:20
+msgid "Trigger"
+msgstr "Pencetus"
+
+#: admin/modules/bogo/views/---step2.php:29
+msgid "Customer"
+msgstr "Pelanggan"
+
+#: admin/modules/bogo/views/---step2.php:40
+msgid "Buys quantities of"
+msgstr "Membeli kuantiti"
+
+#: admin/modules/bogo/views/---step2.php:45
+msgid "Spends subtotal of"
+msgstr "Jumlah perbelanjaan"
+
+#: admin/modules/bogo/views/---step2.php:58
+msgid "Min amount"
+msgstr "Jumlah minimum"
+
+#: admin/modules/bogo/views/---step2.php:71
+msgid "Max amount"
+msgstr "Jumlah Maksimum"
+
+#: admin/modules/bogo/views/---step2.php:71
+#: admin/modules/bogo/views/---step2.php:92
+msgid "(optional)"
+msgstr "(pilihan)"
+
+#: admin/modules/bogo/views/---step2.php:84
+msgid "Min quantity"
+msgstr "Kuantiti minimum"
+
+#: admin/modules/bogo/views/---step2.php:92
+msgid "Max quantity"
+msgstr "Kuantiti maks"
+
+#: admin/modules/bogo/views/---step2.php:106
+msgid "Customer buys"
+msgstr "Pelanggan membeli"
+
+#: admin/modules/bogo/views/---step2.php:110
+msgid "Product restriction"
+msgstr "Sekatan produk"
+
+#: admin/modules/bogo/views/---step2.php:111
+msgid "Category restriction"
+msgstr "Sekatan kategori"
+
+#: admin/modules/bogo/views/---step2.php:128
+#: admin/modules/bogo/views/---step2.php:133
+msgid "Any product(s) except"
+msgstr "Mana-mana produk kecuali"
+
+#: admin/modules/bogo/views/---step2.php:128
+#: admin/modules/bogo/views/---step2.php:132
+msgid "Specific product(s) only"
+msgstr "Produk tertentu sahaja"
+
+#: admin/modules/bogo/views/---step2.php:159
+msgid "Apply coupon only if all the selected products are in the cart"
+msgstr "Gunakan kupon hanya jika semua produk yang dipilih berada dalam troli"
+
+#: admin/modules/bogo/views/---step2.php:183
+msgid "Any product (default)"
+msgstr "Sebarang produk (lalai)"
+
+#: admin/modules/bogo/views/---step2.php:193
+msgid "Optional conditions"
+msgstr "Syarat pilihan"
+
+#: admin/modules/bogo/views/---step2.php:197
+msgid "Additional"
+msgstr "Tambahan"
+
+#: admin/modules/bogo/views/---step2.php:198
+msgid "Total quantity"
+msgstr "Jumlah keseluruhan"
+
+#: admin/modules/bogo/views/---step2.php:199
+msgid "Quantity of each product"
+msgstr "Kuantiti setiap produk"
+
+#: admin/modules/bogo/views/---step2.php:200
+#: admin/modules/bogo/views/---step2.php:246
+msgid "Usage limit per offer"
+msgstr "Had penggunaan setiap tawaran"
+
+#: admin/modules/bogo/views/---step2.php:201
+#: admin/modules/bogo/views/---step2.php:263
+msgid "Usage limit per user"
+msgstr "Had penggunaan per pengguna"
+
+#: admin/modules/bogo/views/---step2.php:202
+#: admin/modules/bogo/views/---step2.php:277
+msgid "Allowed emails"
+msgstr "E-mel yang dibenarkan"
+
+#: admin/modules/bogo/views/---step2.php:212
+msgid "Minimum quantity"
+msgstr "Kuantiti minimum"
+
+#: admin/modules/bogo/views/---step2.php:217
+msgid "Maximum quantity"
+msgstr "Kuantiti maksimum"
+
+#: admin/modules/bogo/views/---step2.php:218
+#: admin/modules/bogo/views/---step2.php:234
+msgid "Optional"
+msgstr "Pilihan"
+
+#: admin/modules/bogo/views/---step2.php:228
+msgid "Min quantity of each item"
+msgstr "Kuantiti minimum setiap item"
+
+#: admin/modules/bogo/views/---step2.php:233
+msgid "Max quantity of each item"
+msgstr "Kuantiti maksimum setiap barang"
+
+#: admin/modules/bogo/views/---step2.php:248
+msgid ""
+"The total number of times this offer can be used in the store, including "
+"multiple redemptions by the same user"
+msgstr ""
+"Jumlah keseluruhan kali tawaran ini boleh digunakan di kedai, termasuk "
+"penebusan berganda oleh pengguna yang sama"
+
+#: admin/modules/bogo/views/---step2.php:265
+msgid ""
+"The maximum number of times a single user can redeem this offer. It must be "
+"less than the overall usage limit per offer"
+msgstr ""
+"Bilangan maksimum kali seorang pengguna boleh menebus tawaran ini. Ia mesti "
+"kurang daripada had penggunaan keseluruhan bagi setiap tawaran"
+
+#: admin/modules/bogo/views/---step2.php:278
+msgid "The BOGO deal is only valid for recipients of the selected emails."
+msgstr "Tawaran BOGO hanya sah untuk penerima e-mel terpilih"
+
+#: admin/modules/bogo/views/---step2.php:288
+msgid ""
+"Offer won’t be auto-applied for guest users when email restriction is "
+"enabled."
+msgstr ""
+"Tawaran tidak akan diterapkan secara automatik untuk pengguna tetamu apabila"
+" sekatan emel diaktifkan"
+
+#: admin/modules/bogo/views/---step3.php:15
+msgid "Step 3"
+msgstr "Langkah 3"
+
+#: admin/modules/bogo/views/---step3.php:16
+msgid "Apply offer"
+msgstr "Terapkan tawaran"
+
+#: admin/modules/bogo/views/---step3.php:34
+msgid "Once"
+msgstr "Sekali"
+
+#: admin/modules/bogo/views/---step3.php:39
+msgid "Repeatedly"
+msgstr "Berkali-kali"
+
+#: admin/modules/bogo/views/---step3.php:44
+#: admin/modules/bogo/views/--first-bogo-campaign.php:53
+msgid "Custom"
+msgstr "Tersendiri"
+
+#: admin/modules/bogo/views/---step3.php:86
+msgid ""
+"You can set advanced cart conditions and create custom discount rules for "
+"giveaway products with the premium version!"
+msgstr ""
+"Anda boleh menetapkan syarat troli lanjutan dan mencipta peraturan diskaun "
+"tersuai untuk produk pemberian menggunakan versi premium!"
+
+#: admin/modules/bogo/views/---wbte-header.php:14
+msgid "TheTopPercentile Coupon"
+msgstr "Kupon Pintar"
+
+#: admin/modules/bogo/views/---wbte-header.php:17
+#: admin/modules/bogo/views/-bogo-main.php:35
+msgid "Developed by"
+msgstr "Dibangunkan oleh"
+
+#. Author of the plugin/theme
+#: admin/modules/bogo/views/---wbte-header.php:18
+msgid "TheTopPercentile"
+msgstr "TheTopPercentile"
+
+#: admin/modules/bogo/views/--bogo-edit-page.php:33
+#: admin/modules/bogo/views/--bogo-listing.php:68
+#: admin/modules/bogo/views/--bogo-listing.php:83
+#: admin/modules/bogo/views/--first-bogo-campaign.php:71
+msgid "Buy product X, get product X/Y"
+msgstr "Beli produk X, dapatkan produk X/Y"
+
+#: admin/modules/bogo/views/--bogo-help.php:14
+msgid "Help"
+msgstr "Tolong"
+
+#: admin/modules/bogo/views/--bogo-help.php:16
+msgid "Setup Guide"
+msgstr "Panduan Persediaan"
+
+#: admin/modules/bogo/views/--bogo-help.php:17
+msgid "Contact support"
+msgstr "Hubungi sokongan"
+
+#: admin/modules/bogo/views/--bogo-listing.php:21
+msgid "BOGO offers"
+msgstr "tawaran BOGO"
+
+#: admin/modules/bogo/views/--bogo-listing.php:27
+msgid "Add new"
+msgstr "Tambah baharu"
+
+#: admin/modules/bogo/views/--bogo-listing.php:36
+msgid "Create new BOGO offer"
+msgstr "Buat tawaran BOGO baharu"
+
+#: admin/modules/bogo/views/--bogo-listing.php:39
+#: admin/modules/bogo/views/--first-bogo-campaign.php:21
+#, no-php-format
+msgid ""
+"Buy 1 item, get 1 @ 50% off. Buy 2 items, get 2 @ 50% off — and so on! Buy "
+"more, Get more"
+msgstr ""
+"Beli 1 barang, dapatkan 1 lagi dengan diskaun 50%. Beli 2 barang, dapatkan 2"
+" lagi dengan diskaun 50% — dan seterusnya! Beli lebih, Dapat lebih"
+
+#: admin/modules/bogo/views/--bogo-listing.php:39
+#: admin/modules/bogo/views/--first-bogo-campaign.php:19
+msgid "Buy X Get X @ 50%"
+msgstr "Beli X Dapat X @ 50%"
+
+#: admin/modules/bogo/views/--bogo-listing.php:42
+#: admin/modules/bogo/views/--first-bogo-campaign.php:29
+msgid "Buy two products, get a free gift."
+msgstr "Beli dua produk, dapatkan hadiah percuma"
+
+#: admin/modules/bogo/views/--bogo-listing.php:42
+#: admin/modules/bogo/views/--first-bogo-campaign.php:27
+msgid "Buy 2 Get a free gift"
+msgstr "Beli 2 Dapat hadiah percuma"
+
+#: admin/modules/bogo/views/--bogo-listing.php:47
+#: admin/modules/bogo/views/--first-bogo-campaign.php:45
+#, php-format
+msgid "Spend %s or above, get a free gift"
+msgstr "Belanja %s atau lebih, dapatkan hadiah percuma"
+
+#: admin/modules/bogo/views/--bogo-listing.php:52
+#: admin/modules/bogo/views/--first-bogo-campaign.php:38
+#, php-format
+msgid "Spend %s, Get a free gift"
+msgstr "Belanja %s, Dapatkan hadiah percuma"
+
+#: admin/modules/bogo/views/--bogo-listing.php:57
+#: admin/modules/bogo/views/--first-bogo-campaign.php:55
+msgid "Create Custom BOGO Offer"
+msgstr "Buat Tawaran BOGO Tersuai"
+
+#: admin/modules/bogo/views/--bogo-listing.php:57
+msgid "+ Custom"
+msgstr "+ Tersuai"
+
+#: admin/modules/bogo/views/--bogo-listing.php:73
+#: admin/modules/bogo/views/--bogo-listing.php:87
+#: admin/modules/bogo/views/--first-bogo-campaign.php:76
+#: admin/modules/bogo/views/--first-bogo-campaign.php:89
+msgid "Cheapest/Most Expensive"
+msgstr "Termurah/Termahal"
+
+#: admin/modules/bogo/views/--bogo-listing.php:90
+#: admin/modules/bogo/views/--first-bogo-campaign.php:92
+msgid ""
+"Upgrade to premium and offer discounts on the cheapest or most expensive "
+"items in the cart."
+msgstr ""
+"Tingkatkan ke premium dan tawarkan diskaun untuk barangan paling murah atau "
+"paling mahal dalam troli"
+
+#: admin/modules/bogo/views/--bogo-listing.php:107
+#: admin/modules/bogo/views/--first-bogo-campaign.php:95
+msgid "Get Premium Now"
+msgstr "Dapatkan Premium Sekarang"
+
+#: admin/modules/bogo/views/--bogo-listing.php:112
+msgid "Offer title"
+msgstr "Tajuk tawaran"
+
+#: admin/modules/bogo/views/--bogo-listing.php:133
+#: admin/modules/bogo/views/--first-bogo-campaign.php:107
+msgid "Continue"
+msgstr "Teruskan"
+
+#: admin/modules/bogo/views/--bogo-listing.php:147
+msgid "Search"
+msgstr "Cari"
+
+#: admin/modules/bogo/views/--bogo-listing.php:149
+msgid "Search BOGO"
+msgstr "Cari BOGO"
+
+#: admin/modules/bogo/views/--bogo-listing.php:161
+#, php-format
+msgid "All ( %d )"
+msgstr "Semua ( %d )"
+
+#: admin/modules/bogo/views/--bogo-listing.php:174
+#, php-format
+msgid "Trash ( %d )"
+msgstr "Sampah ( %d )"
+
+#: admin/modules/bogo/views/--bogo-listing.php:188
+msgid "Enable all"
+msgstr "Aktifkan semua"
+
+#: admin/modules/bogo/views/--bogo-listing.php:198
+msgid "Disable all"
+msgstr "Lumpuhkan semua"
+
+#: admin/modules/bogo/views/--bogo-listing.php:211
+msgid "Restore"
+msgstr "Pulihkan"
+
+#: admin/modules/bogo/views/--bogo-listing.php:253
+msgid "Bogo name"
+msgstr "Nama Bogo"
+
+#: admin/modules/bogo/views/--bogo-listing.php:257
+msgid "Status"
+msgstr "Status"
+
+#: admin/modules/bogo/views/--bogo-listing.php:268
+#: admin/modules/bogo/views/--bogo-listing.php:309
+#: public/class-wt-smart-coupon-public.php:277
+#: public/class-wt-smart-coupon-public.php:387
+msgid "Expired"
+msgstr "Tamat"
+
+#: admin/modules/bogo/views/--bogo-listing.php:290
+msgid "Conversion"
+msgstr "Penukaran"
+
+#: admin/modules/bogo/views/--bogo-listing.php:292
+msgid "Actions"
+msgstr "Tindakan"
+
+#: admin/modules/bogo/views/--bogo-listing.php:302
+msgid "No BOGO offers found"
+msgstr "Tiada tawaran BOGO ditemui"
+
+#: admin/modules/bogo/views/--bogo-listing.php:349
+msgid "Buy X, get X/Y"
+msgstr "Beli X, dapatkan X/Y"
+
+#: admin/modules/bogo/views/--bogo-listing.php:404
+msgid "Delete"
+msgstr "Padam"
+
+#: admin/modules/bogo/views/--bogo-listing.php:490
+msgid "Delete BOGO offers"
+msgstr "Padam tawaran BOGO"
+
+#: admin/modules/bogo/views/--bogo-listing.php:491
+msgid "Are you sure you want to delete selected BOGO offers?"
+msgstr "Adakah anda pasti mahu memadam tawaran BOGO yang dipilih?"
+
+#: admin/modules/bogo/views/--bogo-listing.php:504
+msgid "Delete BOGO offer"
+msgstr "Padam tawaran BOGO"
+
+#: admin/modules/bogo/views/--bogo-listing.php:506
+#, php-format
+msgid "Are you sure you want to delete \"%s\""
+msgstr "Adakah anda pasti mahu memadam \"%s\""
+
+#: admin/modules/bogo/views/--bogo-main-general.php:36
+msgid "Auto add products for Buy X Get X/Y giveaways"
+msgstr ""
+"Tambah produk secara automatik untuk pembelian X Dapatkan X/Y pemberian "
+"percuma"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:45
+msgid "Add only free products to cart"
+msgstr "Tambah hanya produk percuma ke dalam bakul"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:50
+msgid "Add all discounted products to cart"
+msgstr "Tambah semua produk yang didiskaun ke dalam troli"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:60
+msgid "Apply tax on"
+msgstr "Kenakan cukai pada"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:70
+#, php-format
+msgid "Discounted price %s"
+msgstr "Harga diskaun %s"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:71
+msgid "Tax is calculated based on the price after the offer is applied"
+msgstr "Cukai dikira berdasarkan harga selepas tawaran dikenakan"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:80
+msgid "Tax is calculated on the original price before the offer is applied."
+msgstr "Cukai dikira berdasarkan harga asal sebelum tawaran digunakan"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:91
+msgid "Offer applied message"
+msgstr "Mesej tawaran diterima"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:92
+msgid "Apply discount"
+msgstr "Terapkan diskaun"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:96
+#: admin/modules/bogo/views/--bogo-main-general.php:110
+#: admin/modules/bogo/views/--bogo-main-general.php:124
+#: admin/modules/bogo/views/--bogo-main-general.php:138
+msgid "Available placeholders: "
+msgstr "Tempat letak yang tersedia: "
+
+#: admin/modules/bogo/views/--bogo-main-general.php:105
+msgid "Product added message"
+msgstr "Mesej produk ditambah"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:106
+msgid "Product added..."
+msgstr "Produk ditambah..."
+
+#: admin/modules/bogo/views/--bogo-main-general.php:119
+msgid "Discount info under each item in cart"
+msgstr "Maklumat diskaun di bawah setiap item dalam troli"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:120
+msgid "Discount..."
+msgstr "Diskaun..."
+
+#: admin/modules/bogo/views/--bogo-main-general.php:134
+#: common/modules/bogo/bogo.php:293
+msgid "Choose product"
+msgstr "Pilih produk"
+
+#: admin/modules/bogo/views/--bogo-main-general.php:153
+msgid "Update settings"
+msgstr "Kemas kini tetapan"
+
+#: admin/modules/bogo/views/--first-bogo-campaign.php:13
+msgid "Create your first BOGO offer"
+msgstr "Cipta tawaran BOGO pertama anda"
+
+#: admin/modules/bogo/views/--first-bogo-campaign.php:62
+msgid "Select BOGO type"
+msgstr "Pilih jenis BOGO"
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:24
+msgid "Discover our enhanced BOGO module"
+msgstr "Temui modul BOGO kami yang ditingkatkan"
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:25
+msgid ""
+"We've separated BOGO from other coupon types to unlock endless possibilities"
+"  based on your feedback and market trends."
+msgstr ""
+"Kami telah memisahkan BOGO dari jenis kupon lain untuk membuka kemungkinan "
+"yang tidak terbatas berdasarkan maklum balas anda dan tren pasaran"
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:27
+msgid "Why Switch"
+msgstr "Mengapa Beralih"
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:28
+msgid "Why switch to new bogo"
+msgstr "Mengapa beralih ke bogo baharu"
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:31
+msgid ""
+"Expanded Features: Unlock new possibilities with our focused BOGO module."
+msgstr "Ciri Luas: Buka kemungkinan baru dengan modul BOGO kami yang fokus."
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:32
+msgid "Improved Experience: Simplified and more efficient coupon management."
+msgstr ""
+"Pengalaman Ditingkatkan: Pengurusan kupon yang lebih mudah dan berkesan"
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:40
+#, php-format
+msgid ""
+"Switching to the new BOGO module will disable %d BOGO coupons made using the"
+" old version."
+msgstr ""
+"Beralih ke modul BOGO baru akan melumpuhkan %d kupon BOGO yang dibuat "
+"menggunakan versi lama."
+
+#: admin/modules/bogo/views/--new-bogo-switching.php:51
+msgid "Update now"
+msgstr "Kemas kini sekarang"
+
+#: admin/modules/bogo/views/-bogo-main.php:22
+msgid "Provided ID is not a BOGO coupon"
+msgstr "ID yang diberikan bukan kupon BOGO"
+
+#: admin/modules/bogo/views/-bogo-main.php:41
+msgid "Discount tag"
+msgstr "Tag diskaun"
+
+#: admin/modules/checkout_options/checkout_options.php:60
+msgid "Checkout options"
+msgstr "Pilihan pembayaran"
+
+#: admin/modules/checkout_options/checkout_options.php:83
+msgid "Shipping methods"
+msgstr "Kaedah penghantaran"
+
+#: admin/modules/checkout_options/checkout_options.php:84
+msgid "Any shipping method"
+msgstr "Mana-mana kaedah penghantaran"
+
+#: admin/modules/checkout_options/checkout_options.php:102
+msgid " (Only for block checkout)"
+msgstr " (Hanya untuk daftar keluar blok)"
+
+#: admin/modules/checkout_options/checkout_options.php:118
+msgid ""
+"Coupon will be applicable if any of these shipping methods are selected."
+msgstr "Kupon akan dikenakan jika mana-mana kaedah penghantaran ini dipilih"
+
+#: admin/modules/checkout_options/checkout_options.php:125
+msgid "Payment methods"
+msgstr "Kaedah pembayaran"
+
+#: admin/modules/checkout_options/checkout_options.php:126
+msgid "Any payment method"
+msgstr "Mana-mana kaedah pembayaran"
+
+#: admin/modules/checkout_options/checkout_options.php:141
+msgid ""
+"Coupon will be applicable if any of these payment methods are selected."
+msgstr "Kupon akan terpakai jika mana-mana kaedah pembayaran ini dipilih"
+
+#: admin/modules/checkout_options/checkout_options.php:147
+msgid "Applicable Roles"
+msgstr "Peranan yang Diterapkan"
+
+#: admin/modules/checkout_options/checkout_options.php:148
+msgid "Any role"
+msgstr "Sebarang peranan"
+
+#: admin/modules/checkout_options/checkout_options.php:161
+msgid ""
+"Coupon will be applicable if customer belongs to any of these User Roles."
+msgstr ""
+"Kupon akan digunakan jika pelanggan tergolong dalam mana-mana peranan "
+"pengguna ini"
+
+#: admin/modules/checkout_options/checkout_options.php:180
+msgid "Restrict by country"
+msgstr "Sekat mengikut negara"
+
+#: admin/modules/checkout_options/checkout_options.php:182
+msgid "Billing Address."
+msgstr "Alamat Penagihan"
+
+#: admin/modules/checkout_options/checkout_options.php:183
+msgid "Shipping Address."
+msgstr "Alamat Penghantaran"
+
+#: admin/modules/checkout_options/checkout_options.php:185
+msgid "Look for country from the selected option"
+msgstr "Cari negara dari pilihan yang dipilih"
+
+#: admin/modules/checkout_options/checkout_options.php:194
+#: admin/modules/freevspro/views/comparison-table.php:57
+#: admin/modules/freevspro/views/comparison-table.php:65
+msgid "Country"
+msgstr "Negara"
+
+#: admin/modules/checkout_options/checkout_options.php:195
+msgid "Any Location"
+msgstr "Sebarang Lokasi"
+
+#: admin/modules/checkout_options/checkout_options.php:209
+msgid ""
+"Coupon will be applicable only for the selected country from either the "
+"shipping/billing address"
+msgstr ""
+"Kupon hanya akan berlaku untuk negara yang dipilih sama ada dari alamat "
+"penghantaran/pembayaran"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:193
+msgid "Individual quantity restriction"
+msgstr "Sekatan kuantiti individu"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:194
+msgid ""
+"Enable to set minimum and maximum quantity restrictions for individual "
+"product/category instead of entire cart."
+msgstr ""
+"Benarkan untuk menetapkan sekatan kuantiti minimum dan maksimum bagi "
+"produk/kategori individu bukan untuk keseluruhan troli"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:207
+msgid "Product conditions:"
+msgstr "Syarat produk:"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:209
+#: admin/modules/coupon_restriction/coupon_restriction.php:229
+msgid "Any from below selection"
+msgstr "Mana-mana dari pilihan di bawah ini"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:210
+#: admin/modules/coupon_restriction/coupon_restriction.php:230
+msgid "All from below selection"
+msgstr "Semua dari pilihan di bawah"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:226
+msgid "Category condition:"
+msgstr "Syarat kategori:"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:247
+msgid "Minimum quantity of matching products"
+msgstr "Kuantiti minimum produk yang sepadan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:249
+msgid ""
+"Minimum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Kuantiti minimum produk yang sepadan dengan sekatan produk atau kategori "
+"yang diberikan. Jika tiada sekatan produk atau kategori dinyatakan, jumlah "
+"keseluruhan produk digunakan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:259
+msgid "Maximum quantity of matching products"
+msgstr "Jumlah maksimum produk yang sepadan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:261
+msgid ""
+"Maximum quantity of the products that match the given product or category "
+"restrictions. If no product or category restrictions are specified, the "
+"total number of products is used."
+msgstr ""
+"Kuantiti maksimum produk yang sepadan dengan sekatan produk atau kategori "
+"yang diberikan. Jika tiada sekatan produk atau kategori yang dinyatakan, "
+"jumlah keseluruhan produk digunakan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:271
+msgid "Minimum subtotal of matching products"
+msgstr "Jumlah minimum produk yang sepadan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:273
+msgid ""
+"Minimum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Jumlah harga minimum bagi produk yang memenuhi syarat produk atau kategori "
+"yang diberikan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:283
+msgid "Maximum subtotal of matching products"
+msgstr "Jumlah maksimum produk yang sepadan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:285
+msgid ""
+"Maximum price subtotal of the products that match the given product or "
+"category restrictions."
+msgstr ""
+"Jumlah maksimum harga produk-produk yang sesuai dengan sekatan produk atau "
+"kategori yang diberikan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:325
+msgid ""
+"Apply coupon only if the selected quantity of products are in the cart. "
+"Discounts will be given for those products and not the total cart amount."
+msgstr ""
+"Guna kupon hanya jika kuantiti produk yang dipilih ada dalam troli. Diskaun "
+"akan diberikan untuk produk-produk tersebut dan bukan jumlah keseluruhan "
+"troli"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:326
+msgid ""
+"Applies coupon only if the selected quantity of products are in the cart. A "
+"discount will be given for the total cart amount."
+msgstr ""
+"Menggunapakai kupon hanya jika kuantiti produk yang dipilih ada dalam troli."
+" Diskaun akan diberikan untuk jumlah keseluruhan troli"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:332
+#: admin/modules/giveaway_product/giveaway_product.php:310
+msgid ""
+"Apply coupon only if the selected quantity of products of the chosen "
+"category are in the cart. Discounts will be given for those products and not"
+" the total cart amount."
+msgstr ""
+"Guna kupon hanya jika kuantiti produk terpilih dalam kategori yang dipilih "
+"ada dalam troli. Diskaun akan diberikan untuk produk tersebut dan bukan "
+"jumlah keseluruhan troli"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:333
+msgid ""
+"Applies coupon only if the selected quantity of products of the chosen "
+"category are in the cart. A discount will be given for the total cart "
+"amount."
+msgstr ""
+"Menerapkan kupon hanya jika kuantiti produk yang dipilih dalam kategori yang"
+" dipilih ada dalam troli. Diskaun akan diberikan untuk jumlah keseluruhan "
+"troli"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:339
+msgid ""
+"If eligible products are in the cart along with excluded products, the "
+"coupon will be applied, but the discount will be limited to eligible "
+"products."
+msgstr ""
+"Jika produk yang layak terdapat dalam troli bersama dengan produk yang "
+"dikecualikan, kupon akan digunakan, tetapi diskaun akan terhad kepada produk"
+" yang layak"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:340
+msgid ""
+"The coupon is not applicable when the cart contains an excluded product."
+msgstr ""
+"Kupon tidak boleh digunakan apabila troli mengandungi produk yang "
+"dikecualikan"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:346
+msgid ""
+"If eligible products are in the cart along with products from an excluded "
+"category, the coupon will be applied, but the discount will be limited to "
+"eligible products."
+msgstr ""
+"Jika produk yang layak terdapat dalam troli bersama-sama dengan produk "
+"daripada kategori yang dikecualikan, kupon akan digunakan, tetapi diskaun "
+"akan terhad kepada produk yang layak"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:347
+msgid ""
+"The coupon is not applicable when the cart contains products from an "
+"excluded category."
+msgstr ""
+"Kupon tidak boleh digunakan apabila bakul mengandungi produk dari kategori "
+"yang dikecualikan"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:16
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:31
+msgid "Products"
+msgstr "Produk"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:20
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:35
+msgid "Product"
+msgstr "Produk"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:21
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:111
+msgid "Min. Quantity"
+msgstr "Kuantiti Min."
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:22
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:112
+msgid "Max. Quantity"
+msgstr "Kuantiti Maks."
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:50
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:64
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:8
+msgid "Search for a product..."
+msgstr "Cari produk..."
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:66
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:155
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:85
+msgid "Remove row"
+msgstr "Buang baris"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:75
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:164
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:94
+msgid "Add new row"
+msgstr "Tambah baris baru"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:106
+msgid "Products categories"
+msgstr "Kategori produk"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:110
+msgid "Category"
+msgstr "Kategori"
+
+#: admin/modules/coupon_restriction/views/_usage_restrictions_tab_content.php:139
+msgid "Search for a category..."
+msgstr "Cari kategori..."
+
+#: admin/modules/coupon_shortcode/coupon_shortcode.php:51
+msgid "Shortcode"
+msgstr "Kod Pendek"
+
+#: admin/modules/coupon_style/coupon_style.php:81
+#: public/modules/bogo/bogo.php:1778
+#: public/modules/giveaway_product/giveaway_product.php:345
+msgid "Success"
+msgstr "Kejayaan"
+
+#: admin/modules/coupon_style/coupon_style.php:97
+msgid "Unable to save settings"
+msgstr "Tidak dapat menyimpan tetapan"
+
+#: admin/modules/coupon_style/coupon_style.php:113
+msgid "Layouts"
+msgstr "Tata letak"
+
+#: admin/modules/coupon_style/coupon_style.php:131
+#: common/modules/coupon_style/coupon_style.php:315
+#: public/class-wt-smart-coupon-public.php:177
+#: public/class-wt-smart-coupon-public.php:192
+msgid "Cart discount"
+msgstr "Diskaun troli"
+
+#: admin/modules/coupon_style/coupon_style.php:132
+msgid "coupon-code"
+msgstr "kod-kupon"
+
+#: admin/modules/coupon_style/views/_customize.php:99
+msgid "Display used coupons in My account?"
+msgstr "Papar kupon yang digunakan di Akaun Saya?"
+
+#: admin/modules/coupon_style/views/_customize.php:99
+msgid "Display expired coupons in My account?"
+msgstr "Papar kupon tamat tempoh dalam Akaun Saya?"
+
+#: admin/modules/exclude-product/exclude-product.php:101
+msgid "Exclude from coupons"
+msgstr "Kecualikan dari kupon"
+
+#: admin/modules/exclude-product/exclude-product.php:102
+msgid "Exclude this product from coupon discounts"
+msgstr "Kecualikan produk ini daripada diskaun kupon"
+
+#: admin/modules/freevspro/freevspro.php:76
+#: admin/modules/freevspro/freevspro.php:82
+msgid "Free vs. Pro"
+msgstr "Percuma vs. Pro"
+
+#: admin/modules/freevspro/views/comparison-table.php:17
+msgid "Coupon Management Features"
+msgstr "Ciri Pengurusan Kupon"
+
+#: admin/modules/freevspro/views/comparison-table.php:19
+#: admin/modules/freevspro/views/comparison-table.php:24
+msgid "BOGO Coupons"
+msgstr "Kupon BOGO"
+
+#: admin/modules/freevspro/views/comparison-table.php:20
+#: admin/modules/freevspro/views/comparison-table.php:25
+msgid "Giveaway"
+msgstr "Pemberian percuma"
+
+#: admin/modules/freevspro/views/comparison-table.php:21
+#: admin/modules/freevspro/views/comparison-table.php:26
+msgid "URL coupons"
+msgstr "kupon URL"
+
+#: admin/modules/freevspro/views/comparison-table.php:27
+#: admin/views/_premium_features_sidebar.php:23
+#: admin/views/_upgrade_to_pro_metabox.php:41
+msgid "Purchase history-based coupons"
+msgstr "Kupon berdasarkan sejarah pembelian"
+
+#: admin/modules/freevspro/views/comparison-table.php:28
+msgid "Store credit"
+msgstr "Kredit kedai"
+
+#: admin/modules/freevspro/views/comparison-table.php:29
+msgid "Gift coupons"
+msgstr "Kupon hadiah"
+
+#: admin/modules/freevspro/views/comparison-table.php:30
+msgid "Sign-up coupons"
+msgstr "Kupon pendaftaran"
+
+#: admin/modules/freevspro/views/comparison-table.php:31
+#: admin/views/_premium_features_sidebar.php:25
+#: admin/views/_upgrade_to_pro_metabox.php:43
+msgid "Cart abandonment coupons"
+msgstr "Kupon pengabaian troli"
+
+#: admin/modules/freevspro/views/comparison-table.php:32
+msgid "Combo coupons"
+msgstr "Kupon kombo"
+
+#: admin/modules/freevspro/views/comparison-table.php:37
+msgid "BOGO Coupon options"
+msgstr "Pilihan Kupon BOGO"
+
+#: admin/modules/freevspro/views/comparison-table.php:38
+msgid "The customers can buy one product and get:"
+msgstr "Pelanggan boleh beli satu produk dan dapatkan:"
+
+#: admin/modules/freevspro/views/comparison-table.php:41
+#: admin/modules/freevspro/views/comparison-table.php:44
+#: common/modules/giveaway_product/giveaway_product.php:182
+msgid "Specific product"
+msgstr "Produk khusus"
+
+#: admin/modules/freevspro/views/comparison-table.php:45
+msgid "Any product from a specific category"
+msgstr "Mana-mana produk dari kategori tertentu"
+
+#: admin/modules/freevspro/views/comparison-table.php:47
+msgid "Same product as in the cart"
+msgstr "Produk yang sama seperti dalam troli"
+
+#: admin/modules/freevspro/views/comparison-table.php:51
+msgid "Applicable coupon restrictions"
+msgstr "Sekatan kupon yang terpakai"
+
+#: admin/modules/freevspro/views/comparison-table.php:53
+#: admin/modules/freevspro/views/comparison-table.php:60
+msgid "Shipping method"
+msgstr "Kaedah penghantaran"
+
+#: admin/modules/freevspro/views/comparison-table.php:54
+#: admin/modules/freevspro/views/comparison-table.php:61
+msgid "Payment method"
+msgstr "Kaedah pembayaran"
+
+#: admin/modules/freevspro/views/comparison-table.php:55
+#: admin/modules/freevspro/views/comparison-table.php:62
+msgid "User roles"
+msgstr "Peranan pengguna"
+
+#: admin/modules/freevspro/views/comparison-table.php:56
+#: admin/modules/freevspro/views/comparison-table.php:64
+msgid "Product quantity"
+msgstr "Kuantiti produk"
+
+#: admin/modules/freevspro/views/comparison-table.php:63
+msgid "Exclude user roles"
+msgstr "Kecualikan peranan pengguna"
+
+#: admin/modules/freevspro/views/comparison-table.php:66
+msgid "State"
+msgstr "Negeri"
+
+#: admin/modules/freevspro/views/comparison-table.php:70
+msgid "Coupon Automation"
+msgstr "Automasi Kupon"
+
+#: admin/modules/freevspro/views/comparison-table.php:73
+#: admin/modules/freevspro/views/comparison-table.php:77
+msgid "Set a coupon start date"
+msgstr "Tetapkan tarikh mula kupon"
+
+#: admin/modules/freevspro/views/comparison-table.php:78
+msgid "Duplicate coupons"
+msgstr "Kupon pendua"
+
+#: admin/modules/freevspro/views/comparison-table.php:79
+msgid "Supports custom coupon code format (prefix, suffix, length)"
+msgstr "Menyokong format kod kupon tersuai (awalan, akhiran, panjang)"
+
+#: admin/modules/freevspro/views/comparison-table.php:83
+msgid "Advanced Coupon Display and Customization"
+msgstr "Paparan Kupon Lanjutan dan Pengkhususan"
+
+#: admin/modules/freevspro/views/comparison-table.php:85
+#: admin/modules/freevspro/views/comparison-table.php:92
+msgid "Coupon styling"
+msgstr "Gaya kupon"
+
+#: admin/modules/freevspro/views/comparison-table.php:87
+#: admin/modules/freevspro/views/comparison-table.php:94
+msgid "Coupon templates"
+msgstr "Templat kupon"
+
+#: admin/modules/freevspro/views/comparison-table.php:88
+msgid "Standard"
+msgstr "Standard"
+
+#: admin/modules/freevspro/views/comparison-table.php:95
+msgid "Multiple options"
+msgstr "Pelbagai pilihan"
+
+#: admin/modules/freevspro/views/comparison-table.php:97
+msgid "Display count down discount sales banner"
+msgstr "Pamerkan sepanduk penurunan harga jualan undur"
+
+#: admin/modules/freevspro/views/comparison-table.php:98
+msgid "Custom endpoints and endpoint title for coupon listing page"
+msgstr "Titik akhir tersuai dan tajuk titik akhir untuk halaman senarai kupon"
+
+#: admin/modules/freevspro/views/comparison-table.php:111
+msgid "Supercharge your sales with"
+msgstr "Tingkatkan jualan anda dengan"
+
+#: admin/modules/freevspro/views/comparison-table.php:111
+msgid "TheTopPercentile Coupons Pro!"
+msgstr "Kupon Pintar untuk WooCommerce Pro!"
+
+#: admin/modules/freevspro/views/comparison-table.php:112
+msgid ""
+"Create offers on your store your customers can’t resist from irresistible "
+"BOGO deals to delightful giveaways."
+msgstr ""
+"Cipta tawaran di kedai anda yang pelanggan anda tidak boleh tolak dari "
+"tawaran BOGO yang tidak dapat ditolak hingga pemberian hadiah yang "
+"menggembirakan"
+
+#: admin/modules/freevspro/views/comparison-table.php:113
+msgid "99% Customer Satisfaction"
+msgstr "99% Kepuasan Pelanggan"
+
+#: admin/modules/freevspro/views/comparison-table.php:113
+msgid "30 Day money back guarantee"
+msgstr "Jaminan wang dikembalikan dalam 30 hari"
+
+#: admin/modules/freevspro/views/comparison-table.php:116
+#: admin/views/_premium_features_sidebar.php:45
+msgid "Unlock pro features"
+msgstr "Buka ciri-ciri pro"
+
+#: admin/modules/freevspro/views/comparison-table.php:122
+msgid "FEATURES"
+msgstr "CIRI-CIRI"
+
+#: admin/modules/freevspro/views/comparison-table.php:123
+msgid "FREE"
+msgstr "PERCUMA"
+
+#: admin/modules/freevspro/views/comparison-table.php:124
+msgid "PREMIUM"
+msgstr "PREMIUM"
+
+#: admin/modules/giveaway_product/giveaway_product.php:186
+msgid "(premium)"
+msgstr "(premium)"
+
+#: admin/modules/giveaway_product/giveaway_product.php:202
+msgid "Number of times"
+msgstr "Bilangan kali"
+
+#: admin/modules/giveaway_product/giveaway_product.php:204
+msgid "Apply once"
+msgstr "Memohon sekali"
+
+#: admin/modules/giveaway_product/giveaway_product.php:205
+msgid "Apply repeatedly"
+msgstr "Sapukan berulang kali"
+
+#: admin/modules/giveaway_product/giveaway_product.php:216
+msgid "Giveaway products"
+msgstr "Produk percuma"
+
+#: admin/modules/giveaway_product/giveaway_product.php:283
+#: public/modules/giveaway_product/giveaway_product.php:1352
+msgid "Free gift:"
+msgstr "Hadiah percuma:"
+
+#: admin/modules/giveaway_product/giveaway_product.php:306
+msgid ""
+"Apply coupon only if the selected product quantity is in the cart. Discounts"
+" will be given for those products and not the total cart amount. For "
+"example, for setting up Buy X Get Y, choose the product/s X in this section."
+msgstr ""
+"Gunakan kupon hanya jika kuantiti produk yang dipilih ada dalam troli. "
+"Diskaun akan diberikan untuk produk tersebut dan bukan jumlah keseluruhan "
+"troli. Sebagai contoh, untuk menetapkan Beli X Dapat Y, pilih produk X dalam"
+" bahagian ini"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:36
+msgid "Quantity"
+msgstr "Kuantiti"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:37
+msgid "Discount"
+msgstr "Diskaun"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:56
+msgid "Product not found !!!"
+msgstr "Produk tidak ditemui !!!"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:103
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:26
+msgid "Create better BOGO deals"
+msgstr "Buat tawaran beli satu percuma satu yang lebih baik"
+
+#: admin/modules/giveaway_product/views/_bogo_coupon_giveaway_tab_content.php:104
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:27
+msgid ""
+"Upgrade to premium and enjoy advanced BOGO features for giveaway products, "
+"such as a custom quantity counter, dynamic pricing discounts, and more."
+msgstr ""
+"Naik taraf kepada premium dan nikmati ciri BOGO yang canggih untuk produk "
+"hadiah, seperti kaunter kuantiti tersuai, diskaun harga dinamik, dan banyak "
+"lagi"
+
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:7
+msgid "Free Product"
+msgstr "Produk Percuma"
+
+#: admin/modules/giveaway_product/views/_normal_coupon_giveaway_tab_content.php:22
+msgid ""
+"A single quantity of the specified free product is added to the customer's "
+"cart when the coupon is applied. However, the corresponding tax and shipping"
+" charges are not exempted."
+msgstr ""
+"Satu kuantiti produk percuma yang ditentukan ditambahkan ke dalam troli "
+"pelanggan apabila kupon digunakan. Walau bagaimanapun, caj cukai dan "
+"penghantaran yang berkaitan tidak dikecualikan"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:93
+msgid "Maximum discount value"
+msgstr "Nilai diskaun maksimum"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:94
+msgid "Unlimited discount"
+msgstr "Diskaun tanpa had"
+
+#: admin/modules/limit_max_discount/limit_max_discount.php:95
+msgid ""
+"Use this option to set a cap on the discount value especially for percentage"
+" discounts. e.g, you may provide a 5 percentage discount coupon for a "
+"product but with a maximum discount upto $10."
+msgstr ""
+"Gunakan pilihan ini untuk menetapkan had pada nilai diskaun terutamanya "
+"untuk diskaun peratusan. Contohnya, anda boleh memberikan kupon diskaun 5 "
+"peratus untuk produk tetapi dengan diskaun maksimum hingga $10"
+
+#: admin/modules/other_solutions/other_solutions.php:46
+#: admin/modules/other_solutions/other_solutions.php:52
+msgid "Other Solutions"
+msgstr "Penyelesaian Lain"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:20
+msgid "More Plugins To Make Your Store Stand Out"
+msgstr "Lebih Banyak Plugin Untuk Membezakan Kedai Anda"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:21
+msgid ""
+"Check out our other plugins that are perfectly suited for WooCommerce store "
+"needs."
+msgstr ""
+"Lihat pemalam lain kami yang sesuai dengan keperluan kedai WooCommerce."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:32
+msgid "TheTopPercentile WooCommerce Gift Cards"
+msgstr "TheTopPercentile Hadiah Kad WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:33
+msgid ""
+"Create and manage advanced gift cards for WooCommerce stores. Enable your "
+"customers to buy, redeem, and share gift cards from your store."
+msgstr ""
+"Cipta dan urus kad hadiah lanjutan untuk kedai WooCommerce. Benarkan "
+"pelanggan anda membeli, menebus, dan berkongsi kad hadiah dari kedai anda"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:41
+#: admin/modules/premium_upgrade/views/page_content.php:82
+#: admin/views/general_settings.php:20
+msgid "TheTopPercentile Coupons"
+msgstr "Kupon Pintar untuk WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:42
+msgid ""
+"Create coupons to offer discounts and free products to your customers with "
+"TheTopPercentile Coupons. You can set up BOGO coupons, giveaways, gift "
+"cards, store credits, and more with this plugin."
+msgstr ""
+"Cipta kupon untuk menawarkan diskaun dan produk percuma kepada pelanggan "
+"anda dengan TheTopPercentile Coupons untuk WooCommerce. Anda boleh menetapkan kupon "
+"BOGO, pemberian hadiah, kad hadiah, kredit kedai, dan banyak lagi dengan "
+"pemalam ini"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:50
+#: admin/modules/premium_upgrade/views/page_content.php:188
+msgid "URL Coupons for WooCommerce"
+msgstr "Kupon URL untuk WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:51
+msgid ""
+"Generate custom URLs and QR codes for every discount coupon in your "
+"WooCommerce store. These unique coupons are easy to share and can even be "
+"set to add new products to the cart upon application."
+msgstr ""
+"Jana URL dan kod QR khas untuk setiap kupon diskaun dalam kedai WooCommerce "
+"anda. Kupon yang unik ini mudah untuk dikongsi dan malah boleh diatur untuk "
+"menambah produk baru ke dalam troli apabila digunakan"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:59
+msgid "WooCommerce Coupon Generator plugin"
+msgstr "Plugin Penjana Kupon WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:60
+msgid ""
+"Generate coupons in bulk on your WooCommerce store. Add them to the store, "
+"email them to recipients or export them to a CSV file. Configure advanced "
+"coupon restrictions and offer them to select users."
+msgstr ""
+"Jana kupon secara pukal di kedai WooCommerce anda. Tambahkan ke kedai, "
+"hantar melalui emel kepada penerima atau eksport ke fail CSV. Konfigurasikan"
+" sekatan kupon lanjutan dan tawarkan kepada pengguna terpilih"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:68
+msgid "WooCommerce PDF Invoices, Packing Slips and Credit Notes"
+msgstr "Faktur PDF WooCommerce, Slip Pembungkusan dan Nota Kredit"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:69
+msgid ""
+"Easily generate & print fully customized PDF Invoices, Packing Slips, and "
+"Credit Notes for your orders. Automatically send the documents to the "
+"recipients by attaching them to the order status emails."
+msgstr ""
+"Mudah menghasilkan & mencetak Invois PDF yang sepenuhnya disesuaikan, Slip "
+"Pembungkusan, dan Nota Kredit untuk pesanan anda. Secara automatik "
+"menghantar dokumen kepada penerima dengan melampirkannya kepada emel status "
+"pesanan"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:77
+msgid "WooCommerce Shipping Labels, Dispatch Labels and Delivery Notes"
+msgstr ""
+"WooCommerce Label Penghantaran, Label Pengiriman dan Nota Penghantaran"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:78
+msgid ""
+"Automatically generate WooCommerce Shipping Labels, Dispatch Labels, and "
+"Delivery Notes with custom settings and layouts. Customize the label sizes "
+"and add extra product or order fields as required."
+msgstr ""
+"Jana secara automatik Label Penghantaran WooCommerce, Label Penghantaran, "
+"dan Nota Penghantaran dengan tetapan dan susun atur yang disesuaikan. "
+"Sesuaikan saiz label dan tambah medan produk atau pesanan tambahan jika "
+"diperlukan"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:86
+msgid "WooCommerce Picklists"
+msgstr "Senarai Pilihan WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:87
+msgid ""
+"Customize, generate and print WooCommerce picklists for all orders on your "
+"store and automatically attach them to the order status emails. Add product "
+"variation data and other fields to the document."
+msgstr ""
+"Sesuaikan, jana dan cetak senarai pengambilan WooCommerce untuk semua "
+"pesanan di kedai anda dan lampirkannya secara automatik kepada emel status "
+"pesanan. Tambah data variasi produk dan medan lain ke dalam dokumen"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:95
+msgid "WooCommerce Proforma Invoices"
+msgstr "Invois Proforma WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:96
+msgid ""
+"Automate the generation of WooCommerce proforma invoices when new orders are"
+" placed and send them to your customers via order emails. Customize the "
+"layout and content of the invoice as per your needs."
+msgstr ""
+"Automatikkan penjanaan invois proforma WooCommerce apabila pesanan baru "
+"dibuat dan hantarkannya kepada pelanggan anda melalui e-mel pesanan. "
+"Sesuaikan susun atur dan kandungan invois mengikut keperluan anda"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:104
+msgid "WooCommerce Address Labels"
+msgstr "Label Alamat WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:105
+msgid ""
+"Generate address labels for all orders in your store and easily print them "
+"in bulk. Customize the label layout and create labels of different types "
+"(shipping, billing, return, from address) with ease."
+msgstr ""
+"Hasilkan label alamat untuk semua pesanan di kedai anda dan cetak dengan "
+"mudah dalam jumlah banyak. Sesuaikan susun atur label dan buat label dengan "
+"pelbagai jenis (penghantaran, pengebilan, pemulangan, dari alamat) dengan "
+"mudah"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:113
+msgid "TheTopPercentile WooCommerce Product Feed & Sync Manager"
+msgstr "TheTopPercentile WooCommerce Pengurus Suapan & Penyelarasan Produk"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:114
+msgid ""
+"Generate WooCommerce product feeds for Google Merchant Center and Facebook "
+"Business Manager. Use the Facebook catalog sync manager to sync WooCommerce "
+"products with Facebook and Instagram shops."
+msgstr ""
+"Hasilkan suapan produk WooCommerce untuk Google Merchant Center dan Facebook"
+" Business Manager Gunakan penyegerakan katalog Facebook untuk menyelaraskan "
+"produk WooCommerce dengan kedai Facebook dan Instagram"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:122
+msgid "TheTopPercentile Woocommerce Request a Quote"
+msgstr "TheTopPercentile Permintaan Sebut Harga Woocommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:123
+msgid ""
+"Configure a fully optimized WooCommerce quote request set up in your store. "
+"Allow customers to request quotes and store managers to respond to them. "
+"Hide product prices, set up email alerts, and more."
+msgstr ""
+"Konfigurasikan tetapan permintaan sebut harga WooCommerce yang dioptimumkan "
+"sepenuhnya di kedai anda. Benarkan pelanggan untuk meminta sebut harga dan "
+"pengurus kedai untuk membalasnya. Sembunyikan harga produk, tetapkan "
+"makluman e-mel, dan banyak lagi"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:132
+msgid ""
+"Boost the visibility of the products by displaying them as ‘Frequently "
+"bought together’ items in your store. You may also set up discounts for "
+"Frequently Bought Together bundles with this plugin."
+msgstr ""
+"Tingkatkan keterlihatan produk dengan memaparkannya sebagai barang 'Sering "
+"dibeli bersama' di kedai anda. Anda juga boleh menetapkan diskaun untuk "
+"kumpulan Sering Dibeli Bersama dengan pemalam ini"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:140
+#: admin/modules/premium_upgrade/views/page_content.php:105
+msgid "GDPR Cookie Consent Plugin (CCPA Ready)"
+msgstr "Plugin Kebenaran Kuki GDPR (Sedia CCPA)"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:141
+msgid ""
+"The plugin helps you get compliant with GDPR, CCPA, and other major cookie "
+"laws. You can create and manage cookie consent banners, scan website "
+"cookies, and generate cookie policies with this plugin."
+msgstr ""
+"Plugin ini membantu anda mematuhi GDPR, CCPA, dan undang-undang kuki utama "
+"lainnya. Anda boleh membuat dan mengurus sepanduk persetujuan kuki, "
+"mengimbas kuki laman web, dan menjana dasar kuki dengan plugin ini"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:149
+msgid "Product Import Export Plugin For WooCommerce"
+msgstr "Plugin Import Eksport Produk Untuk WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:150
+msgid ""
+"Seamlessly import/export your WooCommerce products including simple, "
+"variable, custom products and subscriptions. You may also import and export "
+"product images, tags, categories, reviews, and ratings."
+msgstr ""
+"Import/eksport produk WooCommerce anda dengan lancar termasuk produk mudah, "
+"boleh ubah, produk tersuai dan langganan. Anda juga boleh mengimport dan "
+"mengeksport imej produk, tag, kategori, ulasan, dan penilaian"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:158
+msgid "WordPress Users & WooCommerce Customers Import Export"
+msgstr "Import dan Eksport Pengguna WordPress & Pelanggan WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:159
+msgid ""
+"Easily import and export your WordPress users and WooCommerce customers "
+"using the Import Export plugin for WooCommerce. The plugin supports the use "
+"of CSV, XML, TSV, XLS, and XLSX file formats."
+msgstr ""
+"Dengan mudah import dan eksport pengguna WordPress dan pelanggan WooCommerce"
+" anda menggunakan plugin Import Export untuk WooCommerce. Plugin ini "
+"menyokong penggunaan format fail CSV, XML, TSV, XLS, dan XLSX"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:167
+msgid "Order, Coupon, Subscription Export Import for WooCommerce"
+msgstr "Pesanan, Kupon, Langganan Eksport Import untuk WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:168
+msgid ""
+"Export and Import your WooCommerce orders, subscriptions, and discount "
+"coupons using a single Import Export plugin. You may customize the export "
+"and import files with advanced filters and settings."
+msgstr ""
+"Eksport dan import pesanan, langganan dan kupon diskaun WooCommerce anda "
+"menggunakan satu plugin Import Export. Anda boleh menyesuaikan fail eksport "
+"dan import dengan penapis dan tetapan lanjutan"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:176
+msgid "Import Export Suite for WooCommerce"
+msgstr "Import Eksport Suite untuk WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:177
+msgid ""
+"An all-in-one plugin to import and export WooCommerce store data. You can "
+"import and export products, product reviews, orders, customers, discount "
+"coupons, and subscriptions using this single plugin."
+msgstr ""
+"Plugin serba lengkap untuk mengimport dan mengeksport data kedai "
+"WooCommerce. Anda boleh mengimport dan mengeksport produk, ulasan produk, "
+"pesanan, pelanggan, kupon diskaun, dan langganan menggunakan plugin ini."
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:216
+msgid "Sequential Order Numbers for WooCommerce"
+msgstr "Nombor Urutan Berturut-turut untuk WooCommerce"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:217
+msgid ""
+"Number your WooCommerce orders in a custom, sequential & manageable format. "
+"The Sequential Order Number plugin lets your orders follow a custom & unique"
+" numbering sequence suitable for your business."
+msgstr ""
+"Nomborkan pesanan WooCommerce anda dalam format tersendiri yang berurutan "
+"dan mudah diurus. Plugin Sequential Order Number membolehkan pesanan anda "
+"mengikuti urutan penomboran yang unik dan sesuai untuk perniagaan anda"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:265
+msgid " Get Premium"
+msgstr "Dapatkan Premium"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:273
+msgid "Installed"
+msgstr "Dipasang"
+
+#: admin/modules/other_solutions/views/other_solutions_content.php:284
+msgid "Get Free Plugin"
+msgstr "Dapatkan Plugin Percuma"
+
+#: admin/modules/premium_upgrade/premium_upgrade.php:43
+#: admin/modules/premium_upgrade/premium_upgrade.php:44
+msgid "Premium upgrade"
+msgstr "Peningkatan premium"
+
+#: admin/modules/premium_upgrade/views/page_content.php:83
+msgid ""
+"Get advanced WooCommerce coupon features to make irresistible coupon "
+"campaigns and discounts"
+msgstr ""
+"Dapatkan ciri kupon WooCommerce lanjutan untuk membuat kempen kupon dan "
+"diskaun yang tidak dapat ditolak"
+
+#: admin/modules/premium_upgrade/views/page_content.php:85
+msgid "Advanced Buy (X) Get (Y) BOGO offers"
+msgstr "Tawaran BOGO Beli (X) Dapat (Y) Lanjutan"
+
+#: admin/modules/premium_upgrade/views/page_content.php:86
+msgid "Giveaways and free products"
+msgstr "Pemberian dan produk percuma"
+
+#: admin/modules/premium_upgrade/views/page_content.php:87
+#: admin/views/_premium_features_sidebar.php:17
+#: admin/views/_upgrade_to_pro_metabox.php:35
+msgid "Offer store credits and gift cards"
+msgstr "Tawaran kredit kedai dan kad hadiah"
+
+#: admin/modules/premium_upgrade/views/page_content.php:88
+msgid "Create exclusive coupons based on purchase history"
+msgstr "Cipta kupon eksklusif berdasarkan sejarah pembelian"
+
+#: admin/modules/premium_upgrade/views/page_content.php:89
+msgid "Offer sign-up coupons to new users"
+msgstr "Tawarkan kupon pendaftaran kepada pengguna baru"
+
+#: admin/modules/premium_upgrade/views/page_content.php:92
+msgid "Save lost sales with cart abandonment coupons"
+msgstr "Simpan jualan yang hilang dengan kupon pengabaian troli"
+
+#: admin/modules/premium_upgrade/views/page_content.php:93
+msgid "Create location-specific coupons"
+msgstr "Buat kupon khusus lokasi"
+
+#: admin/modules/premium_upgrade/views/page_content.php:94
+#: admin/views/_premium_features_sidebar.php:20
+#: admin/views/_upgrade_to_pro_metabox.php:38
+msgid "Bulk generate coupons"
+msgstr "Jana kupon secara pukal"
+
+#: admin/modules/premium_upgrade/views/page_content.php:95
+#: admin/views/_premium_features_sidebar.php:28
+#: admin/views/_upgrade_to_pro_metabox.php:46
+msgid "Display coupon banners and widgets"
+msgstr "Pamerkan sepanduk kupon dan widget"
+
+#: admin/modules/premium_upgrade/views/page_content.php:96
+msgid "Import coupons from CSV"
+msgstr "Import kupon daripada CSV"
+
+#: admin/modules/premium_upgrade/views/page_content.php:116
+msgid "Show cookie notice based on Geo IP"
+msgstr "Tunjukkan pemberitahuan kuki berdasarkan Geo IP"
+
+#: admin/modules/premium_upgrade/views/page_content.php:132
+msgid "WooCommerce Product Recommendations"
+msgstr "Cadangan Produk WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:133
+msgid ""
+"Create smart product recommendation campaigns on your WooCommerce store"
+msgstr "Cipta kempen cadangan produk pintar di kedai WooCommerce anda"
+
+#: admin/modules/premium_upgrade/views/page_content.php:135
+msgid "Built-in recommendation templates"
+msgstr "Templat cadangan terbina dalam"
+
+#: admin/modules/premium_upgrade/views/page_content.php:136
+msgid "Bestsellers, New arrivals, FBT, Recently viewed & more"
+msgstr "Bestsellers, Keluaran baru, FBT, Baru-baru ini dilihat & banyak lagi"
+
+#: admin/modules/premium_upgrade/views/page_content.php:137
+msgid "Supports all types of WooCommerce products"
+msgstr "Menyokong semua jenis produk WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:140
+msgid "Advanced conditions for showing recommendations"
+msgstr "Syarat lanjutan untuk menunjukkan cadangan"
+
+#: admin/modules/premium_upgrade/views/page_content.php:141
+msgid "Recommend products on different store pages"
+msgstr "Cadangkan produk di halaman kedai yang berbeza"
+
+#: admin/modules/premium_upgrade/views/page_content.php:151
+msgid "WooCommerce Coupon Generator"
+msgstr "Penjana Kupon WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:152
+msgid ""
+"Bulk generate hundreds or thousands of WooCommerce coupons with few clicks"
+msgstr "Jana ratusan atau ribuan kupon WooCommerce dengan beberapa klik"
+
+#: admin/modules/premium_upgrade/views/page_content.php:154
+msgid "Create unique WooCommerce coupons"
+msgstr "Cipta kupon WooCommerce unik"
+
+#: admin/modules/premium_upgrade/views/page_content.php:155
+msgid "Add prefixes & suffixes to custom coupon codes"
+msgstr "Tambah awalan & akhiran pada kod kupon tersuai"
+
+#: admin/modules/premium_upgrade/views/page_content.php:156
+msgid "Email coupons to multiple recipients"
+msgstr "E-mel kupon kepada berbilang penerima"
+
+#: admin/modules/premium_upgrade/views/page_content.php:157
+msgid "Advanced usage restrictions for coupons"
+msgstr "Sekatan penggunaan lanjutan untuk kupon"
+
+#: admin/modules/premium_upgrade/views/page_content.php:158
+msgid "Export bulk generated coupons to CSV"
+msgstr "Eksport kupon pukal yang dijana ke CSV"
+
+#: admin/modules/premium_upgrade/views/page_content.php:166
+msgid "WooCommerce Gift Cards"
+msgstr "Kad Hadiah WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:167
+msgid ""
+"Create digital and physical gift cards and allow your customers to buy, "
+"redeem, and share"
+msgstr ""
+"Cipta kad hadiah digital dan fizikal dan benarkan pelanggan anda untuk "
+"membeli, menebus, dan berkongsi"
+
+#: admin/modules/premium_upgrade/views/page_content.php:169
+msgid "Unlimited number of gift cards"
+msgstr "Bilangan kad hadiah tanpa had"
+
+#: admin/modules/premium_upgrade/views/page_content.php:170
+msgid "20+ free gift card templates"
+msgstr "Lebih 20+ templat kad hadiah percuma"
+
+#: admin/modules/premium_upgrade/views/page_content.php:171
+msgid "Provide instant refunds to store credits"
+msgstr "Sediakan pembayaran balik segera kepada kredit kedai"
+
+#: admin/modules/premium_upgrade/views/page_content.php:172
+msgid "Upload custom images for gift cards"
+msgstr "Muat naik imej tersuai untuk kad hadiah"
+
+#: admin/modules/premium_upgrade/views/page_content.php:175
+msgid "Gift this product option"
+msgstr "Hadiahkan pilihan produk ini"
+
+#: admin/modules/premium_upgrade/views/page_content.php:176
+msgid "Send free gift cards to users"
+msgstr "Hantar kad hadiah percuma kepada pengguna"
+
+#: admin/modules/premium_upgrade/views/page_content.php:177
+msgid "Sell physical gift cards"
+msgstr "Jual kad hadiah fizikal"
+
+#: admin/modules/premium_upgrade/views/page_content.php:178
+msgid "Schedule gift cards for auto-delivery"
+msgstr "Jadualkan kad hadiah untuk penghantaran automatik"
+
+#: admin/modules/premium_upgrade/views/page_content.php:189
+msgid ""
+"Generate unique coupon URLs and QR code discounts for promotional offers"
+msgstr "Buat URL kupon unik dan diskaun kod QR untuk tawaran promosi"
+
+#: admin/modules/premium_upgrade/views/page_content.php:191
+msgid "Create unique coupon URLs"
+msgstr "Cipta URL kupon unik"
+
+#: admin/modules/premium_upgrade/views/page_content.php:192
+msgid "Generate QR codes for coupons"
+msgstr "Hasilkan kod QR untuk kupon"
+
+#: admin/modules/premium_upgrade/views/page_content.php:193
+msgid "Click to apply coupons"
+msgstr "Klik untuk memohon kupon"
+
+#: admin/modules/premium_upgrade/views/page_content.php:194
+msgid "Automatically add products to cart"
+msgstr "Tambah produk ke troli secara automatik"
+
+#: admin/modules/premium_upgrade/views/page_content.php:195
+msgid "Redirect users to specific pages"
+msgstr "Alih pengguna ke halaman tertentu"
+
+#: admin/modules/premium_upgrade/views/page_content.php:203
+msgid "WooCommerce Product Feed Plugin"
+msgstr "Pemalam Suapan Produk WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:204
+msgid ""
+"Get free listings of WooCommerce products on popular eCommerce sales "
+"channels"
+msgstr ""
+"Dapatkan senarai percuma produk WooCommerce di saluran jualan eCommerce yang"
+" popular"
+
+#: admin/modules/premium_upgrade/views/page_content.php:206
+msgid "Generate product feed for 20+ popular sales channels"
+msgstr "Hasilkan produk suapan untuk lebih 20 saluran jualan popular"
+
+#: admin/modules/premium_upgrade/views/page_content.php:207
+msgid "Supports Google Shopping programs"
+msgstr "Menyokong program Belanja Google"
+
+#: admin/modules/premium_upgrade/views/page_content.php:208
+msgid "Server cron for automated feed updates"
+msgstr "Kron pelayan untuk kemas kini suapan automatik"
+
+#: admin/modules/premium_upgrade/views/page_content.php:209
+msgid "Advanced filters and conditions for product feed"
+msgstr "Penapis lanjutan dan syarat untuk suapan produk"
+
+#: admin/modules/premium_upgrade/views/page_content.php:210
+msgid "Multilingual and Multicurrency Support"
+msgstr "Sokongan Pelbagai Bahasa dan Pelbagai Mata Wang"
+
+#: admin/modules/premium_upgrade/views/page_content.php:235
+#: admin/modules/premium_upgrade/views/page_content.php:322
+msgid "Plugin icon"
+msgstr "Ikon pemalam"
+
+#: admin/modules/premium_upgrade/views/page_content.php:239
+#: admin/modules/premium_upgrade/views/page_content.php:326
+msgid "Star rating"
+msgstr "Penarafan bintang"
+
+#: admin/modules/premium_upgrade/views/page_content.php:240
+#: admin/modules/premium_upgrade/views/page_content.php:327
+msgid "4.8"
+msgstr "4.8"
+
+#: admin/modules/premium_upgrade/views/page_content.php:263
+#: admin/modules/premium_upgrade/views/page_content.php:350
+msgid "Show more"
+msgstr "Tunjukkan lebih"
+
+#: admin/modules/premium_upgrade/views/page_content.php:264
+#: admin/modules/premium_upgrade/views/page_content.php:351
+msgid "Show less"
+msgstr "Tunjukkan kurang"
+
+#: admin/modules/premium_upgrade/views/page_content.php:270
+#: admin/modules/premium_upgrade/views/page_content.php:357
+msgid "Checkout plugin"
+msgstr "Plugin pembayaran"
+
+#: admin/modules/premium_upgrade/views/page_content.php:278
+#: admin/modules/premium_upgrade/views/page_content.php:365
+msgid "See, How this works"
+msgstr "Lihat, bagaimana ini berfungsi"
+
+#: admin/modules/premium_upgrade/views/page_content.php:284
+#: admin/modules/premium_upgrade/views/page_content.php:372
+msgid "Premium crown"
+msgstr "Mahkota premium"
+
+#: admin/modules/premium_upgrade/views/page_content.php:290
+msgid "Try with Confidence"
+msgstr "Cuba dengan Keyakinan"
+
+#: admin/modules/premium_upgrade/views/page_content.php:292
+msgid "Money back"
+msgstr "Wang pulang"
+
+#: admin/modules/premium_upgrade/views/page_content.php:293
+#: admin/views/_premium_features_sidebar.php:38
+msgid "30 Day Money Back Guarantee"
+msgstr "Jaminan Wang Dikembalikan 30 Hari"
+
+#: admin/modules/premium_upgrade/views/page_content.php:297
+msgid "Fast and Priority Support"
+msgstr "Sokongan Pantas dan Keutamaan"
+
+#: admin/modules/premium_upgrade/views/page_content.php:300
+msgid "Satisfaction"
+msgstr "Kepuasan"
+
+#: admin/modules/premium_upgrade/views/page_content.php:301
+msgid "99% Satisfaction rating"
+msgstr "99% Penilaian kepuasan"
+
+#: admin/modules/url_coupon/url_coupon.php:114
+msgid "Copy coupon URL"
+msgstr "Salin URL kupon"
+
+#: admin/modules/url_coupon/url_coupon.php:120
+msgid "How to use coupon URL?"
+msgstr "Bagaimana untuk menggunakan URL kupon?"
+
+#: admin/modules/url_coupon/url_coupon.php:140
+msgid "How to use coupon URL"
+msgstr "Cara menggunakan URL kupon"
+
+#: admin/modules/url_coupon/url_coupon.php:181
+#: admin/modules/url_coupon/url_coupon.php:188
+#: admin/modules/url_coupon/views/_tab_data.php:7
+msgid "URL coupon"
+msgstr "Kupon URL"
+
+#: admin/modules/url_coupon/views/_tab_data.php:8
+msgid ""
+"The plugin auto generates a unique URL for all the coupons created in your "
+"store. Visiting the URL associated with a coupon will automatically redirect"
+" the users to the cart page by applying the coupon. You can embed a URL in a"
+" button, and your customer can click the button to apply the coupon."
+msgstr ""
+"Plugin ini secara automatik menjana URL unik untuk semua kupon yang dicipta "
+"di kedai anda. Melawat URL yang dikaitkan dengan kupon akan secara automatik"
+" mengarahkan pengguna ke halaman troli dengan menggunakan kupon tersebut. "
+"Anda boleh menyematkan URL dalam butang, dan pelanggan anda boleh klik "
+"butang tersebut untuk menggunakan kupon."
+
+#: admin/modules/url_coupon/views/_tab_data.php:10
+msgid "Prerequisite:"
+msgstr "Prasyarat:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:10
+msgid ""
+"Ensure that you have created a coupon with the required configuration to use"
+" it as a URL coupon."
+msgstr ""
+"Pastikan anda telah mencipta kupon dengan konfigurasi yang diperlukan untuk "
+"menggunakannya sebagai kupon URL"
+
+#: admin/modules/url_coupon/views/_tab_data.php:12
+msgid "URL coupon format:"
+msgstr "Format kupon URL:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:15
+msgid "A sample URL coupon will be in the given format:"
+msgstr "Contoh kupon URL akan dalam format berikut:"
+
+#: admin/modules/url_coupon/views/_tab_data.php:17
+msgid "In the above example,"
+msgstr "Dalam contoh di atas"
+
+#: admin/modules/url_coupon/views/_tab_data.php:19
+msgid "corresponds to the site URL"
+msgstr "sepadan dengan URL tapak"
+
+#: admin/modules/url_coupon/views/_tab_data.php:20
+msgid "'?wt_coupon' refers to the URL coupon key"
+msgstr "'?wt_coupon' merujuk kepada kunci kupon URL"
+
+#: admin/modules/url_coupon/views/_tab_data.php:21
+msgid "'flat30' is the coupon code"
+msgstr "'flat30' adalah kod kupon"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:24
+msgid "Make the most out of URL coupons with URL coupons Pro"
+msgstr "Manfaatkan sepenuhnya kupon URL dengan URL coupons Pro"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid "Custom URLs"
+msgstr "URL Tersuai"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:34
+msgid ""
+"Generate customized coupon URLs (example:www.mystore.com/happybirthday)"
+msgstr "Jana URL kupon tersuai (contoh:www.mystore.com/happybirthday)"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid "Set up a redirect page"
+msgstr "Tetapkan halaman alihan"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:40
+msgid ""
+"Configure the URL to redirect to either cart or checkout page when it is "
+"clicked."
+msgstr ""
+"Konfigurasikan URL untuk mengalihkan sama ada ke halaman bakul atau "
+"pembayaran apabila diklik"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Create QR code coupons"
+msgstr "Cipta kupon kod QR"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:50
+msgid "Embed URL coupons in QRCodes to create QR code coupons."
+msgstr "Benamakan kupon URL dalam kod QR untuk membuat kupon kod QR"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid "Automatically add products"
+msgstr "Tambah produk secara automatik"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:56
+msgid ""
+"Assign a product to the URL to be automatically added to the customer’s cart"
+" upon activating it."
+msgstr ""
+"Tugaskan produk kepada URL untuk dimasukkan secara automatik ke dalam "
+"keranjang pelanggan setelah diaktifkan"
+
+#: admin/modules/url_coupon/views/_upgrade_to_pro.php:64
+msgid "Upgrade to URL coupons Pro"
+msgstr "Naik taraf ke URL coupons Pro"
+
+#: admin/views/_help_links_meta_box.php:13
+msgid "Set up BOGO offer"
+msgstr "Tetapkan tawaran BOGO"
+
+#: admin/views/_help_links_meta_box.php:17
+msgid "Create 'Seasonal Discount' offer"
+msgstr "Cipta tawaran 'Diskaun Musim'"
+
+#: admin/views/_help_links_meta_box.php:21
+msgid "Auto apply coupons on checkout"
+msgstr "Terapkan kupon secara automatik semasa pembayaran"
+
+#: admin/views/_help_links_meta_box.php:25
+msgid "Offer discount based on Shipping/Payment/User role"
+msgstr "Tawarkan diskaun berdasarkan Penghantaran/Pembayaran/Peranan Pengguna"
+
+#: admin/views/_help_links_meta_box.php:37
+msgid "Here are a few links that explains types of offers you can create."
+msgstr ""
+"Berikut adalah beberapa pautan yang menerangkan jenis tawaran yang boleh "
+"anda buat"
+
+#: admin/views/_help_links_meta_box.php:54
+msgid "To know more, read "
+msgstr "Untuk mengetahui lebih lanjut, baca "
+
+#: admin/views/_help_links_meta_box.php:56
+msgid "documentation"
+msgstr "dokumentasi"
+
+#: admin/views/_hooks_list.php:24
+msgid "Copy to clipboard"
+msgstr "Salin ke papan klip"
+
+#: admin/views/_hooks_list.php:24 admin/views/_hooks_list.php:37
+msgid "Copy"
+msgstr "Salin"
+
+#: admin/views/_hooks_list.php:81
+msgid "Hooks"
+msgstr "Cangkuk"
+
+#: admin/views/_hooks_list.php:82
+msgid "Some useful `hooks` to extend the plugin's functionality"
+msgstr "Beberapa `hook` berguna untuk melanjutkan fungsi plugin"
+
+#: admin/views/_premium_features_sidebar.php:11
+msgid "Make Irresistible Coupon Campaigns with Powerful Features"
+msgstr "Buat Kempen Kupon yang Tidak Dapat Ditolak dengan Ciri-ciri Hebat"
+
+#: admin/views/_premium_features_sidebar.php:14
+msgid "TheTopPercentile Coupons Pro"
+msgstr "Kupon Pintar untuk WooCommerce Pro"
+
+#: admin/views/_premium_features_sidebar.php:16
+#: admin/views/_upgrade_to_pro_metabox.php:34
+msgid "Create advanced BOGO coupons"
+msgstr "Buat kupon BOGO lanjutan"
+
+#: admin/views/_premium_features_sidebar.php:18
+#: admin/views/_upgrade_to_pro_metabox.php:36
+msgid "Set up smart giveaway campaigns"
+msgstr "Tetapkan kempen pemberian pintar"
+
+#: admin/views/_premium_features_sidebar.php:21
+#: admin/views/_upgrade_to_pro_metabox.php:39
+msgid "Coupons to boost conversion rate:"
+msgstr "Kupon untuk meningkatkan kadar penukaran"
+
+#: admin/views/_premium_features_sidebar.php:24
+#: admin/views/_upgrade_to_pro_metabox.php:42
+msgid "Sign up coupons"
+msgstr "Kupon daftar"
+
+#: admin/views/_premium_features_sidebar.php:27
+#: admin/views/_upgrade_to_pro_metabox.php:45
+msgid "Create day-specific deals"
+msgstr "Cipta tawaran khusus hari"
+
+#: admin/views/_premium_features_sidebar.php:29
+#: admin/views/_upgrade_to_pro_metabox.php:47
+msgid "Import coupons"
+msgstr "Import kupon"
+
+#: admin/views/_premium_features_sidebar.php:31
+msgid "View all powerful options.."
+msgstr "Lihat semua pilihan berkuasa"
+
+#: admin/views/_premium_features_sidebar.php:32
+#: admin/views/_upgrade_to_pro_metabox.php:50
+msgid "View less..."
+msgstr "Lihat kurang..."
+
+#: admin/views/_premium_features_sidebar.php:42
+msgid "99% Customer Satisfaction rating"
+msgstr "Penilaian Kepuasan Pelanggan 99%"
+
+#: admin/views/_setup_video_sidebar.php:13
+msgid "Watch setup video"
+msgstr "Tonton video pemasangan"
+
+#: admin/views/admin-help.php:11
+msgid "Help links"
+msgstr "Pautan bantuan"
+
+#: admin/views/admin-help.php:17 admin/views/admin-help.php:20
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: admin/views/admin-help.php:18
+msgid "Refer to our documentation to set up and get started"
+msgstr "Rujuk dokumentasi kami untuk menetapkan dan memulakan"
+
+#: admin/views/admin-help.php:25
+msgid "Help and Support"
+msgstr "Bantuan dan Sokongan"
+
+#: admin/views/admin-help.php:26
+msgid "We would love to help you on any queries or issues."
+msgstr "Kami sedia membantu anda dengan sebarang pertanyaan atau masalah"
+
+#: admin/views/admin-help.php:28
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+#: admin/views/admin-settings-debug.php:14 admin/views/general_settings.php:32
+msgid "Debug"
+msgstr "Nyahpepijat"
+
+#: admin/views/admin-settings-debug.php:15
+msgid "Caution: Settings here are only for advanced users."
+msgstr "Perhatian: Tetapan ini hanya untuk pengguna mahir"
+
+#: admin/views/admin-settings-debug.php:34
+msgid "Public modules"
+msgstr "Modul awam"
+
+#: admin/views/admin-settings-debug.php:56
+msgid "Common modules"
+msgstr "Modul umum"
+
+#: admin/views/admin-settings-debug.php:79
+msgid "Admin modules"
+msgstr "Modul pentadbiran"
+
+#: admin/views/admin-settings-save-button.php:6
+msgid "Save settings"
+msgstr "Simpan tetapan"
+
+#: admin/views/general_settings.php:27
+msgid "Help guide"
+msgstr "Panduan bantuan"
+
+#: admin/views/general_settings.php:28
+msgid "Develop"
+msgstr "Membangunkan"
+
+#: blocks/wt-sc-blocks.php:91
+msgid "coupon_code"
+msgstr "kod_kupon"
+
+#: common/modules/bogo/bogo.php:290
+msgid "{bogo_title} applied!"
+msgstr "{bogo_title} telah digunakan!"
+
+#: common/modules/bogo/bogo.php:291
+msgid "Giveaway added to cart!"
+msgstr "Hadiah percuma ditambah ke dalam troli"
+
+#: common/modules/coupon_category/coupon_category.php:64
+#: common/modules/coupon_category/coupon_category.php:158
+msgid "Categories"
+msgstr "Kategori"
+
+#: common/modules/coupon_category/coupon_category.php:117
+msgid "Select category"
+msgstr "Pilih kategori"
+
+#: common/modules/coupon_category/coupon_category.php:148
+#, fuzzy
+#| msgid "Categories"
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr "Kategori"
+
+#: common/modules/coupon_category/coupon_category.php:149
+#, fuzzy
+#| msgid "Category"
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Kategori"
+
+#: common/modules/coupon_category/coupon_category.php:150
+msgid "Search categories"
+msgstr "Cari kategori"
+
+#: common/modules/coupon_category/coupon_category.php:151
+msgid "All categories"
+msgstr "Semua kategori"
+
+#: common/modules/coupon_category/coupon_category.php:152
+msgid "Parent category"
+msgstr "Kategori induk"
+
+#: common/modules/coupon_category/coupon_category.php:153
+msgid "Parent category:"
+msgstr "Kategori induk:"
+
+#: common/modules/coupon_category/coupon_category.php:154
+msgid "Edit category"
+msgstr "Edit kategori"
+
+#: common/modules/coupon_category/coupon_category.php:155
+msgid "Update category"
+msgstr "Kemas kini kategori"
+
+#: common/modules/coupon_category/coupon_category.php:156
+msgid "Add new category"
+msgstr "Tambah kategori baharu"
+
+#: common/modules/coupon_category/coupon_category.php:157
+msgid "New category name"
+msgstr "Nama kategori baru"
+
+#: common/modules/coupon_category/coupon_category.php:159
+msgid "View category"
+msgstr "Lihat kategori"
+
+#: common/modules/coupon_category/coupon_category.php:160
+msgid "Popular categories"
+msgstr "Kategori popular"
+
+#: common/modules/coupon_category/coupon_category.php:161
+msgid "Not found"
+msgstr "Tidak ditemui"
+
+#: common/modules/coupon_category/coupon_category.php:162
+msgid "Most used"
+msgstr "Paling banyak digunakan"
+
+#: common/modules/coupon_category/coupon_category.php:205
+#: common/modules/coupon_category/coupon_category.php:206
+msgid "Coupon category"
+msgstr "Kategori kupon"
+
+#: common/modules/coupon_shortcode/coupon_shortcode.php:52
+msgid "Invalid coupon"
+msgstr "Kupon tidak sah"
+
+#: common/modules/coupon_style/coupon_style.php:153
+msgid "Expired coupon"
+msgstr "Kupon tamat tempoh"
+
+#: common/modules/coupon_style/coupon_style.php:178
+msgid "Style 1"
+msgstr "Gaya 1"
+
+#: common/modules/coupon_style/coupon_style.php:288
+msgid "Click to apply coupon"
+msgstr "Klik untuk menggunakan kupon"
+
+#: common/modules/coupon_style/coupon_style.php:339
+msgid "Buy X Get X/Y"
+msgstr "Beli X Dapat X/Y"
+
+#: common/modules/giveaway_product/giveaway_product.php:97
+msgid "BOGO (Buy X Get X/Y) offer"
+msgstr "Tawaran BOGO (Beli X Dapat X/Y)"
+
+#: common/modules/giveaway_product/giveaway_product.php:183
+msgid "Any product from specific category (Pro)"
+msgstr "Mana-mana produk daripada kategori tertentu (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:184
+msgid "Any product in store (Pro)"
+msgstr "Mana-mana produk dalam kedai (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:185
+msgid "Same product as in the cart (Pro)"
+msgstr "Produk yang sama seperti dalam troli (Pro)"
+
+#: common/modules/giveaway_product/giveaway_product.php:194
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get below selected "
+"product/s for free or with a discount."
+msgstr ""
+"Pilih apa yang pelanggan dapatkan secara percuma atau dengan diskaun jika "
+"kelayakan atau syarat troli dipenuhi. Pelanggan anda akan mendapat produk "
+"yang dipilih di bawah secara percuma atau dengan diskaun"
+
+#: common/modules/giveaway_product/giveaway_product.php:195
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get product/s from "
+"below selected category for free or with a discount."
+msgstr ""
+"Pilih apa yang pelanggan dapatkan secara percuma atau dengan diskaun jika "
+"kelayakan atau syarat troli dipenuhi. Pelanggan anda akan mendapat produk "
+"daripada kategori yang dipilih di bawah secara percuma atau dengan diskaun"
+
+#: common/modules/giveaway_product/giveaway_product.php:196
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get any product/s "
+"from the store that are eligible for free or with a discount."
+msgstr ""
+"Pilih apa yang pelanggan dapatkan secara percuma atau dengan diskaun jika "
+"kelayakan atau syarat bakul dipenuhi. Pelanggan anda akan mendapat mana-mana"
+" produk dari kedai yang layak secara percuma atau dengan diskaun"
+
+#: common/modules/giveaway_product/giveaway_product.php:197
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get the same product "
+"as in the cart that are configured in product restriction section."
+msgstr ""
+"Pilih apa yang pelanggan dapatkan secara percuma atau dengan diskaun jika "
+"kelayakan atau syarat troli dipenuhi. Pelanggan anda akan mendapatkan produk"
+" yang sama seperti dalam troli yang dikonfigurasikan dalam bahagian sekatan "
+"produk"
+
+#: common/modules/giveaway_product/giveaway_product.php:198
+msgid ""
+"Choose what the customers get for free or with a discount if the cart "
+"eligibility or conditions are met. Your customers will get a product from "
+"the same category as in the cart that are configured in the category "
+"restriction section."
+msgstr ""
+"Pilih apa yang pelanggan dapatkan secara percuma atau dengan diskaun jika "
+"kelayakan troli atau syarat dipenuhi. Pelanggan anda akan mendapatkan produk"
+" dari kategori yang sama dalam troli yang dikonfigurasikan di bahagian "
+"sekatan kategori"
+
+#: includes/class-wt-smart-coupon-activator.php:39
+msgid "Oops! Woocommerce not activated.."
+msgstr "Oops! Woocommerce tidak diaktifkan.."
+
+#: includes/class-wt-smart-coupon.php:696
+msgid "Go to plugins page"
+msgstr "Pergi ke halaman pemalam"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:19
+msgid "Used it successfully. Don't need anymore."
+msgstr "Telah digunakan dengan berjaya. Tidak perlukan lagi"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:21
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Telah menggunakannya dengan berjaya dan tidak memerlukannya lagi"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:25
+msgid "I couldn't understand how to make it work"
+msgstr "Saya tidak dapat memahami bagaimana untuk membuatnya berfungsi"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:27
+msgid "Would you like us to assist you?"
+msgstr "Adakah anda mahu kami membantu anda?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:31
+msgid "I found a better plugin"
+msgstr "Saya menemui plugin yang lebih baik"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:33
+msgid "Which plugin?"
+msgstr "Plugin yang mana"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:37
+msgid ""
+"The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Plugin ini hebat, tetapi saya memerlukan ciri khusus yang anda tidak sokong"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:39
+msgid "Could you tell us more about that feature?"
+msgstr "Bolehkan anda memberitahu kami lebih lanjut mengenai ciri itu?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:43
+msgid "The plugin is not working"
+msgstr "Plugin tersebut tidak berfungsi"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:45
+msgid "Could you tell us a bit more whats not working?"
+msgstr ""
+"Boleh anda ceritakan sedikit lebih lanjut tentang apa yang tidak berfungsi?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:49
+msgid "It's not what I was looking for"
+msgstr "Ia bukan apa yang saya cari"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:55
+msgid "The plugin didn't work as expected"
+msgstr "Plugin tersebut tidak berfungsi seperti yang dijangkakan"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:57
+msgid "What did you expect?"
+msgstr "Apa yang anda harapkan?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:61
+msgid "Upgraded to premium version"
+msgstr "Dinaik taraf ke versi premium"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:67
+msgid "Other"
+msgstr "Lain"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:69
+msgid "Could you tell us a bit more?"
+msgstr "Boleh tak anda ceritakan sedikit lagi?"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:88
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+"Jika anda mempunyai masa, sila beritahu kami mengapa anda menyahaktifkan:"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:99
+msgid ""
+"We do not collect any personal data when you submit this form. It's your "
+"feedback that we value."
+msgstr ""
+"Kami tidak mengumpul sebarang data peribadi apabila anda menghantar borang "
+"ini. Maklum balas anda yang kami hargai."
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:100
+msgid "Privacy Policy"
+msgstr "Dasar Privasi"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:104
+msgid "I rather wouldn't say"
+msgstr "Saya lebih suka tidak mengatakan"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:105
+msgid "Contact Support"
+msgstr "Hubungi Sokongan"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:106
+msgid "Submit & Deactivate"
+msgstr "Serahkan & Nyahaktifkan"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:189
+msgid "Deactivate and leave a review"
+msgstr "Nyahaktifkan dan tinggalkan ulasan"
+
+#: includes/class-wt-smartcoupon-uninstall-feedback.php:191
+msgid "Let our support team help you"
+msgstr "Biarkan pasukan sokongan kami membantu anda"
+
+#: public/class-myaccount-smart-coupon.php:50
+#: public/class-myaccount-smart-coupon.php:70
+msgid "My Coupons"
+msgstr "Kupon Saya"
+
+#: public/class-wt-smart-coupon-public.php:144
+msgid "Please choose a variation"
+msgstr "Sila pilih variasi"
+
+#: public/class-wt-smart-coupon-public.php:145
+msgid "Error !!!"
+msgstr "Ralat !!!"
+
+#: public/class-wt-smart-coupon-public.php:182
+#: public/class-wt-smart-coupon-public.php:187
+msgid "Product discount"
+msgstr "Diskaun produk"
+
+#: public/class-wt-smart-coupon-public.php:209
+msgid "Free shipping"
+msgstr "Penghantaran percuma"
+
+#: public/class-wt-smart-coupon-public.php:218
+#: public/modules/giveaway_product/giveaway_product.php:1608
+msgid "Free products"
+msgstr "Produk percuma"
+
+#: public/class-wt-smart-coupon-public.php:280
+msgid "Starts on "
+msgstr "Bermula pada "
+
+#: public/class-wt-smart-coupon-public.php:280
+msgid "Expires on "
+msgstr "Tamat pada "
+
+#: public/class-wt-smart-coupon-public.php:821
+msgid "Sorry, you don't have any available coupons"
+msgstr "Maaf, anda tidak mempunyai kupon yang tersedia"
+
+#: public/class-wt-smart-coupon-public.php:859
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: public/class-wt-smart-coupon-public.php:874
+msgid "Next"
+msgstr "Seterusnya"
+
+#: public/class-wt-smart-coupon-public.php:1000
+msgid "Coupon code applied successfully, Please add products into cart"
+msgstr "Kod kupon berjaya digunakan, Sila tambah produk ke dalam troli"
+
+#: public/modules/auto_coupon/auto_coupon.php:500
+#: public/modules/url_coupon/url_coupon.php:66
+msgid "Coupon code applied successfully"
+msgstr "Kod kupon berjaya digunakan"
+
+#: public/modules/auto_coupon/auto_coupon.php:568
+msgid "Free shipping coupon"
+msgstr "Kupon penghantaran percuma"
+
+#: public/modules/bogo/bogo.php:262
+msgid "Sorry, this coupon is not applicable to selected products."
+msgstr "Maaf, kupon ini tidak boleh digunakan untuk produk terpilih"
+
+#: public/modules/bogo/bogo.php:567
+msgid "Coupon: "
+msgstr "Kupon: "
+
+#: public/modules/bogo/bogo.php:1224 public/modules/bogo/bogo.php:1887
+msgid "Discounted price: "
+msgstr "Harga diskaun: "
+
+#: public/modules/bogo/bogo.php:1545
+#: public/modules/giveaway_product/giveaway_product.php:679
+#: public/modules/giveaway_product/giveaway_product.php:697
+msgid "Oops! It seems like you've made an invalid request. Please try again."
+msgstr "Oops! Nampaknya permintaan anda tidak sah. Sila cuba lagi"
+
+#: public/modules/bogo/bogo.php:1757
+#: public/modules/giveaway_product/giveaway_product.php:331
+msgid "Invalid request"
+msgstr "Permintaan tidak sah"
+
+#: public/modules/bogo/bogo.php:1782
+#: public/modules/bogo/views/-cart-giveaway-products.php:135
+#: public/modules/giveaway_product/giveaway_product.php:348
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:111
+msgid "Sorry! this product is not available for giveaway."
+msgstr "Maaf! produk ini tidak tersedia untuk pemberian percuma"
+
+#: public/modules/bogo/views/-cart-giveaway-products.php:211
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:198
+msgid "Choose an option"
+msgstr "Pilih satu pilihan"
+
+#: public/modules/bogo/views/-cart-giveaway-products.php:237
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:221
+msgid "Choose Product"
+msgstr "Pilih Produk"
+
+#: public/modules/checkout_options/checkout_options.php:111
+msgid "Sorry, this coupon is not applicable to selected shipping method"
+msgstr ""
+"Maaf, kupon ini tidak boleh digunakan untuk kaedah penghantaran yang dipilih"
+
+#: public/modules/checkout_options/checkout_options.php:130
+msgid "Sorry, this coupon is not applicable to selected Payment method"
+msgstr "Maaf, kupon ini tidak sah untuk kaedah Pembayaran yang dipilih"
+
+#: public/modules/checkout_options/checkout_options.php:149
+msgid "Sorry, this coupon is not applicable for your Role"
+msgstr "Maaf, kupon ini tidak boleh digunakan untuk Peranan anda"
+
+#: public/modules/checkout_options/checkout_options.php:178
+msgid "Sorry, this coupon is not applicable to selected location"
+msgstr "Maaf, kupon ini tidak boleh digunakan di lokasi yang dipilih"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:97
+msgid ""
+"Your cart does not meet the quantity eligibility criteria for this coupon."
+msgstr "Troli anda tidak memenuhi kriteria kelayakan kuantiti untuk kupon ini"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:197
+msgid "the category"
+msgstr "kategori"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:451
+msgid "the product"
+msgstr "produk"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:549
+#: public/modules/exclude-product/exclude-product.php:174
+msgid "Sorry, this coupon is not applicable for selected products."
+msgstr "Maaf, kupon ini tidak boleh digunakan untuk produk terpilih"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:702
+#, php-format
+msgid "Sorry, the coupon %s is not applicable for selected products."
+msgstr "Maaf, kupon %s tidak boleh digunakan untuk produk yang dipilih"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:833
+#: public/modules/coupon_restriction/coupon_restriction.php:842
+#, php-format
+msgid "The minimum subtotal of matching products for this coupon is %s."
+msgstr "Jumlah kecil minimum produk yang sepadan untuk kupon ini adalah %s"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:858
+#, php-format
+msgid "The maximum subtotal of matching products for this coupon is %s."
+msgstr ""
+"Jumlah maksimum subtotal bagi produk yang sepadan untuk kupon ini ialah %s"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:942
+#, php-format
+msgid ""
+"Coupon applies to %s quantity. Please move eligible number of products in "
+"the cart to redeem the coupon."
+msgstr ""
+"Kupon digunakan untuk %s kuantiti. Sila pindahkan bilangan produk yang layak"
+" ke dalam troli untuk menebus kupon"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:945
+#, php-format
+msgid ""
+"Each eligible cart item requires minimum %s quantity, please add more items "
+"to cart to redeem the coupon."
+msgstr ""
+"Setiap item dalam troli yang layak memerlukan kuantiti minimum %s, sila "
+"tambah lebih banyak item ke dalam troli untuk menebus kupon"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:951
+#, php-format
+msgid "The maximum quantity of matching products for this coupon is %s."
+msgstr "Kuantiti maksimum produk yang sepadan untuk kupon ini ialah %s"
+
+#: public/modules/coupon_restriction/coupon_restriction.php:954
+#, php-format
+msgid "The maximum allowed quantity for each eligible item is %s"
+msgstr ""
+"Kuantiti maksimum yang dibenarkan untuk setiap item yang layak adalah %s"
+
+#: public/modules/giveaway_product/giveaway_product.php:505
+#: public/modules/giveaway_product/giveaway_product.php:2134
+msgid "Congratulations! You've got a freebie in your cart!"
+msgstr "Tahniah! Anda mempunyai hadiah percuma dalam troli anda!"
+
+#: public/modules/giveaway_product/giveaway_product.php:605
+msgid "Lucky You! Your cart is now loaded with incredible giveaway goodies!"
+msgstr ""
+"Bertuah anda! Troli anda kini penuh dengan barang percuma yang menakjubkan!"
+
+#: public/modules/giveaway_product/giveaway_product.php:682
+msgid ""
+"Oops! It seems like you've moved an invalid product to cart. Please try "
+"again."
+msgstr ""
+"Oops! Nampaknya anda telah memindahkan produk yang tidak sah ke dalam troli."
+" Sila cuba lagi."
+
+#: public/modules/giveaway_product/giveaway_product.php:685
+msgid ""
+"You've exceeded the maximum quantity of products to avail the giveaway."
+msgstr ""
+"Anda telah melebihi kuantiti maksimum produk untuk mendapatkan pemberian "
+"percuma"
+
+#: public/modules/giveaway_product/giveaway_product.php:688
+msgid "You've exceeded the maximum quantity allowed as a giveaway."
+msgstr ""
+"Anda sudah melebihi kuantiti maksimum yang dibenarkan sebagai pemberian"
+
+#: public/modules/giveaway_product/giveaway_product.php:691
+msgid ""
+"Something went wrong! It seems like there are no products available for this"
+" coupon. Please contact our support team."
+msgstr ""
+"Sesuatu telah berlaku salah! Nampaknya tiada produk yang tersedia untuk "
+"kupon ini. Sila hubungi pasukan sokongan kami"
+
+#: public/modules/giveaway_product/giveaway_product.php:694
+msgid ""
+"Seems like you have already moved all the giveaway products in the cart."
+msgstr ""
+"Nampaknya anda sudah memindahkan semua produk pemberian ke dalam troli"
+
+#: public/modules/giveaway_product/giveaway_product.php:702
+msgid "Please add more products to cart to avail more giveaway."
+msgstr ""
+"Sila tambah lebih banyak produk ke dalam troli untuk menikmati lebih banyak "
+"hadiah percuma"
+
+#: public/modules/giveaway_product/giveaway_product.php:1166
+msgid "Free gift"
+msgstr "Hadiah percuma"
+
+#: public/modules/giveaway_product/giveaway_product.php:2137
+#, php-format
+msgid "Surprise! You've received a special giveaway product with %s Off!"
+msgstr "Kejutan! Anda telah menerima produk pemberian khas dengan %s diskaun!"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:15
+msgid "Congratulations! Choose your freebie from below:"
+msgstr "Tahniah! Pilihlah hadiah percuma anda di bawah:"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:94
+msgid "Price: "
+msgstr "Harga: "
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:101
+msgid "Discount: "
+msgstr "Diskaun: "
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:236
+msgid "Add all to cart"
+msgstr "Tambahkan semua ke troli"
+
+#: public/modules/giveaway_product/views/_cart_giveaway_products.php:236
+msgid "Add to cart"
+msgstr "Tambah ke troli"
+
+#: public/templates/myaccount/my-account-coupon-view.php:23
+msgid "Available Coupons"
+msgstr "Kupon Tersedia"
+
+#: public/templates/myaccount/my-account-coupon-view.php:26
+msgid "Sort by"
+msgstr "Susun mengikut"
+
+#: public/templates/myaccount/my-account-coupon-view.php:29
+msgid "Latest first"
+msgstr "Terbaru dahulu"
+
+#: public/templates/myaccount/my-account-coupon-view.php:30
+msgid "Latest last"
+msgstr "Terkini terakhir"
+
+#: public/templates/myaccount/my-account-coupon-view.php:31
+msgid "Price high to low"
+msgstr "Harga tinggi ke rendah"
+
+#: public/templates/myaccount/my-account-coupon-view.php:32
+msgid "Price low to high"
+msgstr "Harga dari rendah ke tinggi"
+
+#: public/templates/myaccount/my-account-coupon-view.php:53
+msgid "Used Coupons"
+msgstr "Kupon Terpakai"
+
+#: public/templates/myaccount/my-account-coupon-view.php:103
+msgid "Sorry, you don't have any used coupons"
+msgstr "Maaf, anda tidak mempunyai sebarang kupon yang telah digunakan"
+
+#: public/templates/myaccount/my-account-coupon-view.php:118
+msgid "Expired Coupons"
+msgstr "Kupon Luput"
+
+#: public/templates/myaccount/my-account-coupon-view.php:146
+msgid "Sorry, you don't have any expired coupons"
+msgstr "Maaf, anda tidak mempunyai sebarang kupon yang telah tamat tempoh"
+
+#. Plugin Name of the plugin/theme
+msgid "TheTopPercentile Coupons"
+msgstr "Kupon Pintar Untuk Kupon WooCommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"TheTopPercentile Coupons plugin adds advanced coupon features "
+"to your store to strengthen your marketing efforts and boost sales."
+msgstr ""
+"Plugin TheTopPercentile Coupons menambah ciri kupon lanjutan ke"
+" kedai anda untuk mengukuhkan usaha pemasaran anda dan meningkatkan jualan"
+
+#. Author URI of the plugin/theme
+msgid "https://www.thetoppercentile.com/"
+msgstr "https://www.thetoppercentile.com/"
+
+#: admin/class-wt-smart-coupon-admin.php:218
+msgid "Switch to our new BOGO module for the latest features"
+msgstr "Tukar kepada modul BOGO baru kami untuk ciri terkini."
+
+#: admin/class-wt-smart-coupon-admin.php:671
+msgid "Sign Up for Free"
+msgstr "Daftar secara percuma"
+
+#: admin/class-wt-smart-coupon-admin.php:807
+msgid "Access denied"
+msgstr "Akses ditolak"
+
+#: admin/class-wt-smart-coupon-admin.php:1047
+msgid "Version %s"
+msgstr "Versi %s"
+
+#: admin/modules/banner/class-wt-gdpr-promotion-banner.php:60
+msgid "Make Your WordPress Website Privacy Compliant!"
+msgstr "Jadikan Laman WordPress Anda Mematuhi Privasi!"
+
+#: admin/modules/banner/class-wt-gdpr-promotion-banner.php:68
+msgid ""
+"Ensure cookie compliance with GDPR and US State Privacy laws with our %1$s. "
+"Join over %2$s already trusting the GDPR Cookie Consent Plugin."
+msgstr ""
+"Pastikan pematuhan kuki dengan GDPR dan undang-undang Privasi Negeri AS "
+"dengan %1$s kami. Sertai lebih daripada %2$s yang telah mempercayai Plugin "
+"Kebenaran Kuki GDPR."
+
+#: admin/modules/banner/class-wt-gdpr-promotion-banner.php:69
+#: admin/modules/banner/class-wt-gdpr-promotion-banner.php:84
+msgid "Google-certified CMP Partner"
+msgstr "Rakan Kongsi CMP yang disahkan oleh Google"
+
+#: admin/modules/banner/class-wt-gdpr-promotion-banner.php:70
+msgid "1 million+ websites"
+msgstr "1 juta+ laman web"
+
+#: admin/modules/banner/class-wt-gdpr-promotion-banner.php:80
+msgid "Get plugin now"
+msgstr "Dapatkan pemalam sekarang"
+
+#: admin/modules/banner/class-wt-gdpr-promotion-banner.php:88
+msgid "Certified Partner"
+msgstr "Rakan Kongsi Bertauliah"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:59
+msgid ""
+"Create better coupon campaigns with advanced WooCommerce coupon features"
+msgstr ""
+"Cipta kempen kupon yang lebih baik dengan ciri kupon WooCommerce yang "
+"canggih"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:107
+msgid "Create attractive Buy X Get Y (BOGO) offers"
+msgstr "Buat tawaran menarik Beli X Dapat Y (BOGO)"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:108
+msgid "Create product quantity/subtotal based discounts"
+msgstr "Buat diskaun berdasarkan kuantiti/subtotal produk"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:111
+msgid "Set advanced coupon rules and conditions"
+msgstr "Tetapkan peraturan dan syarat kupon lanjutan"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:115
+msgid "Shipping, purchase history, and payment method-based coupons"
+msgstr ""
+"Kupon berdasarkan penghantaran, sejarah pembelian, dan kaedah pembayaran"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:122
+msgid "View all premium features"
+msgstr "Lihat semua ciri premium"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:127
+msgid "Get the plugin"
+msgstr "Dapatkan pemalam"
+
+#: admin/modules/banner/class-wt-smart-coupon-cta-banner.php:144
+msgid "Insufficient permissions"
+msgstr "Kebenaran tidak mencukupi"
+
+#. Translators: 1: Success tick icon.
+#: admin/modules/bogo/bogo.php:1373
+msgid "Code '{coupon_code}' copied %s"
+msgstr "Kod '{coupon_code}' disalin %s"
+
+#. Translators: 1: Success tick icon.
+#: admin/modules/bogo/bogo.php:1374
+msgid "success"
+msgstr "kejayaan"
+
+#: admin/modules/bogo/bogo.php:1376
+#: admin/modules/bogo/views/---edit-general.php:84
+msgid "Copy coupon code for admin use"
+msgstr "Salin kod kupon untuk kegunaan pentadbir"
+
+#: admin/modules/bogo/bogo.php:1377
+msgid "Failed to copy"
+msgstr "Gagal menyalin"
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing 5: span opening 6: span closing.
+#: admin/modules/bogo/bogo.php:1433
+msgid ""
+"Customer %s Spends %s at least %s {min} %s on %s Selected product(s) %s"
+msgstr ""
+"Pelanggan %s Membelanjakan %s sekurang-kurangnya %s {min} %s pada %s Produk "
+"terpilih %s"
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing 5: span opening 6: span closing.
+#: admin/modules/bogo/bogo.php:1473
+msgid ""
+"Customer %s Buys %s at least %s {min} %s quantities of %s Selected "
+"product(s) %s"
+msgstr ""
+"Pelanggan %s Membeli %s sekurang-kurangnya %s {min} %s kuantiti produk "
+"terpilih %s"
+
+#: admin/modules/bogo/views/---edit-general.php:84
+msgid "copy code"
+msgstr "salin kod"
+
+#: admin/modules/bogo/views/---edit-general.php:91
+msgid "Through coupon code %s"
+msgstr "Melalui kod kupon %s"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:47
+msgid "Discount type"
+msgstr "Jenis diskaun"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:51
+msgid "Select the type of discount you want to apply to the coupon"
+msgstr "Pilih jenis diskaun yang anda mahu terapkan kepada kupon"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:81
+msgid ""
+"The offer title is used to identify a BOGO campaign within the plugin and "
+"the store"
+msgstr ""
+"Tajuk tawaran digunakan untuk mengenal pasti kempen BOGO dalam pemalam dan "
+"kedai."
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:82
+msgid "Campaign title"
+msgstr "Tajuk kempen"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:89
+msgid "Trigger offer"
+msgstr "Cetus tawaran"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:93
+msgid ""
+"Choose how the offer should be triggered: automatically applied at checkout "
+"or through a coupon code"
+msgstr ""
+"Pilih cara tawaran tersebut harus dicetuskan: diterapkan secara automatik "
+"semasa pembayaran atau melalui kod kupon."
+
+#. Translators: 1: tooltip text.
+#: admin/modules/bogo/views/--bogo-bulk-general.php:105
+msgid "Automatically %s"
+msgstr "Secara automatik %s"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:128
+msgid "Offer Code Format"
+msgstr "Format Kod Tawaran"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:132
+msgid ""
+"Customize how your coupon codes are generated by adding a prefix or suffix. "
+"Example: \"BOGO-VJASISVY-2024\""
+msgstr ""
+"Sesuaikan cara kod kupon anda dijana dengan menambah awalan atau akhiran. "
+"Contoh: \"BOGO-VJASISVY-2024\""
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:135
+msgid "Prefix"
+msgstr "Awalan"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:136
+msgid "Offer code"
+msgstr "Kod tawaran"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:137
+msgid "Suffix"
+msgstr "Akhiran"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:139
+msgid "Type in prefix/ suffix if required"
+msgstr "Taip awalan/sufiks jika perlu"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:147
+msgid "Offer Code Length"
+msgstr "Panjang Kod Tawaran"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:151
+msgid "Set how many characters the auto-generated code should include"
+msgstr ""
+"Tetapkan berapa banyak aksara yang harus disertakan dalam kod yang dijana "
+"secara automatik."
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:161
+msgid "Display Offer On"
+msgstr "Papar Tawaran Pada"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:166
+msgid "Choose where shoppers will see the coupon offer"
+msgstr "Pilih di mana pembeli akan melihat tawaran kupon"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:234
+msgid "Schedule offer"
+msgstr "Jadualkan tawaran"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:238
+msgid "Enable this option to run the BOGO offer during a specific time period"
+msgstr ""
+"Aktifkan pilihan ini untuk menjalankan tawaran BOGO semasa tempoh masa "
+"tertentu."
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:262
+msgid "Choose when the BOGO offer will become active on your store"
+msgstr "Pilih bila tawaran BOGO akan menjadi aktif di kedai anda"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:271
+msgid "Ends in"
+msgstr "Tamat dalam"
+
+#: admin/modules/bogo/views/--bogo-bulk-general.php:274
+msgid "Set a specific end date and time for the BOGO offer"
+msgstr "Tetapkan tarikh dan masa tamat khusus untuk tawaran BOGO."
+
+#: admin/modules/bogo/views/-bogo-bulk-container.php:19
+msgid "General"
+msgstr "Umum"
+
+#: admin/modules/bogo/views/-bogo-bulk-container.php:21
+msgid "Offer trigger"
+msgstr "Pencetus tawaran"
+
+#: admin/modules/bogo/views/-bogo-bulk-container.php:22
+msgid "Limit"
+msgstr "Had"
+
+#: admin/modules/bogo/views/-step1.php:196
+msgid "Include free shipping"
+msgstr "Sertakan penghantaran percuma"
+
+#: admin/modules/bogo/views/-step1.php:208
+msgid "Combine free shipping with the offer"
+msgstr "Gabungkan penghantaran percuma dengan tawaran tersebut"
+
+#: admin/modules/bogo/views/-step1.php:232
+msgid "Caution"
+msgstr "Amaran"
+
+#: admin/modules/bogo/views/-step3.php:82
+msgid "How about some additional features?"
+msgstr "Bagaimana dengan beberapa ciri tambahan?"
+
+#: admin/modules/checkout_options/checkout_options.php:152
+msgid "Guest"
+msgstr "Tetamu"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:181
+msgid "Product restrictions"
+msgstr "Sekatan produk"
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:182
+msgid ""
+"Enable to apply the coupon only when the cart meets the specified product "
+"restrictions."
+msgstr ""
+"Aktifkan untuk menggunakan kupon hanya apabila troli memenuhi sekatan produk"
+" yang ditentukan."
+
+#: admin/modules/coupon_restriction/coupon_restriction.php:201
+msgid "Check out plugin %s"
+msgstr "Semak plugin %s"
+
+#: admin/modules/coupon_style/coupon_style.php:135
+msgid "This is a sample coupon description"
+msgstr "Ini adalah deskripsi kupon contoh."
+
+#: admin/modules/coupon_style/views/_customize.php:64
+msgid "Available coupon styles"
+msgstr "Gaya kupon yang tersedia"
+
+#: admin/modules/coupon_style/views/_customize.php:78
+msgid "Click to choose"
+msgstr "Klik untuk memilih"
+
+#: admin/modules/coupon_style/views/_customize.php:99
+msgid ""
+"Choose a style for the coupon types(status based: Active, Expired, "
+"Redeemed), from the available templates."
+msgstr ""
+"Pilih gaya untuk jenis kupon (berdasarkan status: Aktif, Tamat Tempoh, "
+"Ditebus) daripada templat yang tersedia."
+
+#: admin/modules/coupon_style/views/_customize.php:163
+msgid "Change layout"
+msgstr "Tukar susun atur"
+
+#: admin/modules/coupon_style/views/_customize.php:194
+msgid "Custom color"
+msgstr "Warna tersuai"
+
+#. translators: 1: a tag opening, 2: a tag closing
+#: admin/modules/giftcard-banner/giftcard-banner.php:129
+msgid "🎁 Drive More Sales with the %1$s Gift Card %2$s plugin!"
+msgstr "🎁 Tingkatkan Jualan dengan pemalam Kad Hadiah %1$s %2$s!"
+
+#. translators: 1: strong tag opening, 2: strong tag closing
+#: admin/modules/giftcard-banner/giftcard-banner.php:139
+msgid ""
+"Turn one-time buyers into loyal customers! Create, sell, and manage "
+"customizable gift cards with TheTopPercentile's %1$s free %2$s plugin!"
+msgstr ""
+"Ubah pembeli sekali menjadi pelanggan setia! Cipta, jual, dan urus kad "
+"hadiah boleh disesuaikan dengan plugin %1$s percuma %2$s dari TheTopPercentile!"
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:148
+msgid "Activate after installation"
+msgstr "Aktifkan selepas pemasangan"
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:154
+msgid "Download"
+msgstr "Muat turun"
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:157
+msgid "Not Interested"
+msgstr "Tidak berminat"
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:176
+#: admin/modules/giftcard-banner/giftcard-banner.php:277
+msgid "Something went wrong. Please try again."
+msgstr "Sesuatu telah berlaku kesilapan. Sila cuba lagi."
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:180
+msgid "You do not have sufficient permissions to install plugins."
+msgstr "Anda tidak mempunyai kebenaran yang mencukupi untuk memasang plugin."
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:198
+msgid "Plugin download link not found."
+msgstr "Pautan muat turun pemalam tidak ditemui."
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:249
+msgid "You do not have sufficient permissions to activate plugins."
+msgstr ""
+"Anda tidak mempunyai keizinan yang mencukupi untuk mengaktifkan plugin."
+
+#: admin/modules/giftcard-banner/giftcard-banner.php:259
+msgid "Activation failed. Please try again."
+msgstr "Pengaktifan gagal. Sila cuba lagi."
+
+#: admin/modules/premium_upgrade/views/page_content.php:105
+msgid "TheTopPercentile WooCommerce Marketing Automation App"
+msgstr "Aplikasi Automasi Pemasaran TheTopPercentile WooCommerce"
+
+#: admin/modules/premium_upgrade/views/page_content.php:106
+msgid ""
+"Streamline your eCommerce marketing with automation. Create dynamic popups, "
+"web campaigns, and marketing emails all in one place."
+msgstr ""
+"Permudah pemasaran eCommerce anda dengan automasi. Cipta pop-up dinamik, "
+"kempen web, dan e-mel pemasaran semuanya di satu tempat."
+
+#: admin/modules/premium_upgrade/views/page_content.php:108
+msgid "Dynamic Popups: Exit-intent, cart abandonment, and lead generation"
+msgstr ""
+"Popup Dinamik: Niat keluar, pengabaian keranjang, dan penjanaan petunjuk"
+
+#: admin/modules/premium_upgrade/views/page_content.php:109
+msgid ""
+"Email Marketing Automation: Welcome emails, cart recovery, win-back "
+"promotions, and thank-you emails"
+msgstr ""
+"Automasi Pemasaran E-mel: E-mel salam, pemulihan troli, promosi menang-"
+"kembali, dan e-mel terima kasih"
+
+#: admin/modules/premium_upgrade/views/page_content.php:112
+msgid "Email Customizer for personalized messaging"
+msgstr "Penyesuaian E-mel untuk pemesejan tersuai"
+
+#: admin/modules/premium_upgrade/views/page_content.php:113
+msgid "Pre-built Templates to save time"
+msgstr "Templat sedia bina untuk menjimatkan masa"
+
+#: admin/modules/premium_upgrade/views/page_content.php:114
+msgid "In-depth Analytics to track and optimize your performance"
+msgstr "Analitik mendalam untuk menjejak dan mengoptimumkan prestasi anda."
+
+#: admin/modules/premium_upgrade/views/page_content.php:120
+msgid "INTRODUCING 🔥"
+msgstr "MEMPERKENALKAN 🔥"
+
+#: common/modules/coupon_category/coupon_category.php:237
+msgid "Upgrade to Pro"
+msgstr "Tingkatkan ke Pro"
+
+#: common/modules/coupon_style/coupon_style.php:153
+msgid "Active coupon"
+msgstr "Kupon aktif"
+
+#: common/modules/coupon_style/coupon_style.php:154
+msgid "Redeemed coupon"
+msgstr "Kupon ditebus"
+
+#: common/modules/coupon_style/coupon_style.php:188
+msgid "Style 2"
+msgstr "Gaya 2"
+
+#: common/modules/coupon_style/coupon_style.php:197
+msgid "Style 3"
+msgstr "Gaya 3"
+
+#: common/modules/coupon_style/coupon_style.php:202
+msgid "Style 4"
+msgstr "Gaya 4"
+
+#: common/modules/coupon_style/coupon_style.php:207
+msgid "Style 5"
+msgstr "Gaya 5"
+
+#: common/modules/coupon_style/coupon_style.php:212
+msgid "Style 6"
+msgstr "Gaya 6"
+
+#: common/modules/coupon_style/data/data.template_classic_ticket.php:1
+#: common/modules/coupon_style/data/data.template_default.php:1
+#: common/modules/coupon_style/data/data.template_minimal_outline.php:19
+#: common/modules/coupon_style/data/data.template_plain_coupon.php:4
+#: common/modules/coupon_style/data/data.template_stitched_edge.php:1
+#: common/modules/coupon_style/data/data.template_stitched_padding.php:1
+#: common/modules/coupon_style/data/data.template_ticket_style.php:12
+msgid "Click to apply coupon code [wt_sc_coupon_code_attr]"
+msgstr "Klik untuk menerapkan kod kupon [wt_sc_coupon_code_attr]"
+
+#. translators: 1: number of coupons created, 2: opening bold tag, 3: closing
+#. bold tag.
+#: includes/class-wt-smart-coupon-review_request.php:244
+msgid ""
+"We’re excited to see you’ve created %1$s coupons using the %2$s Smart "
+"Coupons for WooCommerce %3$s plugin! We hope boosting your store’s success "
+"and making discounts easier to manage."
+msgstr ""
+"Kami teruja melihat anda telah mencipta %1$s kupon menggunakan pemalam %2$s "
+"TheTopPercentile Coupons %3$s! Kami harap ini akan meningkatkan "
+"kejayaan kedai anda dan memudahkan pengurusan diskaun."
+
+#: includes/class-wt-smart-coupon-review_request.php:251
+msgid "a week"
+msgstr "seminggu"
+
+#: includes/class-wt-smart-coupon-review_request.php:254
+msgid "months"
+msgstr "bulan"
+
+#: includes/class-wt-smart-coupon-review_request.php:254
+msgid "a month"
+msgstr "sebulan"
+
+#. translators: 1: opening bold tag, 2: closing bold tag, 3: duration text.
+#: includes/class-wt-smart-coupon-review_request.php:259
+msgid ""
+"Wow! You have been using %1$s TheTopPercentile Coupons %2$s plugin for "
+"over %3$s now, and we hope it’s been helping you save time and simplify your"
+" workflow!"
+msgstr ""
+"Wow! Anda telah menggunakan plugin %1$s TheTopPercentile Coupons untuk WooCommerce %2$s"
+" selama lebih dari %3$s sekarang, dan kami berharap ia membantu anda "
+"menjimatkan masa dan mempermudahkan aliran kerja anda!"
+
+#. translators: 1: opening span tag, 2: closing span tag.
+#: includes/class-wt-smart-coupon-review_request.php:342
+msgid ""
+"🌟 Loving %1$s TheTopPercentile Coupon for WooCommerce plugin? %2$s Share Your Feedback!"
+msgstr ""
+"🌟 Suka plugin %1$s TheTopPercentile Coupon untuk WooCommerce? %2$s Kongsikan Maklum "
+"Balas Anda!"
+
+#: includes/class-wt-smart-coupon-review_request.php:347
+msgid "there"
+msgstr "di sana"
+
+#. translators: 1: first name.
+#: includes/class-wt-smart-coupon-review_request.php:352
+msgid "Hey %s!"
+msgstr "Hai %s!"
+
+#: includes/class-wt-smart-coupon-review_request.php:356
+msgid ""
+"If you found the plugin helpful, please leave us a quick 5-star review. It "
+"would mean the world to us."
+msgstr ""
+"Jika anda mendapati plugin ini berguna, sila tinggalkan kami ulasan "
+"5-bintang. Ini sangat bermakna bagi kami."
+
+#. translators: 1: break tag.
+#: includes/class-wt-smart-coupon-review_request.php:360
+msgid "Warm regards, %s Team TheTopPercentile"
+msgstr "Salam mesra, Pasukan TheTopPercentile %s"
+
+#: includes/class-wt-smart-coupon-review_request.php:364
+msgid "You deserve it"
+msgstr "Anda layak mendapatkannya"
+
+#: includes/class-wt-smart-coupon-review_request.php:365
+msgid "Nope, maybe later"
+msgstr "Tidak, mungkin nanti"
+
+#: includes/class-wt-smart-coupon-review_request.php:366
+msgid "I already did"
+msgstr "Saya sudah melakukannya"
+
+#: public/modules/bogo/bogo.php:327
+msgid "The minimum quantity of each product for this coupon is %s."
+msgstr "Kuantiti minimum setiap produk untuk kupon ini ialah %s."
+
+#: public/modules/bogo/bogo.php:332
+msgid "The maximum quantity of each product for this coupon is %s."
+msgstr "Kuantiti maksimum setiap produk untuk kupon ini ialah %s."
+
+#: public/modules/bogo/bogo.php:628
+msgid "%s%% off"
+msgstr "%s%% diskaun"
+
+#: public/modules/bogo/bogo.php:632
+msgid "%s off"
+msgstr "%s diskaun"
+
+#. translators: %s coupon code.
+#: blocks/build/main/frontend.js:19 blocks/src/main/frontend.js:51
+msgid "Coupon code \"%s\" has been applied to your cart."
+msgstr "Kod kupon \"%s\" telah diterapkan pada troli anda."
+
+#: blocks/build/auto-coupon/block.json blocks/src/auto-coupon/block.json
+msgid "Auto coupon"
+msgstr "Kupon automatik"
+
+#: blocks/build/auto-coupon/block.json blocks/build/bogo/block.json
+#: blocks/build/giveaway-product/block.json blocks/src/auto-coupon/block.json
+#: blocks/src/bogo/block.json blocks/src/giveaway-product/block.json
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: blocks/build/auto-coupon/block.json blocks/src/auto-coupon/block.json
+msgid "Auto coupon related operations."
+msgstr "Operasi berkaitan dengan kupon automatik."
+
+#: blocks/build/bogo/block.json blocks/src/bogo/block.json
+msgid "Bogo"
+msgstr "Bogo"
+
+#: blocks/build/bogo/block.json blocks/src/bogo/block.json
+msgid "BOGO coupon related operations."
+msgstr "Operasi berkaitan kupon BOGO."
+
+#: blocks/build/giveaway-product/block.json
+#: blocks/src/giveaway-product/block.json
+msgid "Giveaway product"
+msgstr "Produk hadiah percuma"
+
+#: blocks/build/giveaway-product/block.json
+#: blocks/src/giveaway-product/block.json
+msgid "Giveaway coupon related operations."
+msgstr "Operasi berkaitan kupon giveaway."
+
+#: blocks/build/main/block.json blocks/src/main/block.json
+msgid "Smart coupon blocks"
+msgstr "Blok kupon pintar"
+
+#. translators: %1$s: br tag, %2$s: a tag, %3$s: a tag closing.
+#: admin/class-wt-smart-coupon-admin.php:246
+msgid ""
+"Unable to update settings due to an internal error. %1$s To troubleshoot "
+"please click %2$s here. %3$s"
+msgstr ""
+"Tidak dapat mengemas kini tetapan kerana ralat dalaman. %1$s Untuk "
+"menyelesaikan masalah, sila klik %2$s di sini. %3$s"
+
+#. translators: 1: a tag opening, 2: a tag closing.
+#: admin/class-wt-smart-coupon-admin.php:699
+msgid ""
+"With the %1$s TheTopPercentile Coupons %2$s plugin, you can create Buy One Get One "
+"offers and advanced coupons that boost sales during BFCM."
+msgstr ""
+"Dengan pemalam %1$s TheTopPercentile Coupons %2$s, anda boleh mencipta tawaran Beli "
+"Satu Dapat Satu dan kupon lanjutan yang meningkatkan jualan semasa BFCM."
+
+#: admin/class-wt-smart-coupon-admin.php:704
+msgid "Get Plugin Now"
+msgstr "Dapatkan Pemalam Sekarang"
+
+#: admin/class-wt-smart-coupon-admin.php:726
+msgid "Security check failed. Please try again."
+msgstr "Pemeriksaan keselamatan gagal. Sila cuba lagi."
+
+#. translators: %1$d: migrated count, %2$d: total count.
+#: admin/class-wt-smart-coupon-admin.php:808
+msgid "Progress: %1$d out of %2$d"
+msgstr "Kemajuan: %1$d daripada %2$d"
+
+#. Translators: 1: Opening italics tag, 2: Opening a tag, 3: Closing a tag, 4:
+#. Closing italics tag.
+#: admin/class-wt-smart-coupon-admin.php:1083
+msgid ""
+"%1$s If you like TheTopPercentile Coupons please leave us a %2$s ★★★★★ %3$s rating. A "
+"huge thanks in advance! %4$s"
+msgstr ""
+"%1$s Jika anda suka Kupon Pintar, sila tinggalkan kami penilaian %2$s ★★★★★ "
+"%3$s. Terima kasih banyak-banyak dahulu! %4$s"
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:135
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:148
+#: admin/cross-promotion-banners/class-wt-smart-coupon-cta-banner.php:149
+msgid "upgrade box icon"
+msgstr "ikon kotak naik taraf"
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:143
+msgid "Automatically generate PDF invoices, packing slips, and credit notes"
+msgstr "Jana secara automatik invois PDF, slip pembungkusan, dan nota kredit"
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:144
+msgid "Use ready-made, customizable templates to match your brand"
+msgstr ""
+"Gunakan templat sedia ada yang boleh disesuaikan untuk sepadan dengan jenama"
+" anda."
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:145
+msgid "Print or download invoices individually or in bulk"
+msgstr "Cetak atau muat turun invois secara individu atau berkumpulan."
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:146
+msgid "Set custom invoice numbering for better organization"
+msgstr "Tetapkan penomboran invois tersuai untuk organisasi yang lebih baik."
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:147
+msgid "Customize documents fully with visual or code editors"
+msgstr "Sesuaikan dokumen sepenuhnya dengan editor visual atau kod."
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:148
+msgid "Include VAT, GST, ABN, and other tax details"
+msgstr ""
+"Sertakan butiran Cukai Jualan dan Perkhidmatan (SST), GST, ABN, dan butiran "
+"cukai lain."
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:149
+msgid "Add \"Pay Now\" link on invoices"
+msgstr "Tambah pautan \"Bayar Sekarang\" pada invois"
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:150
+msgid "Add custom fields to any order document with ease"
+msgstr "Tambah medan tersuai kepada mana-mana dokumen pesanan dengan mudah"
+
+#: admin/cross-promotion-banners/class-wt-invoice-cta-banner.php:158
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:171
+#: admin/cross-promotion-banners/class-wt-smart-coupon-cta-banner.php:181
+msgid "Dismiss"
+msgstr "Tutup"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:108
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:149
+msgid "Product Import Export for WooCommerce"
+msgstr "Pengimportan dan Pengeksportan Produk untuk WooCommerce"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:156
+msgid "Import, export, or update WooCommerce products"
+msgstr "Import, eksport, atau kemas kini produk WooCommerce"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:157
+msgid ""
+"Supports all types of products (Simple, variable, subscription grouped, and "
+"external)"
+msgstr ""
+"Menyokong semua jenis produk (Ringkas, berubah, langganan berkumpulan, dan "
+"luaran)"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:158
+msgid "Multiple file formats - CSV, XML, Excel, and TSV"
+msgstr "Pelbagai format fail - CSV, XML, Excel, dan TSV"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:159
+msgid "Advanced filters and customizations for better control"
+msgstr "Penapis lanjutan dan penyesuaian untuk kawalan yang lebih baik"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:160
+msgid "Bulk update WooCommerce product data"
+msgstr "Kemas kini data produk WooCommerce secara pukal"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:161
+msgid "Import via FTP/SFTP and URL"
+msgstr "Import melalui FTP/SFTP dan URL"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:162
+msgid "Schedule automated import & export"
+msgstr "Jadualkan import & eksport automatik"
+
+#: admin/cross-promotion-banners/class-wt-p-iew-cta-banner.php:163
+msgid "Export and Import custom fields and third-party plugin fields"
+msgstr "Eksport dan import medan tersuai dan medan pemalam pihak ketiga"
+
+#: admin/data/data-hooks-help.php:91
+msgid "Alter the giveaway product price."
+msgstr "Ubah harga produk pemberian."
+
+#: admin/data/data-hooks-help.php:92
+msgid ""
+"Alter the giveaway product price. The code below will change the giveaway "
+"product price to 100 for the product with ID 123. This price is used to give"
+" discount on the giveaway product. This hook can be used to alter the price "
+"of a custom product which price not get from woocommerce methods like "
+"get_price, get_sale_price, get_regular_price, etc."
+msgstr ""
+"Ubah harga produk pemberian. Kod di bawah akan mengubah harga produk "
+"pemberian kepada 100 untuk produk dengan ID 123. Harga ini digunakan untuk "
+"memberikan diskaun pada produk pemberian. Hook ini boleh digunakan untuk "
+"mengubah harga produk tersuai yang harganya tidak diperoleh daripada kaedah "
+"woocommerce seperti get_price, get_sale_price, get_regular_price, dll."
+
+#: admin/data/data-hooks-help.php:104
+msgid "Alter the cart amount for validation."
+msgstr "Ubah jumlah troli untuk pengesahan."
+
+#: admin/data/data-hooks-help.php:105
+msgid ""
+"Alter the cart amount for validation. It can be used if site used "
+"multicurrency plugin."
+msgstr ""
+"Ubah jumlah troli untuk pengesahan. Ia boleh digunakan jika laman "
+"menggunakan pemalam berbilang mata wang."
+
+#: admin/data/data-hooks-help.php:113
+msgid "Change giveaway product IDs for specific product BOGO type."
+msgstr "Tukar ID produk hadiah untuk jenis produk BOGO tertentu."
+
+#: admin/data/data-hooks-help.php:114
+msgid "This hook can be used when using the multi-language plugin."
+msgstr ""
+"Cangkuk ini boleh digunakan apabila menggunakan plugin pelbagai bahasa."
+
+#: admin/data/data-hooks-help.php:123
+msgid "Alter the BOGO cart item data before adding to cart."
+msgstr "Mengubah data item BOGO sebelum menambahkan ke dalam troli."
+
+#: admin/data/data-hooks-help.php:124
+msgid ""
+"The code below will add a special meta to the cart item for the product with"
+" ID 123."
+msgstr ""
+"Kod di bawah ini akan menambah meta khas kepada item dalam troli untuk "
+"produk dengan ID 123."
+
+#: admin/data/data-hooks-help.php:136
+msgid "Alter the allowed product types for auto add."
+msgstr "Ubah jenis produk yang dibenarkan untuk penambahan automatik."
+
+#: admin/data/data-hooks-help.php:137
+msgid ""
+"By default simple and variation product types are allowed for automatically "
+"adding to cart. This hook can be used to alter the allowed product types for"
+" auto add."
+msgstr ""
+"Secara default, jenis produk ringkas dan variasi dibenarkan untuk "
+"ditambahkan secara automatik ke dalam troli. Hook ini boleh digunakan untuk "
+"mengubah jenis produk yang dibenarkan untuk penambahan automatik."
+
+#: admin/data/data-hooks-help.php:149
+msgid "Alter the giveaway cart lineitem text."
+msgstr "Ubah teks item baris keranjang hadiah."
+
+#: admin/data/data-hooks-help.php:150
+msgid ""
+"Alter the giveaway cart lineitem text. The code below will change the text "
+"for the product with ID 123."
+msgstr ""
+"Ubah teks baris item dalam troli hadiah. Kod di bawah ini akan mengubah teks"
+" untuk produk dengan ID 123."
+
+#: admin/data/data-hooks-help.php:162
+msgid "Alter the user can change the free product quantity."
+msgstr "Benarkan pengguna mengubah kuantiti produk percuma."
+
+#: admin/data/data-hooks-help.php:163
+msgid ""
+"The code below restricts users from changing the free product quantity for "
+"the coupon with ID 123."
+msgstr ""
+"Kod di bawah mengehadkan pengguna daripada mengubah kuantiti produk percuma "
+"untuk kupon dengan ID 123."
+
+#: admin/data/data-hooks-help.php:175
+msgid "Alter cart item price for BOGO validation."
+msgstr "Ubah harga item keranjang untuk pengesahan BOGO."
+
+#: admin/data/data-hooks-help.php:176
+msgid ""
+"Alter the cart item price for BOGO validation. Can be used for third-party "
+"products whose prices are not obtained from WooCommerce methods like "
+"get_price, get_sale_price, get_regular_price, etc."
+msgstr ""
+"Ubah harga item troli untuk pengesahan BOGO. Boleh digunakan untuk produk "
+"pihak ketiga yang harganya tidak diperoleh dari kaedah WooCommerce seperti "
+"get_price, get_sale_price, get_regular_price, dan lain-lain."
+
+#: admin/data/data-hooks-help.php:188
+msgid "Alter the BOGO products and categories IDs for validation."
+msgstr "Ubah ID produk dan kategori BOGO untuk pengesahan."
+
+#: admin/data/data-hooks-help.php:189
+msgid ""
+"Hooks, which help when using a multilingual plugin. These hooks can be used "
+"to return translated product or category IDs for BOGO validation."
+msgstr ""
+"Hooks, yang membantu apabila menggunakan pemalam berbilang bahasa. Hooks ini"
+" boleh digunakan untuk mengembalikan ID produk atau kategori yang telah "
+"diterjemahkan untuk pengesahan BOGO."
+
+#: admin/modules/banner/class-wbte-ema-banner.php:158
+msgid ""
+"You can boost your store revenue and recover lost sales with automated email"
+" campaigns, cart recovery, and upsell popups using the TheTopPercentile Marketing "
+"Automation App."
+msgstr ""
+"Anda boleh meningkatkan hasil kedai anda dan memulihkan jualan yang hilang "
+"dengan kempen e-mel automatik, pemulihan troli, dan pop-up jualan tambahan "
+"menggunakan Apl Automasi Pemasaran TheTopPercentile."
+
+#: admin/modules/banner/class-wbte-ema-banner.php:163
+msgid "Dismiss this notice."
+msgstr "Tutup notis ini."
+
+#: admin/modules/banner/class-wt-bfcm-twenty-twenty-five.php:114
+msgid "Black Friday Cyber Monday 2025"
+msgstr "Black Friday Cyber Monday 2025"
+
+#: admin/modules/banner/class-wt-bfcm-twenty-twenty-five.php:118
+msgid "Never Miss This Deal"
+msgstr "Jangan lepaskan tawaran ini"
+
+#. translators: 1: Discount text with span wrapper, e.g. <span>30% OFF</span>.
+#: admin/modules/banner/class-wt-bfcm-twenty-twenty-five.php:125
+msgid ""
+"Your Last Chance to Avail %1$s on TheTopPercentile Plugins. Grab the deal before "
+"it`s gone!"
+msgstr ""
+"Peluang terakhir anda untuk mendapatkan %1$s pada plugin TheTopPercentile. Dapatkan"
+" tawaran tersebut sebelum ia hilang!"
+
+#. translators: 1: Discount text with span wrapper, e.g. <span>30% OFF</span>.
+#: admin/modules/banner/class-wt-bfcm-twenty-twenty-five.php:126
+msgid "OFF"
+msgstr "MATI"
+
+#: admin/modules/banner/class-wt-bfcm-twenty-twenty-five.php:132
+msgid "View plugins"
+msgstr "Lihat pemalam"
+
+#. Translators: 1: Free qty 2: span opening for customer gets 3: span closing
+#. 4: span opening 5: span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1393
+msgid "%1$s quantities of %2$s Specific product(s) %3$s for %4$s Free %5$s"
+msgstr "%1$s kuantiti %2$s Produk tertentu %3$s untuk %4$s Percuma %5$s"
+
+#. Translators: 1: Free qty 2: span opening for customer gets 3: span closing
+#. 4: span opening 5: span closing 6: Discount amount.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1402
+msgid ""
+"%1$s quantities of %2$s Specific product(s) %3$s with %4$s Discount %5$s "
+"each"
+msgstr ""
+"%1$s kuantiti %2$s Produk spesifik %3$s dengan %4$s Diskaun %5$s setiap satu"
+
+#. Translators: 1: span opening 2: span closing 3:span opening 4:span closing
+#. 5:span opening 6:span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1412
+msgid ""
+"Customer %1$s Spends %2$s between %3$s {min} %4$s and %5$s {max} %6$s on any"
+" products"
+msgstr ""
+"Pelanggan %1$s membelanjakan %2$s antara %3$s {min} %4$s dan %5$s {max} %6$s"
+" pada mana-mana produk."
+
+#. Translators: 1: span opening 2: span closing 3:span opening 4:span closing
+#. 5:span opening 6:span closing 7:span opening 8:span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1422
+msgid ""
+"Customer %1$s Spends %2$s between %3$s {min} %4$s and %5$s {max} %6$s on "
+"%7$s Selected product(s) %8$s"
+msgstr ""
+"Pelanggan %1$s Membelanjakan %2$s antara %3$s {min} %4$s dan %5$s {max} %6$s"
+" pada %7$s Produk terpilih %8$s"
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing 5: span opening 6: span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1434
+msgid "Customer %1$s Spends %2$s at least %3$s {min} %4$s on any products"
+msgstr ""
+"Pelanggan %1$s membelanjakan %2$s sekurang-kurangnya %3$s {min} %4$s pada "
+"mana-mana produk"
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing 5: span opening 6: span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1442
+msgid ""
+"Customer %1$s Spends %2$s at least %3$s {min} %4$s on %5$s Selected "
+"product(s) %6$s"
+msgstr ""
+"Pelanggan %1$s membelanjakan %2$s sekurang-kurangnya %3$s {min} %4$s pada "
+"%5$s produk yang dipilih %6$s"
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing 5: span opening 6: span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1452
+msgid ""
+"Customer %1$s Buys %2$s between %3$s {min} %4$s and %5$s {max} %6$s "
+"quantities of any products"
+msgstr ""
+"Pelanggan %1$s membeli %2$s antara %3$s {min} %4$s dan %5$s {max} %6$s "
+"kuantiti mana-mana produk."
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing 5: span opening 6: span closing 7: span opening 8: span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1462
+msgid ""
+"Customer %1$s Buys %2$s between %3$s {min} %4$s and %5$s {max} %6$s "
+"quantities of %7$s Selected product(s) %8$s"
+msgstr ""
+"Pelanggan %1$s membeli %2$s antara %3$s {min} %4$s dan %5$s {max} %6$s "
+"kuantiti %7$s produk yang dipilih %8$s"
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1474
+msgid ""
+"Customer %1$s Buys %2$s at least %3$s {min} %4$s quantities of any products"
+msgstr ""
+"Pelanggan %1$s membeli %2$s sekurang-kurangnya %3$s {min} %4$s kuantiti "
+"mana-mana produk"
+
+#. Translators: 1: span opening 2: span closing 3: span opening 4: span
+#. closing 5: span opening 6: span closing.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1482
+msgid ""
+"Customer %1$s Buys %2$s at least %3$s {min} %4$s quantities of %5$s Selected"
+" product(s) %6$s"
+msgstr ""
+"Pelanggan %1$s membeli %2$s sekurang-kurangnya %3$s {min} %4$s kuantiti bagi"
+" produk terpilih %5$s %6$s"
+
+#. Translators: 1: Minimum qty 2: Maximum qty 3: Span opening 4: Span closing
+#. 5: Free qty.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1493
+msgid "Buy %1$s to %2$s items, Get %3$s Specific product(s) %4$s x %5$s"
+msgstr "Beli %1$s hingga %2$s item, dapatkan %3$s produk tertentu %4$s x %5$s"
+
+#. Translators: 1: Minimum spend 2: Maximum spend 3: Span opening 4: Span
+#. closing 5: Selected customer gets 6: Free qty.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1502
+msgid "Spend %1$s to %2$s on items, Get %3$s Specific product(s) %4$s x %5$s"
+msgstr ""
+"Belanjakan %1$s untuk %2$s pada item, Dapatkan %3$s produk tertentu %4$s x "
+"%5$s"
+
+#. Translators: 1: min qty 2: Span opening 3: Span closing 4: Customer gets
+#. qty .
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1511
+msgid "Buy %1$s , Get %2$s Specific product(s) %3$s x %4$s"
+msgstr "Beli %1$s , Dapat %2$s produk khusus %3$s x %4$s"
+
+#. Translators: 1: min spend 2: span opening 3: span closing 4: Customer gets
+#. qty .
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1519
+msgid "Spend %1$s , Get %2$s Specific product(s) %3$s x %4$s"
+msgstr "Belanjakan %1$s, Dapatkan produk tertentu %2$s %3$s x %4$s"
+
+#. Translators: 1: Additional minimum qty 2: Additional maximum qty.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1553
+msgid "Minimum %1$s and maximum %2$s quantity of any item."
+msgstr "Kuantiti minimum %1$s dan maksimum %2$s bagi sebarang item."
+
+#. Translators: 1: Additional minimum qty each 2: Additional maximum qty each.
+#: admin/modules/bogo-admin/class-wbte-smart-coupon-bogo-admin.php:1559
+msgid "Minimum %1$s and maximum %2$s quantity of each item."
+msgstr "Kuanti minimum %1$s dan maksimum %2$s bagi setiap item."
+
+#. translators: 1: Tool tip. 2: Copy button. 3: help text.
+#: admin/modules/bogo-admin/views/---edit-general.php:84
+msgid "Automatically %1$s %2$s %3$s"
+msgstr "Secara automatik %1$s %2$s %3$s"
+
+#. translators: 1: count 2: limit
+#: admin/modules/bogo-admin/views/--bogo-listing.php:389
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#. Translators: 1: Premium icon, 2: Tooltip.
+#: admin/modules/bogo-admin/views/--bogo-main-general.php:61
+msgid "Original price %1$s %2$s"
+msgstr "Harga asal %1$s %2$s"
+
+#: admin/modules/bogo-admin/views/--bogo-main-general.php:89
+msgid "\"Choose product\" title"
+msgstr "Tajuk \"Pilih produk\""
+
+#. translators: 1: Link to shipping zones, 2: Closing link tag.
+#: admin/modules/bogo-admin/views/-step1.php:240
+msgid ""
+"Enable free shipping in WooCommerce %1$s shipping zones %2$s to use this "
+"option!"
+msgstr ""
+"Aktifkan penghantaran percuma dalam zon penghantaran WooCommerce %1$s %2$s "
+"untuk menggunakan pilihan ini!"
+
+#. Translators: 1: Apply repeatedly limit. 2: premium crown img.
+#: admin/modules/bogo-admin/views/-step3.php:69
+msgid "Limit for applying repeatedly %1$s time(s) %2$s"
+msgstr "Had untuk memohon berulang kali %1$s kali %2$s"
+
+#: admin/modules/freevspro/views/comparison-table.php:73
+msgid "Pincode restriction"
+msgstr "Sekatan kod pin"
+
+#. translators: %1$s: <b> tag, %2$s: </b> tag.
+#: admin/modules/giveaway-product-admin/class-wt-smart-coupon-giveaway-product-admin.php:238
+msgid ""
+"%1$s Apply once: %2$s If cart is eligible or conditions are met, coupon "
+"applies once. ie: If you set the coupon to offer Buy 2 Get 1, you get one "
+"free product. Moving more items to the cart will not make it eligible to get"
+" more free products."
+msgstr ""
+"%1$s Guna sekali: %2$s Jika troli layak atau syarat dipenuhi, kupon "
+"digunakan sekali. Contoh: Jika anda menetapkan kupon untuk menawarkan Beli 2"
+" Dapat 1, anda mendapat satu produk percuma. Menambah lebih banyak barangan "
+"ke troli tidak akan menjadikannya layak untuk mendapatkan lebih banyak "
+"produk percuma."
+
+#. translators: %1$s: <b> tag, %2$s: </b> tag.
+#: admin/modules/giveaway-product-admin/class-wt-smart-coupon-giveaway-product-admin.php:243
+msgid ""
+"%1$s Apply repeatedly: %2$s The coupon applies repeatedly whenever the cart "
+"is eligible or if conditions are met. ie: If you set the coupon to offer Buy"
+" 2 Get 1 then the coupon works repeatedly for Buy 4 Get 2 and so on."
+msgstr ""
+"%1$s Terapkan berulang kali: %2$s Kupon diterapkan berulang kali apabila "
+"troli layak atau jika kondisi dipenuhi. Contohnya: Jika anda menetapkan "
+"kupon untuk tawaran Beli 2 Dapatkan 1 maka kupon berfungsi berulang kali "
+"untuk Beli 4 Dapatkan 2 dan seterusnya."
+
+#: admin/modules/other-solutions/views/other-solutions-content.php:199
+msgid ""
+"Accessibility Tool Kit: WP Accessibility Plugin for WCAG, Section 508, ADA, "
+"EAA Compliance"
+msgstr ""
+"Kit Alat Kebolehcapaian: Plugin Aksesibiliti WP untuk Pematuhan WCAG, "
+"Seksyen 508, ADA, EAA"
+
+#: admin/modules/other-solutions/views/other-solutions-content.php:200
+msgid ""
+"Build an accessible WordPress site that works for everyone. Scan for "
+"accessibility issues, get fix recommendations, and ensure WCAG compliance, "
+"all without writing code. Inclusive web design made simple."
+msgstr ""
+"Bina laman WordPress yang boleh diakses yang berfungsi untuk semua orang. "
+"Imbas untuk masalah kebolehaksesan, dapatkan cadangan pembaikan, dan "
+"pastikan pematuhan WCAG, semuanya tanpa menulis kod. Reka bentuk web "
+"inklusif yang mudah."
+
+#. translators: 1: lightbulb icon, 2: span tag opening, 3: span tag closing.
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:224
+msgid ""
+"%1$s %2$s Did You Know? %3$s You can now get full control over coupon "
+"stacking—choose which discounts can and cannot be combined with Smart "
+"Coupons Pro!"
+msgstr ""
+"%1$s %2$s Tahukah anda? %3$s Anda kini boleh mendapatkan kawalan penuh ke "
+"atas penggabungan kupon—pilih diskaun yang boleh dan tidak boleh digabungkan"
+" dengan TheTopPercentile Coupons Pro!"
+
+#. translators: 1: bold tag opening, 2: bold tag closing.
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:279
+msgid ""
+"%1$s Any: %2$s Applies coupon if any of the products from the below is "
+"available in the cart."
+msgstr ""
+"%1$s Mana-mana: %2$s Memohon kupon jika mana-mana produk di bawah tersedia "
+"dalam troli."
+
+#. translators: 1: bold tag opening, 2: bold tag closing.
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:284
+msgid ""
+"%1$s All: %2$s Applies coupon if the cart contains all of the listed "
+"products."
+msgstr ""
+"%1$s Semua: %2$s Gunakan kupon jika troli mengandungi semua produk yang "
+"disenaraikan."
+
+#. translators: 1: bold tag opening, 2: bold tag closing.
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:307
+msgid ""
+"%1$s Any: %2$s Applies coupon if the eligible quantity of products from any "
+"of the below selected categories are available in the cart."
+msgstr ""
+"%1$s Mana-mana: %2$s Gunakan kupon jika kuantiti produk yang layak dari "
+"mana-mana kategori terpilih di bawah tersedia dalam troli."
+
+#. translators: 1: bold tag opening, 2: bold tag closing.
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:312
+msgid ""
+"%1$s All: %2$s Applies coupon if the cart contains the eligible quantity of "
+"products from all of the below listed categories."
+msgstr ""
+"%1$s Semua: %2$s Gunakan kupon jika troli mengandungi kuantiti produk yang "
+"layak dari semua kategori di bawah yang disenaraikan."
+
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:331
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:355
+msgid "No minimum"
+msgstr "Tiada minimum"
+
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:343
+#: admin/modules/restriction-admin/class-wt-smart-coupon-restriction-admin.php:367
+msgid "No maximum"
+msgstr "Tiada maksimum"
+
+#: admin/views/-premium-features-sidebar.php:11
+msgid "Crown"
+msgstr "Mahkota"
+
+#. translators: 1: span opening tag, 2: span closing tag.
+#: common/modules/category-common/class-wt-smart-coupon-category-common.php:260
+msgid ""
+"%1$s Unlock more ways to reward customers! %2$s Create first order, next "
+"order, milestone discounts, and more!"
+msgstr ""
+"%1$s Buka lebih banyak cara untuk memberi ganjaran kepada pelanggan! %2$s "
+"Cipta diskaun untuk pesanan pertama, pesanan seterusnya, pencapaian dan "
+"banyak lagi!"
+
+#. translators: %1$s: opening bold tag, %2$s: closing bold tag, %3$s: table
+#. name.
+#: includes/class-wt-smart-coupon.php:775
+msgid ""
+"An error occurred while activating %1$s TheTopPercentile Coupons For WooCommerce "
+"Coupons %2$s: Unable to create database table. %3$s"
+msgstr ""
+"Ralat berlaku semasa mengaktifkan %1$s Kupon Pintar Untuk Kupon WooCommerce "
+"%2$s: Tidak dapat membuat jadual pangkalan data. %3$s"
+
+#. translators: 1$s is 'minimum' or 'maximum', 2$s is 'quantity' or
+#. 'subtotal', 3$s is min/max values of amount, quantity or additional qty.
+#: public/modules/bogo-public/class-wbte-smart-coupon-bogo-public.php:379
+msgid "The %1$s %2$s of matching products for this coupon is %3$s."
+msgstr "%1$s %2$s produk yang sepadan untuk kupon ini ialah %3$s."
+
+#: public/modules/giveaway-product-public/class-wt-smart-coupon-giveaway-product-public.php:549
+msgid ""
+"Surprise! %1$s You've received a special giveaway product with %2$s Off!"
+msgstr ""
+"Kejutan! %1$s Anda telah menerima produk pemberian khas dengan %2$s Diskaun!"
+
+#. translators: %1$s: Item name. %2$s: Quantity.
+#: public/modules/restriction-public/class-wt-smart-coupon-restriction-public.php:141
+msgid "The minimum quantity of %1$s for this coupon is %2$s."
+msgstr "Kuantiti minimum %1$s untuk kupon ini adalah %2$s."
+
+#. translators: %1$s: Item name. %2$s: Quantity.
+#: public/modules/restriction-public/class-wt-smart-coupon-restriction-public.php:144
+msgid "The maximum quantity of %1$s for this coupon is %2$s."
+msgstr "Kuantiti maksimum %1$s untuk kupon ini ialah %2$s."
+
+#. translators: %1$s: shop page url, %2$s: closing anchor tag.
+#: public/modules/url-coupon-public/class-wt-smart-coupon-url-coupon-public.php:118
+msgid ""
+"Oops your cart is empty! Add %1$s products %2$s to your cart to avail the "
+"offer."
+msgstr ""
+"Oops, troli anda kosong! Tambahkan %1$s produk %2$s ke dalam troli anda "
+"untuk mendapatkan tawaran."
+
+#: admin/class-wt-smart-coupon-admin.php:1074
+msgid "Reset lookup table"
+msgstr "Tetapkan semula jadual carian"
+
+#: admin/class-wt-smart-coupon-admin.php:1099
+msgid "Failed to reset lookup table."
+msgstr "Gagal untuk menetapkan semula jadual carian."
+
+#: admin/class-wt-smart-coupon-admin.php:1102
+msgid "Lookup table reset successfully."
+msgstr "Jadual carian telah diset semula dengan berjaya."
+
+#: admin/class-wt-smart-coupon-admin.php:1234
+msgid "Newsletter subscription successful"
+msgstr "Langganan surat berita berjaya"
+
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:236
+msgid "Activation failed."
+msgstr "Pengaktifan gagal."
+
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:256
+msgid "Accessibility Widget"
+msgstr "Gajet Aksesibiliti"
+
+#. translators: 1: a tag opening, 2: a tag closing
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:262
+msgid ""
+"Make your site inclusive with %1$s AccessYes accessibility widget. %2$s"
+msgstr ""
+"Jadikan laman anda inklusif dengan widget aksesibiliti AccessYes %1$s. %2$s"
+
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:270
+msgid ""
+"A lightweight accessibility widget to improve accessibility and usability "
+"for every users. Set it up in minutes for free."
+msgstr ""
+"Widget kebolehcapaian ringan untuk meningkatkan kebolehcapaian dan "
+"kebolehgunaan bagi setiap pengguna. Siapkannya dalam beberapa minit secara "
+"percuma."
+
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:279
+msgid "Install & activate"
+msgstr "Pasang & aktifkan"
+
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:283
+msgid "Remind me later"
+msgstr "Ingatkan saya nanti"
+
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:342
+msgid "Installing..."
+msgstr "Memasang..."
+
+#: admin/cross-promotion-banners/class-wbte-accessibility-banner.php:436
+msgid "Plugin installed successfully."
+msgstr "Plugin berjaya dipasang."
+
+#: admin/modules/banner/class-wbte-cta-banner.php:203
+msgid "Update pending ⚠️"
+msgstr "Kemas kini tertunda ⚠️"
+
+#: admin/modules/banner/class-wbte-cta-banner.php:204
+msgid ""
+"It looks like you haven't updated the TheTopPercentile Coupons plugin in a while. We "
+"release new features and security improvements with every update. Keep it "
+"up-to-date to ensure better performance, compatibility, and protection."
+msgstr ""
+"Nampaknya anda belum mengemas kini pemalam Kupon Pintar untuk seketika. Kami"
+" mengeluarkan ciri baru dan penambahbaikan keselamatan dengan setiap kemas "
+"kini. Pastikan ia sentiasa terkini untuk prestasi, keserasian, dan "
+"perlindungan yang lebih baik."
+
+#: admin/modules/banner/class-wbte-cta-banner.php:205
+msgid "Update Now"
+msgstr "Kemas kini sekarang"
+
+#: admin/modules/banner/class-wbte-cta-banner.php:298
+msgid "Haven't created any new coupons recently?"
+msgstr "Tidak membuat kupon baru baru-baru ini?"
+
+#: admin/modules/banner/class-wbte-cta-banner.php:299
+msgid ""
+"You may be missing simple ways to bring customers back and increase "
+"conversions. Try different coupon types and usage rules to build a smarter "
+"discount strategy."
+msgstr ""
+"Anda mungkin terlepas cara mudah untuk menarik pelanggan kembali dan "
+"meningkatkan penukaran. Cuba jenis kupon yang berbeza dan peraturan "
+"penggunaan untuk membina strategi diskaun yang lebih bijak."
+
+#: admin/modules/banner/class-wbte-cta-banner.php:301
+msgid "Add new coupon"
+msgstr "Tambah kupon baharu"
+
+#: admin/modules/banner/class-wbte-cta-banner.php:303
+#: admin/modules/banner/class-wbte-cta-banner.php:369
+msgid "Refer to Documentation"
+msgstr "Rujuk kepada Dokumentasi"
+
+#: admin/modules/banner/class-wbte-cta-banner.php:329
+msgid ""
+"Congratulations! You've been using the free TheTopPercentile TheTopPercentile Coupons plugin "
+"for a while, and we'd love to reward you."
+msgstr ""
+"Tahniah! Anda telah menggunakan plugin TheTopPercentile TheTopPercentile Coupons secara "
+"percuma untuk seketika, dan kami ingin memberi ganjaran kepada anda."
+
+#. translators: 1: br tag, b tag opening, 2: b tag closing.
+#: admin/modules/banner/class-wbte-cta-banner.php:332
+msgid ""
+"Enjoy exclusive 30%% off TheTopPercentile Coupons Premium and unlock powerful coupon "
+"features designed to boost conversions and repeat purchases.%1$s Coupon "
+"code: %2$s SMLOYAL30"
+msgstr ""
+"Nikmati diskaun eksklusif 30%% untuk TheTopPercentile Coupons Premium dan buka ciri "
+"kupon yang berkuasa yang direka untuk meningkatkan penukaran dan pembelian "
+"berulang.%1$s Kod kupon: %2$s SMLOYAL30"
+
+#: admin/modules/banner/class-wbte-cta-banner.php:364
+msgid "BOGO Coupons Not Used ⚠️"
+msgstr "Kupon BOGO Tidak Digunakan ⚠️"
+
+#: admin/modules/banner/class-wbte-cta-banner.php:365
+msgid ""
+"BOGO deals are one of the highest-converting coupon strategies, and you "
+"haven't tried them yet. Create your first BOGO offer and increase cart value"
+" with ease."
+msgstr ""
+"Tawaran BOGO adalah salah satu strategi kupon yang paling tinggi penukaran, "
+"dan anda belum mencubanya lagi. Ciptakan tawaran BOGO pertama anda dan "
+"tingkatkan nilai troli dengan mudah."
+
+#: admin/modules/banner/class-wbte-cta-banner.php:367
+msgid "Create BOGO Coupon"
+msgstr "Buat Kupon BOGO"
+
+#. translators: 1: formatted amount e.g. $1,000+.
+#: admin/modules/banner/class-wbte-cta-banner.php:520
+msgid ""
+"Congratulations! 🎉 You've generated %1$s in sales using WooCommerce coupons "
+"with the TheTopPercentile TheTopPercentile Coupons plugin."
+msgstr ""
+"Tahniah! 🎉 Anda telah menjana %1$s dalam jualan menggunakan kupon "
+"WooCommerce dengan plugin TheTopPercentile TheTopPercentile Coupons."
+
+#: admin/modules/banner/class-wbte-cta-banner.php:523
+msgid ""
+"Ready to take it further? Upgrade to TheTopPercentile Coupons Premium to unlock "
+"advanced coupon rules, BOGO deals, store credits, and more ways to increase "
+"revenue."
+msgstr ""
+"Bersedia untuk mengambil langkah seterusnya? Tingkatkan kepada TheTopPercentile Coupons"
+" Premium untuk membuka kunci peraturan kupon lanjutan, tawaran BOGO, kredit "
+"kedai, dan lebih banyak cara untuk meningkatkan pendapatan."
+
+#: admin/modules/banner/class-wbte-cta-banner.php:525
+msgid "Upgrade to Premium"
+msgstr "Naik taraf ke Premium"
+
+#: admin/modules/bogo-admin/views/--bogo-main-general.php:55
+msgid "Primary color for BOGO product display"
+msgstr "Warna utama untuk paparan produk BOGO"
+
+#: admin/views/-wbte-newsletter-sidebar.php:28
+msgid "Subscribe to our newsletter for exclusive offers & updates"
+msgstr "Langgan surat berita kami untuk tawaran eksklusif dan kemas kini."
+
+#: admin/views/-wbte-newsletter-sidebar.php:35
+msgid "Enter your email address"
+msgstr "Masukkan alamat e-mel anda"
+
+#. translators: %1$s: Privacy Policy link, %2$s: a tag closing.
+#: admin/views/-wbte-newsletter-sidebar.php:43
+msgid ""
+"I consent to receive newsletters and exclusive offers from TheTopPercentile and "
+"agree to the %1$s Privacy Policy %2$s."
+msgstr ""
+"Saya bersetuju untuk menerima buletin dan tawaran eksklusif daripada "
+"TheTopPercentile dan bersetuju dengan %1$s Dasar Privasi %2$s."
+
+#: admin/views/-wbte-newsletter-sidebar.php:61
+msgid "Subscribe"
+msgstr "Langgan"
+
+#: common/modules/bogo-common/class-wbte-smart-coupon-bogo-common.php:296
+msgid "Choose product {qty_counter}"
+msgstr "Pilih produk {qty_counter}"
+
+#: public/modules/bogo-public/class-wbte-smart-coupon-bogo-public.php:1674
+#: public/modules/bogo-public/class-wbte-smart-coupon-bogo-public.php:1677
+msgid "Failed to add product to cart."
+msgstr "Gagal menambah produk ke dalam troli."
+
+#: public/modules/bogo-public/class-wbte-smart-coupon-bogo-public.php:2372
+msgid "No products selected."
+msgstr "Tiada produk dipilih."

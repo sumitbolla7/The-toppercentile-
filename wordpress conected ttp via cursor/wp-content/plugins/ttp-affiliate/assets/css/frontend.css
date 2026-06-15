@@ -1,0 +1,6 @@
+.ttpa-dashboard .ttpa-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:16px 0}
+.ttpa-dashboard .ttpa-card span{display:block;font-size:13px;color:#64748b}
+.ttpa-dashboard .ttpa-card strong{font-size:22px}
+.ttpa-link-box{background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px;margin:16px 0}
+.ttpa-link-row{display:flex;gap:8px}
+.ttpa-link-row input{flex:1}

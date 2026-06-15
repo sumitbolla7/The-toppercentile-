@@ -1,0 +1,10 @@
+.ttpn-wrap .ttpn-stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:20px 0}
+.ttpn-wrap .ttpn-stat-card{background:#fff;border:1px solid #dcdcde;border-radius:8px;padding:16px}
+.ttpn-wrap .ttpn-stat-card h2{margin:0 0 8px;font-size:14px;color:#50575e}
+.ttpn-wrap .ttpn-stat-card p{margin:0;font-size:28px;font-weight:700}
+.ttpn-unread-row{background:#f0f6fc}
+.ttpn-wrap .ttpn-bulk-bar{display:flex;align-items:center;gap:16px;margin:16px 0 8px}
+.ttpn-wrap .ttpn-bulk-count{color:#646970;font-size:13px}
+.ttpn-wrap .ttpn-filter-form{margin-bottom:8px}
+.ttpn-wrap .check-column{width:2.2em;padding:10px 0 10px 3px}
+.ttpn-wrap .check-column input{margin:0}

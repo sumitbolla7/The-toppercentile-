@@ -1,0 +1,349 @@
+{
+    "time": "2026-06-12T09:12:10+00:00",
+    "action": "audit_batch",
+    "batch": 6,
+    "batch_size": 5,
+    "repair": true,
+    "total_users": 93,
+    "batch_from": 30,
+    "batch_count": 5,
+    "audit": {
+        "total": 5,
+        "ok": 0,
+        "issues": 5,
+        "repaired": 0,
+        "rows": [
+            {
+                "email": "kalokaraditya39@gmail.com",
+                "status": "repair_error",
+                "issues": [
+                    "No TCY user id linked.",
+                    "No TCY user_id for this customer (register first or check email)."
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "kalokaraditya39@gmail.com",
+                    "wp_user_id": 189,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [
+                        {
+                            "order_id": 18315,
+                            "status": "processing",
+                            "tcy_user_id": "",
+                            "lines": [
+                                {
+                                    "name": "CET Solo (Self Study)",
+                                    "product_id": 17159,
+                                    "course_id": "90070"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90070|100000|18315|511": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 18315,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "distinct_course": [
+                        90070
+                    ],
+                    "pairs_tcy_sync": {
+                        "90070|100000|18315|511": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 18315,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 1,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "kalokaraditya39@gmail.com",
+                        "wp_user_id": 189,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [
+                            {
+                                "order_id": 18315,
+                                "status": "processing",
+                                "tcy_user_id": "",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90070|100000|18315|511": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18315,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "distinct_course": [
+                            90070
+                        ],
+                        "pairs_tcy_sync": {
+                            "90070|100000|18315|511": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18315,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                }
+            },
+            {
+                "email": "prithvivinayakp@gmail.com",
+                "status": "repair_error",
+                "issues": [
+                    "No TCY user id linked.",
+                    "No TCY user_id for this customer (register first or check email)."
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "prithvivinayakp@gmail.com",
+                    "wp_user_id": 212,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [
+                        {
+                            "order_id": 17956,
+                            "status": "processing",
+                            "tcy_user_id": "",
+                            "lines": [
+                                {
+                                    "name": "JBIMS MFIN MHRD Bootcamp",
+                                    "product_id": 17622,
+                                    "course_id": "90334"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90334|100000|17956|412": {
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "38081",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17956,
+                            "product_id": 17622,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp"
+                        }
+                    },
+                    "distinct_course": [
+                        90334
+                    ],
+                    "pairs_tcy_sync": {
+                        "90334|100000|17956|412": {
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "38081",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17956,
+                            "product_id": 17622,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 1,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "has_jbims": true,
+                "repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "prithvivinayakp@gmail.com",
+                        "wp_user_id": 212,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [
+                            {
+                                "order_id": 17956,
+                                "status": "processing",
+                                "tcy_user_id": "",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|17956|412": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17956,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|17956|412": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17956,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                }
+            },
+            {
+                "email": "atharvailawar00@gmail.com",
+                "status": "issues",
+                "issues": [
+                    "No WordPress account for this email.",
+                    "No TCY user id linked."
+                ],
+                "actions": [],
+                "diagnosis": {
+                    "email": "atharvailawar00@gmail.com",
+                    "wp_user_id": 0,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                }
+            },
+            {
+                "email": "htokalwar@gmail.com",
+                "status": "issues",
+                "issues": [
+                    "No WordPress account for this email.",
+                    "No TCY user id linked."
+                ],
+                "actions": [],
+                "diagnosis": {
+                    "email": "htokalwar@gmail.com",
+                    "wp_user_id": 0,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                }
+            },
+            {
+                "email": "samikshajambhulkar9716@gmail.com",
+                "status": "issues",
+                "issues": [
+                    "No WordPress account for this email.",
+                    "No TCY user id linked."
+                ],
+                "actions": [],
+                "diagnosis": {
+                    "email": "samikshajambhulkar9716@gmail.com",
+                    "wp_user_id": 0,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                }
+            }
+        ]
+    },
+    "next_batch_url": "https:\/\/thetoppercentile.co.in\/ttp-bulk-run-once.php?key=ttp_bulk_jun12_2026_x7k9&action=audit_batch&batch=7&batch_size=5&repair=1"
+}

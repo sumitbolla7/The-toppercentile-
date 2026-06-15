@@ -1,0 +1,68 @@
+{
+    "time": "2026-06-13T13:52:11+00:00",
+    "action": "repair_panel",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "student": {
+        "email": "katkadetejas01@gmail.com",
+        "actions": [
+            "Ran TCY enrollment repair.",
+            "Synced qualifying order courses.",
+            "Granted JBIMS entitlement from TCY (pack_conflict).",
+            "Account-view TCY sync completed."
+        ],
+        "issues": [],
+        "wp_user_id": 309,
+        "tcy_repair": {
+            "added": 0,
+            "already": 0,
+            "failed": 0,
+            "skipped": 0,
+            "total": 0,
+            "course_ids": [],
+            "tcy_user_id": "ODE2MTMwMA==",
+            "all_tcy_ids": [
+                "ODE2MTMwMA=="
+            ],
+            "split_account": false,
+            "details": [],
+            "diagnosis": {
+                "email": "katkadetejas01@gmail.com",
+                "wp_user_id": 309,
+                "canonical_tcy": "ODE2MTMwMA==",
+                "all_tcy_ids": [
+                    "ODE2MTMwMA=="
+                ],
+                "orders": [],
+                "pairs": [],
+                "distinct_course": [],
+                "pairs_tcy_sync": [],
+                "pairs_skipped": [],
+                "tcy_max_courses": 0,
+                "invalid_course_ids": [],
+                "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+            },
+            "error": "No paid orders with TCY course_id found for this email\/user."
+        },
+        "jbims_grant": {
+            "email": "katkadetejas01@gmail.com",
+            "actions": [
+                "Granted JBIMS entitlement from TCY (pack_conflict)."
+            ],
+            "issues": [],
+            "status": "ok"
+        },
+        "enrolled_panel": {
+            "tcy-account-90334": {
+                "name": "JBIMS MFIN MHRD Bootcamp",
+                "product_id": 17622,
+                "tcy_course_id": "90334",
+                "order_id": 0,
+                "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+            }
+        },
+        "status": "ok"
+    }
+}

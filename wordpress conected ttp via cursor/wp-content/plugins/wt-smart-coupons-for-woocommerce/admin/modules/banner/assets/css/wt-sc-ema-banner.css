@@ -1,0 +1,78 @@
+.wt_sc_gift_card_ema_banner {
+    background: #ffffff;
+    border: 1px solid #e2e4e7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    color: #1d2327;
+    padding: 0px !important;
+    position: relative;
+    border-radius: 8px;
+    margin: 15px 40px 5px;
+}
+
+.wt_sc_gift_card_ema_banner.hide {
+    display: none;
+}
+
+.wt_sc_gift_card_ema_box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    word-spacing: 1px;
+}
+.wt_sc_gift_card_ema_banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    max-width: 1200px;
+}
+
+.wt_sc_gift_card_ema_text .wt_sc_gift_card_ema_title {
+    font-weight: bold;
+    color: #5454A5;
+}
+.wt_sc_gift_card_ema_text {
+    flex: 1;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+.wt_sc_gift_card_ema_banner h2 {
+    color: #1d2327;
+    margin: 0 0 8px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.wt_sc_gift_card_ema_banner p {
+    color: #50575e;
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.wt_sc_gift_card_ema_actions {
+    gap: 10px;
+}
+.wt_sc_gift_card_ema_actions .btn-primary{
+    margin-right: 27px;
+}
+
+.wt_sc_gift_card_ema_actions .btn-primary:hover::after {
+    transform: translateX(4px);
+}
+
+.wt_sc_gift_card_ema_closed:hover {
+    color: #000;
+}
+
+.wt_sc_ema_dismiss {
+    top: 18px;
+    right: 2px;
+}

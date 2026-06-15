@@ -1,0 +1,456 @@
+<?php
+/**
+ * Class Wbte_Accessibility_Banner
+ *
+ * This class is responsible for displaying the Accessibility CTA banner.
+ *
+ * @package Wt_Smart_Coupon
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+if ( ! class_exists( 'Wbte_Accessibility_Banner' ) ) {
+
+	/**
+	 * Class Wbte_Accessibility_Banner
+	 */
+	class Wbte_Accessibility_Banner {
+
+		/**
+		 * The plugin prefix for nonces.
+		 *
+		 * @since 2.2.8
+		 * @var string
+		 */
+		private static $plugin_prefix = 'wt_smart_coupon';
+
+		/**
+		 * The accessibility widget plugin file path.
+		 *
+		 * @since 2.2.8
+		 * @var string
+		 */
+		private static $plugin_file = 'accessibility-widget/accessibility-widget.php';
+
+		/**
+		 * Option to store the reminder count and snooze until time.
+		 * remind_count (1,2) and snooze_until (unix time). Deleted when banner dismissed forever on 3rd remind.
+		 *
+		 * @since 2.2.8
+		 * @var string
+		 */
+		private static $remind_option = 'cya11y_accessyes_banner_remind_state';
+
+		/**
+		 * Option to store the banner hidden status.
+		 *
+		 * @since 2.2.8
+		 * @var string
+		 */
+		private static $banner_hidden_option = 'cya11y_hide_accessyes_cta_banner';
+
+		/**
+		 * Constructor.
+		 *
+		 * @since 2.2.8
+		 */
+		public function __construct() {
+			include_once ABSPATH . 'wp-admin/includes/plugin.php';
+			$installed_plugins = get_plugins();
+
+			if ( array_key_exists( self::$plugin_file, $installed_plugins ) || self::is_within_remind_snooze() ) {
+				return;
+			}
+
+			add_action( 'load-index.php', array( $this, 'register_dashboard_banner_hooks' ) );
+			add_action( 'wp_ajax_wbte_accessibility_dismiss_banner', array( $this, 'handle_dismiss_banner' ) );
+			add_action( 'wp_ajax_wbte_accessibility_install_plugin', array( $this, 'install_plugin' ) );
+			add_action( 'wp_ajax_wbte_accessibility_remind_later', array( $this, 'handle_remind_later' ) );
+		}
+
+		/**
+		 * Register banner notice and scripts only on the main admin dashboard.
+		 *
+		 * @since 2.2.8
+		 */
+		public function register_dashboard_banner_hooks() {
+			add_action( 'admin_notices', array( $this, 'show_banner_notice' ) );
+			add_action( 'admin_print_footer_scripts', array( $this, 'enqueue_admin_scripts' ) );
+		}
+
+		/**
+		 * Whether the banner is hidden until snooze_until.
+		 *
+		 * @return bool
+		 */
+		private static function is_within_remind_snooze() {
+			$data = get_option( self::$remind_option, array() );
+			if ( ! is_array( $data ) || empty( $data['snooze_until'] ) ) {
+				return false;
+			}
+			return time() < absint( $data['snooze_until'] );
+		}
+
+		/**
+		 * Handle setting the option when user clicks "Not Interested".
+		 *
+		 * @since 2.2.8
+		 */
+		public static function handle_dismiss_banner() {
+			check_ajax_referer( self::$plugin_prefix, '_wpnonce' );
+			if ( ! current_user_can( 'manage_options' ) ) {
+				wp_send_json_error();
+			}
+			update_option( self::$banner_hidden_option, true );
+			delete_option( self::$remind_option );
+			wp_send_json_success();
+		}
+
+		/**
+		 * Remind later: 7d → 30d → then permanent hide.
+		 *
+		 * @since 2.2.8
+		 */
+		public static function handle_remind_later() {
+			check_ajax_referer( self::$plugin_prefix, '_wpnonce' );
+			if ( ! current_user_can( 'manage_options' ) ) {
+				wp_send_json_error();
+			}
+
+			$data  = get_option( self::$remind_option, array() );
+			$count = ( is_array( $data ) && isset( $data['remind_count'] ) ) ? absint( $data['remind_count'] ) : 0;
+			++$count;
+
+			if ( $count >= 3 ) {
+				update_option( self::$banner_hidden_option, true );
+				delete_option( self::$remind_option );
+				wp_send_json_success();
+				return;
+			}
+
+			$days = ( 1 === $count ) ? 7 : 30;
+
+			update_option(
+				self::$remind_option,
+				array(
+					'remind_count' => $count,
+					'snooze_until' => time() + ( $days * DAY_IN_SECONDS ),
+				)
+			);
+
+			wp_send_json_success();
+		}
+
+		/**
+		 * Handle plugin installation (download with optional activate).
+		 *
+		 * @since 2.2.8
+		 */
+		public static function install_plugin() {
+			try {
+				check_ajax_referer( self::$plugin_prefix, '_wpnonce' );
+
+				$response = array(
+					'status'  => false,
+					'message' => esc_html__( 'Something went wrong. Please try again.', 'thetoppercentile-coupons' ),
+				);
+
+				if ( ! current_user_can( 'install_plugins' ) ) {
+					$response['message'] = esc_html__( 'You do not have sufficient permissions to install plugins.', 'thetoppercentile-coupons' );
+					wp_send_json( $response );
+					return;
+				}
+
+				require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+				require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+
+				$plugin_slug = 'accessibility-widget';
+				$api         = plugins_api( 'plugin_information', array( 'slug' => $plugin_slug ) );
+
+				if ( is_wp_error( $api ) ) {
+					$response['message'] = $api->get_error_message();
+					wp_send_json( $response );
+					return;
+				}
+
+				if ( ! isset( $api->download_link ) ) {
+					$response['message'] = esc_html__( 'Plugin download link not found.', 'thetoppercentile-coupons' );
+					wp_send_json( $response );
+					return;
+				}
+
+				$upgrader = new Plugin_Upgrader( new WP_Ajax_Upgrader_Skin() );
+				$result   = $upgrader->install( $api->download_link );
+
+				if ( is_wp_error( $result ) ) {
+					$response['message'] = $result->get_error_message();
+					wp_send_json( $response );
+					return;
+				}
+
+				if ( $result ) {
+					$activate_response = self::activate_plugin();
+					if ( $activate_response['status'] ) {
+						$response['status'] = true;
+					} else {
+						$response['message'] = $activate_response['msg'];
+					}
+					update_option( self::$banner_hidden_option, true );
+					delete_option( self::$remind_option );
+				}
+
+				wp_send_json( $response );
+			} catch ( Exception $e ) {
+				wp_send_json(
+					array(
+						'status'  => false,
+						'message' => $e->getMessage(),
+					)
+				);
+			}
+		}
+
+		/**
+		 * Handle plugin activation.
+		 *
+		 * @since 2.2.8
+		 * @return array{status: bool, msg: string}
+		 */
+		public static function activate_plugin() {
+			$result = array(
+				'status' => false,
+				'msg'    => '',
+			);
+
+			if ( ! current_user_can( 'activate_plugins' ) ) {
+				$result['msg'] = esc_html__( 'You do not have sufficient permissions to activate plugins.', 'thetoppercentile-coupons' );
+				return $result;
+			}
+
+			if ( file_exists( WP_PLUGIN_DIR . '/' . self::$plugin_file ) ) {
+				$activation_result = activate_plugin( self::$plugin_file );
+				if ( is_wp_error( $activation_result ) ) {
+					$result['status'] = false;
+					$result['msg']    = esc_html__( 'Activation failed.', 'thetoppercentile-coupons' );
+				} else {
+					$result['status'] = true;
+				}
+			}
+
+			return $result;
+		}
+
+		/**
+		 * Display the accessibility banner.
+		 *
+		 * @since 2.2.8
+		 */
+		public function show_banner_notice() {
+			$plugin_modal_link = admin_url( 'plugin-install.php?tab=plugin-information&plugin=accessibility-widget&TB_iframe=true' );
+
+			?>
+			<div id="wbte_accessibility_banner" class="notice">
+				<div class="wbte_accessibility_banner_main">
+					<img src="<?php echo esc_url( plugin_dir_url( __FILE__ ) . 'assets/images/accessyes.svg' ); ?>" alt="<?php esc_attr_e( 'Accessibility Widget', 'thetoppercentile-coupons' ); ?>" style="width: 48px; height: 48px;">
+					<div class="wbte_accessibility_banner_content">
+						<p class="wbte_accessibility_banner_content_title">
+							<?php
+							printf(
+								/* translators: 1: a tag opening, 2: a tag closing */
+								esc_html__( 'Make your site inclusive with %1$s AccessYes accessibility widget. %2$s', 'thetoppercentile-coupons' ),
+								'<a href="' . esc_url( $plugin_modal_link ) . '" class="thickbox" style="text-decoration: none;">',
+								'</a>'
+							);
+							?>
+						</p>
+						<p style="font-size: 14px;">
+							<?php
+							esc_html_e( 'A lightweight accessibility widget to improve accessibility and usability for every users. Set it up in minutes for free.', 'thetoppercentile-coupons' );
+							?>
+						</p>
+					</div>
+				</div>
+				<div class="wbte_accessibility_banner_actions">
+					<button class="button button-primary" id="wbte_accessibility_banner_install_btn">
+						<span class="dashicons dashicons-update wbte_accessibility_banner_install_btn_loader"></span>
+						<span class="wbte_accessibility_banner_install_btn_text">
+							<?php esc_html_e( 'Install & activate', 'thetoppercentile-coupons' ); ?>
+						</span>
+					</button>
+					<a href="#" class="wbte_accessibility_banner_maybe_ltr">
+						<?php esc_html_e( 'Remind me later', 'thetoppercentile-coupons' ); ?>
+					</a>
+				</div>
+				<span class="wbte_accessibility_banner_dismiss_btn">
+					<?php esc_html_e( 'Dismiss', 'thetoppercentile-coupons' ); ?>
+					<span class="dashicons dashicons-no-alt"></span>
+				</span>
+			</div>
+			<?php
+		}
+
+		/**
+		 * Enqueue admin footer scripts for banner actions.
+		 *
+		 * @since 2.2.8
+		 */
+		public static function enqueue_admin_scripts() {
+			$ajax_url  = admin_url( 'admin-ajax.php' );
+			$nonce     = wp_create_nonce( self::$plugin_prefix );
+			$error_msg = esc_js( __( 'Something went wrong. Please try again.', 'thetoppercentile-coupons' ) );
+			?>
+			<style>
+			#wbte_accessibility_banner { padding: 20px; border-left-color: #2271b1; position: relative; }
+			.wbte_accessibility_banner_main { display: flex; gap: 12px; align-items: flex-start; }
+			.wbte_accessibility_banner_content { flex: 1; }
+			.wbte_accessibility_banner_content p { margin: 0; padding: 0; }
+			p.wbte_accessibility_banner_content_title{ font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+			.wbte_accessibility_banner_actions { display: flex; gap: 16px; align-items: center; margin-left: 60px; margin-top: 16px; }
+			#wbte_accessibility_banner_install_btn { font-size: 14px; font-weight: 700; background-color: #2271b1; color: #fff; border-radius: 6px; padding: 6px 24px; line-height: 1.5; display: flex; align-items: center; justify-content: center; }
+			#wbte_accessibility_banner_install_btn:hover { background-color: #135e96; }
+			.wbte_accessibility_banner_install_btn_text{ display: flex; align-items: center; gap: 4px; }
+			.wbte_accessibility_banner_install_btn_loader { animation: wbte_ab_rotation 2s infinite linear; display: none; margin: 3px 5px 0 0; vertical-align: top; }
+			@keyframes wbte_ab_rotation {
+				from { transform: rotate(0deg); }
+				to { transform: rotate(359deg); }
+			}
+			#wbte_accessibility_banner.wbte_accessibility_banner_loading .wbte_accessibility_banner_loader { position: absolute; inset: 0; background: rgba( 0, 0, 0, 0.6 ); border-radius: 4px; display: flex; align-items: center; justify-content: center; z-index: 1; }
+			#wbte_accessibility_banner.wbte_accessibility_banner_loading .wbte_accessibility_banner_loader .spinner { margin: 0; float: none; visibility: visible; }
+			.wbte_accessibility_banner_dismiss_btn{ position: absolute; right: 10px; top: 10px; cursor: pointer; }
+			.wbte_accessibility_banner_maybe_ltr{ margin-left: 15px; color: #646970; text-decoration: underline; }
+
+			@media (max-width: 782px) {
+				#wbte_accessibility_banner{ flex-direction: column; align-items: flex-start; }
+			}
+			</style>
+			<script>
+			( function( $ ) {
+				'use strict';
+
+				$( document ).ready( function() {
+					const installBtn = $( '#wbte_accessibility_banner_install_btn' );
+					const btnTextSpan = installBtn.find( '.wbte_accessibility_banner_install_btn_text' );
+					const originalBtnHtml = btnTextSpan.html();
+					const activateCheckbox = $( '#wbte_accessibility_banner_need_to_activate_checkbox' );
+					const banner = $( '#wbte_accessibility_banner' );
+
+					function setButtonLoading( isLoading ) {
+						if ( isLoading ) {
+							$( '.wbte_accessibility_banner_install_btn_loader' ).css( 'display', 'inline-block' );
+							btnTextSpan.text( '<?php echo esc_js( __( 'Installing...', 'thetoppercentile-coupons' ) ); ?>' );
+							installBtn.prop( 'disabled', true );
+						} else {
+							$( '.wbte_accessibility_banner_install_btn_loader' ).css( 'display', 'none' );
+							btnTextSpan.html( originalBtnHtml );
+							installBtn.prop( 'disabled', false );
+						}
+					}
+
+					function hideBanner() {
+						banner.slideUp( 200 );
+					}
+
+					function showBannerLoader() {
+						if ( banner.hasClass( 'wbte_accessibility_banner_loading' ) ) {
+							return;
+						}
+						banner.addClass( 'wbte_accessibility_banner_loading' ).append(
+							'<div class="wbte_accessibility_banner_loader"><span class="spinner"></span></div>'
+						);
+						banner.find( '.wbte_accessibility_banner_loader .spinner' ).css( 'visibility', 'visible' );
+					}
+
+					function removeBannerLoader() {
+						banner.removeClass( 'wbte_accessibility_banner_loading' ).find( '.wbte_accessibility_banner_loader' ).remove();
+					}
+
+					banner.on( 'click', '.wbte_accessibility_banner_dismiss_btn', function(e) {
+						e.preventDefault();
+						
+						showBannerLoader();
+						$.ajax( {
+							url: '<?php echo esc_url( $ajax_url ); ?>',
+							type: 'POST',
+							dataType: 'json',
+							data: {
+								action: 'wbte_accessibility_dismiss_banner',
+								_wpnonce: '<?php echo esc_js( $nonce ); ?>'
+							},
+							success: function( response ) {
+								removeBannerLoader();
+								if ( response.success ) {
+									hideBanner();
+								}
+							},
+							error: function() {
+								removeBannerLoader();
+								wbte_sc_notify_msg.error( '<?php echo esc_js( $error_msg ); ?>' );
+							}
+						} );
+					} );
+
+					banner.on( 'click', '.wbte_accessibility_banner_maybe_ltr', function( e ) {
+						e.preventDefault();
+						showBannerLoader();
+						$.ajax( {
+							url: '<?php echo esc_url( $ajax_url ); ?>',
+							type: 'POST',
+							dataType: 'json',
+							data: {
+								action: 'wbte_accessibility_remind_later',
+								_wpnonce: '<?php echo esc_js( $nonce ); ?>'
+							},
+							success: function( response ) {
+								removeBannerLoader();
+								if ( response.success ) {
+									hideBanner();
+								}
+							},
+							error: function() {
+								removeBannerLoader();
+								wbte_sc_notify_msg.error( '<?php echo esc_js( $error_msg ); ?>' );
+							}
+						} );
+					} );
+
+					installBtn.on( 'click', function( event ) {
+						event.preventDefault();
+
+						setButtonLoading( true );
+
+						$.ajax( {
+							url: '<?php echo esc_url( $ajax_url ); ?>',
+							type: 'POST',
+							dataType: 'json',
+							data: {
+								action: 'wbte_accessibility_install_plugin',
+								_wpnonce: '<?php echo esc_js( $nonce ); ?>'
+							},
+							success: function( response ) {
+								if ( response.status ) {
+									setButtonLoading( false );
+									hideBanner();
+
+									wbte_sc_notify_msg.success( '<?php echo esc_js( __( 'Plugin installed successfully.', 'thetoppercentile-coupons' ) ); ?>' );
+								} else {
+									setButtonLoading( false );
+									const msg = ( response.message && response.message.length ) ? response.message : '<?php echo esc_js( $error_msg ); ?>';
+									wbte_sc_notify_msg.error( msg );
+								}
+							},
+							error: function() {
+								setButtonLoading( false );
+								wbte_sc_notify_msg.error( '<?php echo esc_js( $error_msg ); ?>' );
+							}
+						} );
+					} );
+				} );
+			} )( jQuery );
+			</script>
+			<?php
+		}
+	}
+	new Wbte_Accessibility_Banner();
+}

@@ -1,0 +1,52 @@
+{
+    "time": "2026-06-12T12:10:18+00:00",
+    "action": "verify_panel",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "users": {
+        "mahrinsayed@gmail.com": {
+            "wp_user_id": 308,
+            "tcy_user_id": "ODE2MDA3MA==",
+            "portal_enrollments": [
+                {
+                    "name": "JBIMS MFIN MHRD Bootcamp",
+                    "tcy_course_id": "90334",
+                    "product_id": 17622,
+                    "sub_cat": "38081"
+                }
+            ],
+            "enrolled_panel": {
+                "tcy-account-90334": {
+                    "name": "JBIMS MFIN MHRD Bootcamp",
+                    "product_id": 17622,
+                    "tcy_course_id": "90334",
+                    "order_id": 0,
+                    "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                }
+            }
+        },
+        "2025anshitripathi04@gmail.com": {
+            "wp_user_id": 354,
+            "tcy_user_id": "ODE2MDQwNw==",
+            "portal_enrollments": [
+                {
+                    "name": "JBIMS MFIN MHRD Bootcamp",
+                    "tcy_course_id": "90334",
+                    "product_id": 17622,
+                    "sub_cat": "38081"
+                }
+            ],
+            "enrolled_panel": {
+                "tcy-account-90334": {
+                    "name": "JBIMS MFIN MHRD Bootcamp",
+                    "product_id": 17622,
+                    "tcy_course_id": "90334",
+                    "order_id": 0,
+                    "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,244 @@
+/* TTP Plugin Styles v2 */
+
+/* ── Timer strip ── */
+.ttp-timer-wrap {
+    background: #fff4ee;
+    border: 1px solid #ffd7c2;
+    border-left: 4px solid #ff6a00;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #7a2d00;
+    font-weight: 500;
+}
+.ttp-countdown {
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #ff6a00;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+
+/* ── Validity strip ── */
+.ttp-validity-wrap {
+    background: #f3f9f6;
+    border: 1px solid #cde8d6;
+    border-left: 4px solid #16a34a;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #14532d;
+    font-weight: 500;
+}
+
+/* ── Buy Now button ── */
+.ttp-buy-now-btn {
+    display: block !important;
+    width: 100% !important;
+    padding: 17px !important;
+    background: linear-gradient(90deg, #ff6a00, #ff8c42) !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    border: none !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    transition: filter 0.2s, transform 0.15s, box-shadow 0.2s !important;
+    box-shadow: 0 4px 18px rgba(255,106,0,0.28) !important;
+    margin-top: 12px !important;
+    margin-bottom: 16px !important;
+}
+.ttp-buy-now-btn:hover {
+    filter: brightness(0.92) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 28px rgba(255,106,0,0.40) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/* ── Hide quantity on single product; keep buttons in TTP course card layout ── */
+.single-product form.cart .quantity {
+    display: none !important;
+}
+
+body:not(.ttp-course-product-card) .single-product .single_add_to_cart_button {
+    display: none !important;
+}
+
+body.ttp-course-product-card .ttp-course-summary-card .single_add_to_cart_button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ── Registration page ── */
+.ttp-registration-wrap { max-width: 520px; margin: 48px auto; padding: 0 20px; }
+.ttp-product-summary {
+    background: linear-gradient(135deg, #1a56db, #ff6a00);
+    color: #fff; padding: 18px 22px; border-radius: 14px;
+    margin-bottom: 22px; display: flex;
+    justify-content: space-between; align-items: center;
+}
+.ttp-product-summary h3 { margin: 0; font-size: 15px; color: #fff; font-weight: 600; }
+.ttp-price { font-size: 22px; font-weight: 800; color: #ffe4b5; }
+.ttp-reg-box {
+    background: #fff; border: 1px solid #ebebeb;
+    border-radius: 18px; padding: 36px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+}
+.ttp-reg-box h2 { margin-top: 0; font-size: 22px; font-weight: 700; color: #111; margin-bottom: 20px; }
+.ttp-field { margin-bottom: 16px; }
+.ttp-field label { display: block; font-size: 13px; font-weight: 600; color: #333; margin-bottom: 6px; }
+.ttp-field input {
+    width: 100%; padding: 12px 14px; border: 1.5px solid #e0e0e0;
+    border-radius: 8px; font-size: 15px; background: #fafafa;
+    color: #111; transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box; outline: none;
+}
+.ttp-field input:focus { border-color: #ff6a00; background: #fff; box-shadow: 0 0 0 3px rgba(255,106,0,0.10); }
+.ttp-submit-reg {
+    width: 100%; padding: 15px;
+    background: linear-gradient(90deg, #ff6a00, #ff8c42);
+    color: #fff; border: none; border-radius: 10px;
+    font-size: 16px; font-weight: 700; cursor: pointer;
+    transition: filter 0.2s, transform 0.15s;
+    margin-top: 6px; box-shadow: 0 4px 16px rgba(255,106,0,0.25);
+}
+.ttp-submit-reg:hover { filter: brightness(0.92); transform: translateY(-2px); }
+.ttp-message { padding: 12px 16px; border-radius: 8px; margin-bottom: 14px; font-size: 14px; font-weight: 500; }
+.ttp-message.success { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
+.ttp-message.error   { background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa; }
+.ttp-login-link { text-align: center; margin-top: 16px; font-size: 14px; color: #888; }
+.ttp-login-link a { color: #ff6a00; font-weight: 600; text-decoration: none; }
+
+/* ── Success / access page ── */
+.ttp-purchase-thankyou {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-left: 4px solid #1a56db;
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin: 24px 0 12px;
+    text-align: center;
+}
+.ttp-purchase-thankyou__title {
+    margin: 0 0 10px;
+    font-size: 1.65rem;
+    color: #1e3a5f;
+}
+.ttp-purchase-thankyou__lead {
+    margin: 0;
+    color: #334155;
+    line-height: 1.55;
+}
+.ttp-success-box { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 14px; padding: 32px; text-align: center; margin: 24px 0; }
+.ttp-success-box h2 { color: #166534; }
+.ttp-order-course-access {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-left: 4px solid #1a56db;
+    border-radius: 14px;
+    padding: 22px 24px;
+    margin: 24px 0 12px;
+}
+.ttp-order-course-access__title {
+    margin: 0 0 8px;
+    font-size: 1.35rem;
+    color: #1e3a5f;
+}
+.ttp-order-course-access__lead {
+    margin: 0 0 16px;
+    color: #334155;
+    font-size: 14px;
+}
+.ttp-order-course-access__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 10px;
+}
+.ttp-order-course-access__item {
+    margin: 0;
+}
+.ttp-btn--access {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background: #16a34a !important;
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+.ttp-btn--access:hover {
+    filter: brightness(0.92);
+    color: #fff !important;
+}
+.ttp-access-btn {
+    background: linear-gradient(90deg, #16a34a, #22c55e) !important;
+    color: #fff !important; border: none !important; border-radius: 10px !important;
+    padding: 14px 32px !important; font-size: 17px !important; font-weight: 700 !important;
+    cursor: pointer !important; display: inline-block !important; text-decoration: none !important;
+    box-shadow: 0 4px 16px rgba(22,163,74,0.25) !important;
+    transition: filter 0.2s, transform 0.15s !important;
+}
+.ttp-access-btn:hover { filter: brightness(0.92) !important; transform: translateY(-2px) !important; color: #fff !important; }
+.ttp-pending { background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa; padding: 12px 16px; border-radius: 8px; font-size: 14px; }
+.ttp-inline-msg { margin: 12px 0 0; padding: 10px 14px; border-radius: 8px; font-size: 14px; color: #9a3412; background: #fff7ed; border: 1px solid #fed7aa; max-width: 520px; margin-left: auto; margin-right: auto; }
+
+@media (max-width: 600px) {
+    .ttp-reg-box { padding: 22px 16px; }
+    .ttp-product-summary { flex-direction: column; gap: 8px; text-align: center; }
+}
+
+/* Exam plan card CTA polish */
+body.page-id-563 .ttp-plan-card .ttp-btn-enroll,
+body.page-id-563 .ttp-plan-card .ttp-btn-buy,
+body.page-id-563 .ttp-plan-card .ttp-open-signup,
+body.page-slug-exam .ttp-plan-card .ttp-btn-buy,
+body.page-slug-exam .ttp-plan-card .ttp-plan-card__btn-cart {
+    display: block !important;
+    width: 100% !important;
+    margin: 10px 0 10px !important;
+    padding: 12px 14px !important;
+    background: #101010 !important;
+    color: #ffffff !important;
+    border: 1px solid #101010 !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Do not override marketplace card footer — layout is in ttp-enroll-page.css */
+body.page-slug-exam .ttp-course-card__footer .ttp-course-card__buy,
+body.page-slug-exam .ttp-course-card__footer .ttp-course-card__details {
+    width: auto !important;
+    margin: 0 !important;
+}
+
+body.page-id-563 .ttp-plan-card .ttp-btn-enroll:hover,
+body.page-id-563 .ttp-plan-card .ttp-btn-buy:hover,
+body.page-slug-exam .ttp-plan-card .ttp-btn-buy:hover,
+body.page-id-563 .ttp-plan-card .ttp-open-signup:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+}
+
+body.page-id-563 .ttp-plan-card .ttp-btn-cart {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 12px 14px !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}

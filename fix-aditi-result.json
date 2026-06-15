@@ -1,0 +1,38 @@
+{
+    "time": "2026-06-13T11:40:27+00:00",
+    "action": "revoke_false_jbims",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "students": {
+        "kriaditi24dec@gmail.com": {
+            "email": "kriaditi24dec@gmail.com",
+            "actions": [
+                "Deleted false JBIMS portal enrollment meta.",
+                "Requested TCY remove_course for unauthorized 90334.",
+                "Re-synced portal enrollments."
+            ],
+            "issues": [],
+            "wp_user_id": 395,
+            "has_jbims_purchase": false,
+            "enrolled_panel": {
+                "18453-594": {
+                    "name": "CET Solo (Self Study)",
+                    "product_id": 17159,
+                    "tcy_course_id": "90070",
+                    "order_id": 18453,
+                    "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18453"
+                },
+                "map-18453-90070": {
+                    "name": "CET Solo (Self Study)",
+                    "product_id": 17159,
+                    "tcy_course_id": "90070",
+                    "order_id": 18453,
+                    "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18453"
+                }
+            },
+            "status": "ok"
+        }
+    }
+}

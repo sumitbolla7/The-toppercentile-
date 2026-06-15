@@ -1,0 +1,18 @@
+{
+    "time": "2026-06-13T17:03:03+00:00",
+    "action": "revoke_false_jbims",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "students": {
+        "hrishirajeshirke@gmail.com": {
+            "email": "hrishirajeshirke@gmail.com",
+            "actions": [],
+            "issues": [],
+            "wp_user_id": 0,
+            "has_jbims_entitlement": false,
+            "status": "ok"
+        }
+    }
+}

@@ -1,0 +1,1158 @@
+{
+    "time": "2026-06-13T13:52:22+00:00",
+    "action": "repair_panels_batch",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": {
+        "total": 10,
+        "ok": 10,
+        "empty": 0,
+        "errors": 0,
+        "rows": [
+            {
+                "email": "muskan.cet28@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 217,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzMxMg==",
+                    "all_tcy_ids": [
+                        "ODE2MzMxMg=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzMxMg==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17827,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "muskan.cet28@gmail.com",
+                        "wp_user_id": 217,
+                        "canonical_tcy": "ODE2MzMxMg==",
+                        "all_tcy_ids": [
+                            "ODE2MzMxMg=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17827,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzMxMg==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                                        "product_id": 17621,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|17827|397": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17827,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|17827|397": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17827,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "17827-397": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 17827,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334&ttp_order=17827"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "dinukatke@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 341,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzMwMg==",
+                    "all_tcy_ids": [
+                        "ODE2MzMwMg=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzMwMg==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18420,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "dinukatke@gmail.com",
+                        "wp_user_id": 341,
+                        "canonical_tcy": "ODE2MzMwMg==",
+                        "all_tcy_ids": [
+                            "ODE2MzMwMg=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18420,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzMwMg==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18420|569": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18420,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18420|569": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18420,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18420-569": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18420,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18420"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "rushikeshkahat4398@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 345,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzI5OA==",
+                    "all_tcy_ids": [
+                        "ODE2MzI5OA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzI5OA==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18367,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "rushikeshkahat4398@gmail.com",
+                        "wp_user_id": 345,
+                        "canonical_tcy": "ODE2MzI5OA==",
+                        "all_tcy_ids": [
+                            "ODE2MzI5OA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18367,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzI5OA==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                                        "product_id": 17621,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18367|528": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18367,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18367|528": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18367,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18367-528": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 18367,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334&ttp_order=18367"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "manvimalunjkar04@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 370,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzI5MQ==",
+                    "all_tcy_ids": [
+                        "ODE2MzI5MQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzI5MQ==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18411,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "manvimalunjkar04@gmail.com",
+                        "wp_user_id": 370,
+                        "canonical_tcy": "ODE2MzI5MQ==",
+                        "all_tcy_ids": [
+                            "ODE2MzI5MQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18411,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzI5MQ==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                                        "product_id": 17621,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18411|565": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18411,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18411|565": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18411,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18411-565": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 18411,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334&ttp_order=18411"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "samikshameshram2001@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 368,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzI5MA==",
+                    "all_tcy_ids": [
+                        "ODE2MzI5MA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzI5MA==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18419,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "samikshameshram2001@gmail.com",
+                        "wp_user_id": 368,
+                        "canonical_tcy": "ODE2MzI5MA==",
+                        "all_tcy_ids": [
+                            "ODE2MzI5MA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18419,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzI5MA==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18419|568": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18419,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18419|568": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18419,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18419-568": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18419,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18419"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "amolakevadkar@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 323,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzI4NQ==",
+                    "all_tcy_ids": [
+                        "ODE2MzI4NQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzI4NQ==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18292,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "amolakevadkar@gmail.com",
+                        "wp_user_id": 323,
+                        "canonical_tcy": "ODE2MzI4NQ==",
+                        "all_tcy_ids": [
+                            "ODE2MzI4NQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18292,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzI4NQ==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                                        "product_id": 17621,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18292|500": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18292,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18292|500": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38033",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18292,
+                                "product_id": 17621,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18292-500": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 18292,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334&ttp_order=18292"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp Elite",
+                        "product_id": 17621,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17621&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "koshtitejaswini25@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 367,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzIzNQ==",
+                    "all_tcy_ids": [
+                        "ODE2MzIzNQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzIzNQ==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18417,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "koshtitejaswini25@gmail.com",
+                        "wp_user_id": 367,
+                        "canonical_tcy": "ODE2MzIzNQ==",
+                        "all_tcy_ids": [
+                            "ODE2MzIzNQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18417,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzIzNQ==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18417|566": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18417,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18417|566": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18417,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18417-566": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18417,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18417"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "adityaajmi99@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 365,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzA3Ng==",
+                    "all_tcy_ids": [
+                        "ODE2MzA3Ng=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzA3Ng==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18403,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "adityaajmi99@gmail.com",
+                        "wp_user_id": 365,
+                        "canonical_tcy": "ODE2MzA3Ng==",
+                        "all_tcy_ids": [
+                            "ODE2MzA3Ng=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18403,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzA3Ng==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18403|559": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18403,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18403|559": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18403,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18403-559": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18403,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18403"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "chaitanyawankhade8@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 210,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzA2Ng==",
+                    "all_tcy_ids": [
+                        "ODE2MzA2Ng=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzA2Ng==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18401,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "chaitanyawankhade8@gmail.com",
+                        "wp_user_id": 210,
+                        "canonical_tcy": "ODE2MzA2Ng==",
+                        "all_tcy_ids": [
+                            "ODE2MzA2Ng=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18401,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzA2Ng==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18401|558": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18401,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18401|558": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18401,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18401-558": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18401,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18401"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "dr.roshni1singh@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 364,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE2MzA1Mw==",
+                    "all_tcy_ids": [
+                        "ODE2MzA1Mw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE2MzA1Mw==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18400,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "dr.roshni1singh@gmail.com",
+                        "wp_user_id": 364,
+                        "canonical_tcy": "ODE2MzA1Mw==",
+                        "all_tcy_ids": [
+                            "ODE2MzA1Mw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18400,
+                                "status": "processing",
+                                "tcy_user_id": "ODE2MzA1Mw==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18400|557": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18400,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18400|557": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18400,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18400-557": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18400,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18400"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            }
+        ]
+    },
+    "total_users": 93,
+    "batch_from": 0,
+    "batch_count": 10,
+    "next_batch_url": "https:\/\/thetoppercentile.co.in\/ttp-bulk-run-once.php?key=ttp_bulk_jun12_2026_x7k9&action=repair_panels_batch&batch=1&batch_size=10"
+}

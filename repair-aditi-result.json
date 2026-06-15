@@ -1,0 +1,115 @@
+{
+    "time": "2026-06-13T17:06:38+00:00",
+    "action": "repair_panel",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "student": {
+        "email": "kriaditi24dec@gmail.com",
+        "actions": [
+            "Ran TCY enrollment repair.",
+            "Synced qualifying order courses.",
+            "Purged unauthorized JBIMS (no purchase\/grant).",
+            "Account-view TCY sync completed."
+        ],
+        "issues": [],
+        "wp_user_id": 395,
+        "tcy_repair": {
+            "added": 0,
+            "already": 1,
+            "failed": 0,
+            "skipped": 0,
+            "total": 0,
+            "course_ids": [],
+            "tcy_user_id": "ODE2NDUyNQ==",
+            "all_tcy_ids": [
+                "ODE2NDUyNQ=="
+            ],
+            "split_account": false,
+            "details": [
+                {
+                    "tcy_user_id": "ODE2NDUyNQ==",
+                    "course_id": "90070",
+                    "stored_course_id": "",
+                    "category_id": "",
+                    "sub_cat": "",
+                    "variant": "register_covers",
+                    "order_id": 18453,
+                    "line_name": "CET Solo (Self Study)",
+                    "status": "skipped",
+                    "error": ""
+                }
+            ],
+            "diagnosis": {
+                "email": "kriaditi24dec@gmail.com",
+                "wp_user_id": 395,
+                "canonical_tcy": "ODE2NDUyNQ==",
+                "all_tcy_ids": [
+                    "ODE2NDUyNQ=="
+                ],
+                "orders": [
+                    {
+                        "order_id": 18453,
+                        "status": "processing",
+                        "tcy_user_id": "ODE2NDUyNQ==",
+                        "lines": [
+                            {
+                                "name": "CET Solo (Self Study)",
+                                "product_id": 17159,
+                                "course_id": "90070"
+                            }
+                        ]
+                    }
+                ],
+                "pairs": {
+                    "90070|100000|18453|594": {
+                        "course_id": "90070",
+                        "stored_course_id": "",
+                        "category_id": "100000",
+                        "sub_cat": "33599",
+                        "syncable": true,
+                        "skip_reason": "",
+                        "order_id": 18453,
+                        "product_id": 17159,
+                        "line_name": "CET Solo (Self Study)"
+                    }
+                },
+                "distinct_course": [
+                    90070
+                ],
+                "pairs_tcy_sync": {
+                    "90070|100000|18453|594": {
+                        "course_id": "90070",
+                        "stored_course_id": "",
+                        "category_id": "100000",
+                        "sub_cat": "33599",
+                        "syncable": true,
+                        "skip_reason": "",
+                        "order_id": 18453,
+                        "product_id": 17159,
+                        "line_name": "CET Solo (Self Study)"
+                    }
+                },
+                "pairs_skipped": [],
+                "tcy_max_courses": 1,
+                "invalid_course_ids": [],
+                "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+            },
+            "pairs_purchased": 1,
+            "pairs_skipped": [],
+            "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+            "pairs_tcy_sync": 1
+        },
+        "enrolled_panel": {
+            "18453-594": {
+                "name": "CET Solo (Self Study)",
+                "product_id": 17159,
+                "tcy_course_id": "90070",
+                "order_id": 18453,
+                "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18453"
+            }
+        },
+        "status": "ok"
+    }
+}

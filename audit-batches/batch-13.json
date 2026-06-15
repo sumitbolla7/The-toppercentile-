@@ -1,0 +1,764 @@
+{
+    "time": "2026-06-12T09:12:45+00:00",
+    "action": "audit_batch",
+    "batch": 13,
+    "batch_size": 5,
+    "repair": true,
+    "total_users": 93,
+    "batch_from": 65,
+    "batch_count": 5,
+    "audit": {
+        "total": 5,
+        "ok": 5,
+        "issues": 0,
+        "repaired": 0,
+        "rows": [
+            {
+                "email": "ttabhishektiwari@gmail.com",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "ttabhishektiwari@gmail.com",
+                    "wp_user_id": 274,
+                    "canonical_tcy": "ODE1NDc1Mg==",
+                    "all_tcy_ids": [
+                        "ODE1NDc1Mg=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17989,
+                            "status": "processing",
+                            "tcy_user_id": "ODE1NDc1Mg==",
+                            "lines": [
+                                {
+                                    "name": "CET Elite",
+                                    "product_id": 17158,
+                                    "course_id": "90069"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90069|100000|17989|437": {
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17989,
+                            "product_id": 17158,
+                            "line_name": "CET Elite"
+                        }
+                    },
+                    "distinct_course": [
+                        90069
+                    ],
+                    "pairs_tcy_sync": {
+                        "90069|100000|17989|437": {
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17989,
+                            "product_id": 17158,
+                            "line_name": "CET Elite"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 1,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDc1Mg==",
+                    "all_tcy_ids": [
+                        "ODE1NDc1Mg=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDc1Mg==",
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17989,
+                            "line_name": "CET Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "ttabhishektiwari@gmail.com",
+                        "wp_user_id": 274,
+                        "canonical_tcy": "ODE1NDc1Mg==",
+                        "all_tcy_ids": [
+                            "ODE1NDc1Mg=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17989,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDc1Mg==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite",
+                                        "product_id": 17158,
+                                        "course_id": "90069"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90069|100000|17989|437": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17989,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90069
+                        ],
+                        "pairs_tcy_sync": {
+                            "90069|100000|17989|437": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17989,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                }
+            },
+            {
+                "email": "thisisravankar@gmail.com",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "thisisravankar@gmail.com",
+                    "wp_user_id": 211,
+                    "canonical_tcy": "ODE1NDU5Nw==",
+                    "all_tcy_ids": [
+                        "ODE1NDU5Nw=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17982,
+                            "status": "processing",
+                            "tcy_user_id": "ODE1NDU5Nw==",
+                            "lines": [
+                                {
+                                    "name": "CET Elite (with 1 on 1 Mentorship)",
+                                    "product_id": 17157,
+                                    "course_id": "90072"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90072|100000|17982|435": {
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17982,
+                            "product_id": 17157,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                        }
+                    },
+                    "distinct_course": [
+                        90072
+                    ],
+                    "pairs_tcy_sync": {
+                        "90072|100000|17982|435": {
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17982,
+                            "product_id": 17157,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 1,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDU5Nw==",
+                    "all_tcy_ids": [
+                        "ODE1NDU5Nw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDU5Nw==",
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17982,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "thisisravankar@gmail.com",
+                        "wp_user_id": 211,
+                        "canonical_tcy": "ODE1NDU5Nw==",
+                        "all_tcy_ids": [
+                            "ODE1NDU5Nw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17982,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDU5Nw==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17157,
+                                        "course_id": "90072"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90072|100000|17982|435": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17982,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "distinct_course": [
+                            90072
+                        ],
+                        "pairs_tcy_sync": {
+                            "90072|100000|17982|435": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17982,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                }
+            },
+            {
+                "email": "mikhilnda4@gmail.com",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "mikhilnda4@gmail.com",
+                    "wp_user_id": 252,
+                    "canonical_tcy": "ODE1NDU3NQ==",
+                    "all_tcy_ids": [
+                        "ODE1NDU3NQ=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17980,
+                            "status": "processing",
+                            "tcy_user_id": "ODE1NDU3NQ==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite",
+                                    "product_id": 17156,
+                                    "course_id": "90071"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90071|100000|17980|434": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17980,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        }
+                    },
+                    "distinct_course": [
+                        90071
+                    ],
+                    "pairs_tcy_sync": {
+                        "90071|100000|17980|434": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17980,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 1,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDU3NQ==",
+                    "all_tcy_ids": [
+                        "ODE1NDU3NQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDU3NQ==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17980,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "mikhilnda4@gmail.com",
+                        "wp_user_id": 252,
+                        "canonical_tcy": "ODE1NDU3NQ==",
+                        "all_tcy_ids": [
+                            "ODE1NDU3NQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17980,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDU3NQ==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90071|100000|17980|434": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17980,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90071
+                        ],
+                        "pairs_tcy_sync": {
+                            "90071|100000|17980|434": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17980,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                }
+            },
+            {
+                "email": "manish.chatpalliwar03@gmail.com",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "manish.chatpalliwar03@gmail.com",
+                    "wp_user_id": 213,
+                    "canonical_tcy": "ODE1NDQwOA==",
+                    "all_tcy_ids": [
+                        "ODE1NDQwOA=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17978,
+                            "status": "processing",
+                            "tcy_user_id": "ODE1NDQwOA==",
+                            "lines": [
+                                {
+                                    "name": "CET Solo (Self Study)",
+                                    "product_id": 17159,
+                                    "course_id": "90070"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90070|100000|17978|430": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17978,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "distinct_course": [
+                        90070
+                    ],
+                    "pairs_tcy_sync": {
+                        "90070|100000|17978|430": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17978,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 1,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDQwOA==",
+                    "all_tcy_ids": [
+                        "ODE1NDQwOA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDQwOA==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17978,
+                            "line_name": "CET Solo (Self Study)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "manish.chatpalliwar03@gmail.com",
+                        "wp_user_id": 213,
+                        "canonical_tcy": "ODE1NDQwOA==",
+                        "all_tcy_ids": [
+                            "ODE1NDQwOA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17978,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDQwOA==",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90070|100000|17978|430": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17978,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "distinct_course": [
+                            90070
+                        ],
+                        "pairs_tcy_sync": {
+                            "90070|100000|17978|430": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17978,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                }
+            },
+            {
+                "email": "shrunad18@gmail.com",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "shrunad18@gmail.com",
+                    "wp_user_id": 270,
+                    "canonical_tcy": "ODE1NDMyNw==",
+                    "all_tcy_ids": [
+                        "ODE1NDMyNw=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17977,
+                            "status": "processing",
+                            "tcy_user_id": "ODE1NDMyNw==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                                    "product_id": 17155,
+                                    "course_id": "90073"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90073|100000|17977|429": {
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17977,
+                            "product_id": 17155,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                        }
+                    },
+                    "distinct_course": [
+                        90073
+                    ],
+                    "pairs_tcy_sync": {
+                        "90073|100000|17977|429": {
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17977,
+                            "product_id": 17155,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 1,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDMyNw==",
+                    "all_tcy_ids": [
+                        "ODE1NDMyNw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDMyNw==",
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17977,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "shrunad18@gmail.com",
+                        "wp_user_id": 270,
+                        "canonical_tcy": "ODE1NDMyNw==",
+                        "all_tcy_ids": [
+                            "ODE1NDMyNw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17977,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDMyNw==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17155,
+                                        "course_id": "90073"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90073|100000|17977|429": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17977,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "distinct_course": [
+                            90073
+                        ],
+                        "pairs_tcy_sync": {
+                            "90073|100000|17977|429": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17977,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                }
+            }
+        ]
+    },
+    "next_batch_url": "https:\/\/thetoppercentile.co.in\/ttp-bulk-run-once.php?key=ttp_bulk_jun12_2026_x7k9&action=audit_batch&batch=14&batch_size=5&repair=1"
+}

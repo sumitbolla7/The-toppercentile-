@@ -1,0 +1,13 @@
+{
+    "time": "2026-06-14T20:15:09+00:00",
+    "action": "find_user",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "find": {
+        "fragment": "jambhulkar",
+        "users": [],
+        "orders": []
+    }
+}

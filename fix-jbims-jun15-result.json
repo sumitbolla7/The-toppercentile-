@@ -1,0 +1,1391 @@
+{
+    "time": "2026-06-14T20:13:21+00:00",
+    "action": "fix_jbims_jun15",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "catalog_repair": [],
+    "students": {
+        "agarwadkarshreyas7@gmail.com": {
+            "lookup": {
+                "email": "agarwadkarshreyas7@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "agarwadkarshreyas7@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 346,
+                "status": "exists"
+            },
+            "complete": {
+                "email": "agarwadkarshreyas7@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "agarwadkarshreyas7@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "agarwadkarshreyas7@gmail.com",
+                    "phone": "",
+                    "actions": [
+                        "Synced portal enrollment rows for login dashboard."
+                    ],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 346,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "agarwadkarshreyas7@gmail.com",
+                        "wp_user_id": 346,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "portal_enrollments": [],
+                "enrolled_panel": [],
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "agarwadkarshreyas7@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Purged unauthorized JBIMS (no purchase\/grant).",
+                    "Account-view TCY sync completed.",
+                    "Ran full JBIMS student fix (TCY register + add_course)."
+                ],
+                "issues": [],
+                "wp_user_id": 346,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "agarwadkarshreyas7@gmail.com",
+                        "wp_user_id": 346,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "enrolled_panel": [],
+                "jbims_complete": {
+                    "email": "agarwadkarshreyas7@gmail.com",
+                    "steps": [
+                        "deep_fix"
+                    ],
+                    "promote": {
+                        "email": "agarwadkarshreyas7@gmail.com",
+                        "phone": "",
+                        "promoted": [],
+                        "skipped": [],
+                        "issues": [],
+                        "status": "no_action"
+                    },
+                    "deep": {
+                        "email": "agarwadkarshreyas7@gmail.com",
+                        "phone": "",
+                        "actions": [
+                            "Synced portal enrollment rows for login dashboard."
+                        ],
+                        "issues": [
+                            "No TCY account linked and no qualifying JBIMS order found."
+                        ],
+                        "orders": [],
+                        "renewals": [],
+                        "wp_user_id": 346,
+                        "tcy_user_id": "",
+                        "diagnosis": {
+                            "email": "agarwadkarshreyas7@gmail.com",
+                            "wp_user_id": 346,
+                            "canonical_tcy": "",
+                            "all_tcy_ids": [],
+                            "orders": [],
+                            "pairs": [],
+                            "distinct_course": [],
+                            "pairs_tcy_sync": [],
+                            "pairs_skipped": [],
+                            "tcy_max_courses": 0,
+                            "invalid_course_ids": [],
+                            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                        },
+                        "portal_enrollments": [],
+                        "enrolled_panel": [],
+                        "status": "needs_review"
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "status": "empty_panel"
+            }
+        },
+        "ruturajvshedge@gmail.com": {
+            "lookup": {
+                "email": "ruturajvshedge@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "ruturajvshedge@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 372,
+                "status": "exists"
+            },
+            "complete": {
+                "email": "ruturajvshedge@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "ruturajvshedge@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "ruturajvshedge@gmail.com",
+                    "phone": "",
+                    "actions": [
+                        "Synced portal enrollment rows for login dashboard."
+                    ],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 372,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "ruturajvshedge@gmail.com",
+                        "wp_user_id": 372,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "portal_enrollments": [],
+                "enrolled_panel": [],
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "ruturajvshedge@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Purged unauthorized JBIMS (no purchase\/grant).",
+                    "Account-view TCY sync completed.",
+                    "Ran full JBIMS student fix (TCY register + add_course)."
+                ],
+                "issues": [],
+                "wp_user_id": 372,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "ruturajvshedge@gmail.com",
+                        "wp_user_id": 372,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "enrolled_panel": [],
+                "jbims_complete": {
+                    "email": "ruturajvshedge@gmail.com",
+                    "steps": [
+                        "deep_fix"
+                    ],
+                    "promote": {
+                        "email": "ruturajvshedge@gmail.com",
+                        "phone": "",
+                        "promoted": [],
+                        "skipped": [],
+                        "issues": [],
+                        "status": "no_action"
+                    },
+                    "deep": {
+                        "email": "ruturajvshedge@gmail.com",
+                        "phone": "",
+                        "actions": [
+                            "Synced portal enrollment rows for login dashboard."
+                        ],
+                        "issues": [
+                            "No TCY account linked and no qualifying JBIMS order found."
+                        ],
+                        "orders": [],
+                        "renewals": [],
+                        "wp_user_id": 372,
+                        "tcy_user_id": "",
+                        "diagnosis": {
+                            "email": "ruturajvshedge@gmail.com",
+                            "wp_user_id": 372,
+                            "canonical_tcy": "",
+                            "all_tcy_ids": [],
+                            "orders": [],
+                            "pairs": [],
+                            "distinct_course": [],
+                            "pairs_tcy_sync": [],
+                            "pairs_skipped": [],
+                            "tcy_max_courses": 0,
+                            "invalid_course_ids": [],
+                            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                        },
+                        "portal_enrollments": [],
+                        "enrolled_panel": [],
+                        "status": "needs_review"
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "status": "empty_panel"
+            }
+        },
+        "enthusiasticcitizen898@gmail.com": {
+            "lookup": {
+                "email": "enthusiasticcitizen898@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "enthusiasticcitizen898@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 349,
+                "status": "exists"
+            },
+            "complete": {
+                "email": "enthusiasticcitizen898@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "enthusiasticcitizen898@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "enthusiasticcitizen898@gmail.com",
+                    "phone": "",
+                    "actions": [
+                        "Synced portal enrollment rows for login dashboard."
+                    ],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 349,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "enthusiasticcitizen898@gmail.com",
+                        "wp_user_id": 349,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "portal_enrollments": [],
+                "enrolled_panel": [],
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "enthusiasticcitizen898@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Purged unauthorized JBIMS (no purchase\/grant).",
+                    "Account-view TCY sync completed.",
+                    "Ran full JBIMS student fix (TCY register + add_course)."
+                ],
+                "issues": [],
+                "wp_user_id": 349,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "enthusiasticcitizen898@gmail.com",
+                        "wp_user_id": 349,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "enrolled_panel": [],
+                "jbims_complete": {
+                    "email": "enthusiasticcitizen898@gmail.com",
+                    "steps": [
+                        "deep_fix"
+                    ],
+                    "promote": {
+                        "email": "enthusiasticcitizen898@gmail.com",
+                        "phone": "",
+                        "promoted": [],
+                        "skipped": [],
+                        "issues": [],
+                        "status": "no_action"
+                    },
+                    "deep": {
+                        "email": "enthusiasticcitizen898@gmail.com",
+                        "phone": "",
+                        "actions": [
+                            "Synced portal enrollment rows for login dashboard."
+                        ],
+                        "issues": [
+                            "No TCY account linked and no qualifying JBIMS order found."
+                        ],
+                        "orders": [],
+                        "renewals": [],
+                        "wp_user_id": 349,
+                        "tcy_user_id": "",
+                        "diagnosis": {
+                            "email": "enthusiasticcitizen898@gmail.com",
+                            "wp_user_id": 349,
+                            "canonical_tcy": "",
+                            "all_tcy_ids": [],
+                            "orders": [],
+                            "pairs": [],
+                            "distinct_course": [],
+                            "pairs_tcy_sync": [],
+                            "pairs_skipped": [],
+                            "tcy_max_courses": 0,
+                            "invalid_course_ids": [],
+                            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                        },
+                        "portal_enrollments": [],
+                        "enrolled_panel": [],
+                        "status": "needs_review"
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "status": "empty_panel"
+            }
+        },
+        "pranitaw514@gmail.com": {
+            "lookup": {
+                "email": "pranitaw514@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "pranitaw514@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 299,
+                "status": "exists"
+            },
+            "complete": {
+                "email": "pranitaw514@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "pranitaw514@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "pranitaw514@gmail.com",
+                    "phone": "9326343643",
+                    "actions": [
+                        "Synced portal enrollment rows for login dashboard."
+                    ],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 299,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "pranitaw514@gmail.com",
+                        "wp_user_id": 299,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "portal_enrollments": [],
+                "enrolled_panel": [],
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "pranitaw514@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Purged unauthorized JBIMS (no purchase\/grant).",
+                    "Account-view TCY sync completed.",
+                    "Ran full JBIMS student fix (TCY register + add_course)."
+                ],
+                "issues": [],
+                "wp_user_id": 299,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "pranitaw514@gmail.com",
+                        "wp_user_id": 299,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "enrolled_panel": [],
+                "jbims_complete": {
+                    "email": "pranitaw514@gmail.com",
+                    "steps": [
+                        "deep_fix"
+                    ],
+                    "promote": {
+                        "email": "pranitaw514@gmail.com",
+                        "phone": "",
+                        "promoted": [],
+                        "skipped": [],
+                        "issues": [],
+                        "status": "no_action"
+                    },
+                    "deep": {
+                        "email": "pranitaw514@gmail.com",
+                        "phone": "9326343643",
+                        "actions": [
+                            "Synced portal enrollment rows for login dashboard."
+                        ],
+                        "issues": [
+                            "No TCY account linked and no qualifying JBIMS order found."
+                        ],
+                        "orders": [],
+                        "renewals": [],
+                        "wp_user_id": 299,
+                        "tcy_user_id": "",
+                        "diagnosis": {
+                            "email": "pranitaw514@gmail.com",
+                            "wp_user_id": 299,
+                            "canonical_tcy": "",
+                            "all_tcy_ids": [],
+                            "orders": [],
+                            "pairs": [],
+                            "distinct_course": [],
+                            "pairs_tcy_sync": [],
+                            "pairs_skipped": [],
+                            "tcy_max_courses": 0,
+                            "invalid_course_ids": [],
+                            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                        },
+                        "portal_enrollments": [],
+                        "enrolled_panel": [],
+                        "status": "needs_review"
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "status": "empty_panel"
+            }
+        },
+        "vaishnavk1708@gmail.com": {
+            "lookup": {
+                "email": "vaishnavk1708@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "vaishnavk1708@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 322,
+                "status": "exists"
+            },
+            "complete": {
+                "email": "vaishnavk1708@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "vaishnavk1708@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "vaishnavk1708@gmail.com",
+                    "phone": "7350798368",
+                    "actions": [
+                        "Synced portal enrollment rows for login dashboard."
+                    ],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 322,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "vaishnavk1708@gmail.com",
+                        "wp_user_id": 322,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "portal_enrollments": [],
+                "enrolled_panel": [],
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "vaishnavk1708@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Purged unauthorized JBIMS (no purchase\/grant).",
+                    "Account-view TCY sync completed.",
+                    "Ran full JBIMS student fix (TCY register + add_course)."
+                ],
+                "issues": [],
+                "wp_user_id": 322,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "vaishnavk1708@gmail.com",
+                        "wp_user_id": 322,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "enrolled_panel": [],
+                "jbims_complete": {
+                    "email": "vaishnavk1708@gmail.com",
+                    "steps": [
+                        "deep_fix"
+                    ],
+                    "promote": {
+                        "email": "vaishnavk1708@gmail.com",
+                        "phone": "",
+                        "promoted": [],
+                        "skipped": [],
+                        "issues": [],
+                        "status": "no_action"
+                    },
+                    "deep": {
+                        "email": "vaishnavk1708@gmail.com",
+                        "phone": "7350798368",
+                        "actions": [
+                            "Synced portal enrollment rows for login dashboard."
+                        ],
+                        "issues": [
+                            "No TCY account linked and no qualifying JBIMS order found."
+                        ],
+                        "orders": [],
+                        "renewals": [],
+                        "wp_user_id": 322,
+                        "tcy_user_id": "",
+                        "diagnosis": {
+                            "email": "vaishnavk1708@gmail.com",
+                            "wp_user_id": 322,
+                            "canonical_tcy": "",
+                            "all_tcy_ids": [],
+                            "orders": [],
+                            "pairs": [],
+                            "distinct_course": [],
+                            "pairs_tcy_sync": [],
+                            "pairs_skipped": [],
+                            "tcy_max_courses": 0,
+                            "invalid_course_ids": [],
+                            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                        },
+                        "portal_enrollments": [],
+                        "enrolled_panel": [],
+                        "status": "needs_review"
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "status": "empty_panel"
+            }
+        },
+        "vaishukakad1708@gmail.com": {
+            "lookup": {
+                "email": "vaishukakad1708@gmail.com",
+                "phone": "",
+                "orders": [
+                    {
+                        "order_id": 18287,
+                        "status": "processing",
+                        "billing_email": "vaishukakad1708@gmail.com",
+                        "billing_phone": "7350798368",
+                        "customer_id": 321,
+                        "qualifies_tcy": true,
+                        "tcy_user_id": "ODE1ODAzNQ==",
+                        "lines": [
+                            "JBIMS MFIN MHRD Bootcamp"
+                        ]
+                    }
+                ]
+            },
+            "ensure_wp": {
+                "email": "vaishukakad1708@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 321,
+                "status": "exists"
+            },
+            "complete": {
+                "email": "vaishukakad1708@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "vaishukakad1708@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [
+                        {
+                            "order_id": 18287,
+                            "status": "processing",
+                            "reason": "not_cancelled_or_failed"
+                        }
+                    ],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "vaishukakad1708@gmail.com",
+                    "phone": "7350798368",
+                    "actions": [
+                        "Linked TCY id from ttp_students.",
+                        "Synced portal enrollment rows for login dashboard."
+                    ],
+                    "issues": [],
+                    "orders": [
+                        {
+                            "order_id": 18287,
+                            "status": "processing",
+                            "billing_email": "vaishukakad1708@gmail.com",
+                            "qualifies": true,
+                            "has_jbims": true,
+                            "lines": [
+                                "JBIMS MFIN MHRD Bootcamp"
+                            ],
+                            "tcy_user_id": "ODE1ODAzNQ=="
+                        }
+                    ],
+                    "renewals": [
+                        {
+                            "order_id": 18287,
+                            "email": "vaishukakad1708@gmail.com",
+                            "status": "ok",
+                            "actions": [
+                                "Catalog TCY meta repaired.",
+                                "Order marked enrolled.",
+                                "Order course sync completed.",
+                                "Portal enrollment synced for login dashboard."
+                            ],
+                            "add_course": [
+                                {
+                                    "line": "JBIMS MFIN MHRD Bootcamp",
+                                    "course_id": "90334",
+                                    "sub_cat": "38081",
+                                    "outcome": "pack_conflict",
+                                    "error": ""
+                                }
+                            ],
+                            "issues": [],
+                            "tcy_user_id": "ODE1ODAzNQ=="
+                        }
+                    ],
+                    "wp_user_id": 321,
+                    "student_tcy_id": "ODE1ODAzNQ==",
+                    "tcy_user_id": "ODE1ODAzNQ==",
+                    "diagnosis": {
+                        "email": "vaishukakad1708@gmail.com",
+                        "wp_user_id": 321,
+                        "canonical_tcy": "ODE1ODAzNQ==",
+                        "all_tcy_ids": [
+                            "ODE1ODAzNQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18287,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1ODAzNQ==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18287|499": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18287,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18287|499": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18287,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "portal_enrollments": [
+                        {
+                            "name": "JBIMS MFIN MHRD Bootcamp",
+                            "tcy_course_id": "90334",
+                            "product_id": 17622,
+                            "sub_cat": "38081"
+                        }
+                    ],
+                    "enrolled_panel": {
+                        "18287-499": {
+                            "name": "JBIMS MFIN MHRD Bootcamp",
+                            "product_id": 17622,
+                            "tcy_course_id": "90334",
+                            "order_id": 18287,
+                            "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18287"
+                        },
+                        "tcy-account-90334": {
+                            "name": "JBIMS MFIN MHRD Bootcamp",
+                            "product_id": 17622,
+                            "tcy_course_id": "90334",
+                            "order_id": 0,
+                            "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                        }
+                    },
+                    "status": "ok"
+                },
+                "portal_enrollments": [
+                    {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "tcy_course_id": "90334",
+                        "product_id": 17622,
+                        "sub_cat": "38081"
+                    }
+                ],
+                "enrolled_panel": {
+                    "18287-499": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18287,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18287"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            "panel": {
+                "email": "vaishukakad1708@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 321,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1ODAzNQ==",
+                    "all_tcy_ids": [
+                        "ODE1ODAzNQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1ODAzNQ==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18287,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "vaishukakad1708@gmail.com",
+                        "wp_user_id": 321,
+                        "canonical_tcy": "ODE1ODAzNQ==",
+                        "all_tcy_ids": [
+                            "ODE1ODAzNQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18287,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1ODAzNQ==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|18287|499": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18287,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|18287|499": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18287,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "18287-499": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 18287,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=18287"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            }
+        },
+        "htokalwar@gmail.com": {
+            "lookup": {
+                "email": "htokalwar@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "htokalwar@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [],
+                "wp_user_id": 411,
+                "status": "exists"
+            },
+            "complete": {
+                "email": "htokalwar@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "htokalwar@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "htokalwar@gmail.com",
+                    "phone": "",
+                    "actions": [
+                        "Synced portal enrollment rows for login dashboard."
+                    ],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 411,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "htokalwar@gmail.com",
+                        "wp_user_id": 411,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "portal_enrollments": [],
+                "enrolled_panel": [],
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "htokalwar@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Purged unauthorized JBIMS (no purchase\/grant).",
+                    "Account-view TCY sync completed.",
+                    "Ran full JBIMS student fix (TCY register + add_course)."
+                ],
+                "issues": [],
+                "wp_user_id": 411,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 0,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "",
+                    "all_tcy_ids": [],
+                    "split_account": false,
+                    "details": [],
+                    "diagnosis": {
+                        "email": "htokalwar@gmail.com",
+                        "wp_user_id": 411,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "error": "No TCY user_id for this customer (register first or check email)."
+                },
+                "enrolled_panel": [],
+                "jbims_complete": {
+                    "email": "htokalwar@gmail.com",
+                    "steps": [
+                        "deep_fix"
+                    ],
+                    "promote": {
+                        "email": "htokalwar@gmail.com",
+                        "phone": "",
+                        "promoted": [],
+                        "skipped": [],
+                        "issues": [],
+                        "status": "no_action"
+                    },
+                    "deep": {
+                        "email": "htokalwar@gmail.com",
+                        "phone": "",
+                        "actions": [
+                            "Synced portal enrollment rows for login dashboard."
+                        ],
+                        "issues": [
+                            "No TCY account linked and no qualifying JBIMS order found."
+                        ],
+                        "orders": [],
+                        "renewals": [],
+                        "wp_user_id": 411,
+                        "tcy_user_id": "",
+                        "diagnosis": {
+                            "email": "htokalwar@gmail.com",
+                            "wp_user_id": 411,
+                            "canonical_tcy": "",
+                            "all_tcy_ids": [],
+                            "orders": [],
+                            "pairs": [],
+                            "distinct_course": [],
+                            "pairs_tcy_sync": [],
+                            "pairs_skipped": [],
+                            "tcy_max_courses": 0,
+                            "invalid_course_ids": [],
+                            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                        },
+                        "portal_enrollments": [],
+                        "enrolled_panel": [],
+                        "status": "needs_review"
+                    },
+                    "portal_enrollments": [],
+                    "enrolled_panel": [],
+                    "status": "needs_review"
+                },
+                "status": "empty_panel"
+            }
+        },
+        "samikshajambhulkar9716@gmail.com": {
+            "lookup": {
+                "email": "samikshajambhulkar9716@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "samikshajambhulkar9716@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [
+                    "No WooCommerce orders found for this email\/phone \u2014 cannot create WP account."
+                ],
+                "status": "no_orders"
+            },
+            "complete": {
+                "email": "samikshajambhulkar9716@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "samikshajambhulkar9716@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "samikshajambhulkar9716@gmail.com",
+                    "phone": "",
+                    "actions": [],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 0,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "samikshajambhulkar9716@gmail.com",
+                        "wp_user_id": 0,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "status": "needs_review"
+                },
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "samikshajambhulkar9716@gmail.com",
+                "actions": [],
+                "issues": [
+                    "No WordPress account and no guest order found for this email."
+                ],
+                "wp_user_id": 0,
+                "ensure_wp_user": {
+                    "email": "samikshajambhulkar9716@gmail.com",
+                    "phone": "",
+                    "actions": [],
+                    "issues": [
+                        "No WooCommerce orders found for this email\/phone \u2014 cannot create WP account."
+                    ],
+                    "status": "no_orders"
+                },
+                "status": "no_wp_user"
+            }
+        },
+        "janhvikamat9@gmail.com": {
+            "lookup": {
+                "email": "janhvikamat9@gmail.com",
+                "phone": "",
+                "orders": []
+            },
+            "ensure_wp": {
+                "email": "janhvikamat9@gmail.com",
+                "phone": "",
+                "actions": [],
+                "issues": [
+                    "No WooCommerce orders found for this email\/phone \u2014 cannot create WP account."
+                ],
+                "status": "no_orders"
+            },
+            "complete": {
+                "email": "janhvikamat9@gmail.com",
+                "steps": [
+                    "deep_fix"
+                ],
+                "promote": {
+                    "email": "janhvikamat9@gmail.com",
+                    "phone": "",
+                    "promoted": [],
+                    "skipped": [],
+                    "issues": [],
+                    "status": "no_action"
+                },
+                "deep": {
+                    "email": "janhvikamat9@gmail.com",
+                    "phone": "",
+                    "actions": [],
+                    "issues": [
+                        "No TCY account linked and no qualifying JBIMS order found."
+                    ],
+                    "orders": [],
+                    "renewals": [],
+                    "wp_user_id": 0,
+                    "tcy_user_id": "",
+                    "diagnosis": {
+                        "email": "janhvikamat9@gmail.com",
+                        "wp_user_id": 0,
+                        "canonical_tcy": "",
+                        "all_tcy_ids": [],
+                        "orders": [],
+                        "pairs": [],
+                        "distinct_course": [],
+                        "pairs_tcy_sync": [],
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 0,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "status": "needs_review"
+                },
+                "status": "needs_review"
+            },
+            "panel": {
+                "email": "janhvikamat9@gmail.com",
+                "actions": [],
+                "issues": [
+                    "No WordPress account and no guest order found for this email."
+                ],
+                "wp_user_id": 0,
+                "ensure_wp_user": {
+                    "email": "janhvikamat9@gmail.com",
+                    "phone": "",
+                    "actions": [],
+                    "issues": [
+                        "No WooCommerce orders found for this email\/phone \u2014 cannot create WP account."
+                    ],
+                    "status": "no_orders"
+                },
+                "status": "no_wp_user"
+            }
+        }
+    }
+}

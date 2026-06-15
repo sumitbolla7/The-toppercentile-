@@ -1,0 +1,110 @@
+{
+    "time": "2026-06-12T11:54:41+00:00",
+    "action": "fix_two_students",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "mahrin": {
+        "email": "mahrinsayed@gmail.com",
+        "tcy_numeric": "8160070",
+        "phone": "7208757443",
+        "sub_cat": "38081",
+        "actions": [
+            "Linked _ttp_tcy_user_id on WP user.",
+            "Created ttp_students row.",
+            "add_course 90334 + pack 38081 \u2192 failed"
+        ],
+        "issues": [],
+        "tcy_user_id": "ODE2MDA3MA==",
+        "wp_user_id": 308,
+        "add_course": {
+            "course_id": "90334",
+            "sub_cat": "38081",
+            "outcome": "failed",
+            "error": "Course added successfully"
+        },
+        "login_test": {
+            "success": true,
+            "has_url": true
+        },
+        "order_scan": {
+            "orders": [
+                {
+                    "order_id": 18265,
+                    "status": "cancelled",
+                    "billing_email": "mahrinsayed@gmail.com",
+                    "qualifies": false,
+                    "has_jbims": false,
+                    "lines": [
+                        "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                    ],
+                    "tcy_user_id": "ODE2MDA3MA=="
+                }
+            ],
+            "renewals": []
+        },
+        "diagnosis": {
+            "email": "mahrinsayed@gmail.com",
+            "wp_user_id": 308,
+            "canonical_tcy": "ODE2MDA3MA==",
+            "all_tcy_ids": [
+                "ODE2MDA3MA=="
+            ],
+            "orders": [],
+            "pairs": [],
+            "distinct_course": [],
+            "pairs_tcy_sync": [],
+            "pairs_skipped": [],
+            "tcy_max_courses": 0,
+            "invalid_course_ids": [],
+            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+        },
+        "status": "partial"
+    },
+    "anshika": {
+        "email": "2025anshitripathi04@gmail.com",
+        "tcy_numeric": "8160407",
+        "phone": "6387154017",
+        "sub_cat": "38081",
+        "actions": [
+            "Linked _ttp_tcy_user_id on WP user.",
+            "Created ttp_students row.",
+            "add_course 90334 + pack 38081 \u2192 failed"
+        ],
+        "issues": [],
+        "tcy_user_id": "ODE2MDQwNw==",
+        "wp_user_id": 354,
+        "add_course": {
+            "course_id": "90334",
+            "sub_cat": "38081",
+            "outcome": "failed",
+            "error": "604"
+        },
+        "login_test": {
+            "success": true,
+            "has_url": true
+        },
+        "order_scan": {
+            "orders": [],
+            "renewals": []
+        },
+        "diagnosis": {
+            "email": "2025anshitripathi04@gmail.com",
+            "wp_user_id": 354,
+            "canonical_tcy": "ODE2MDQwNw==",
+            "all_tcy_ids": [
+                "ODE2MDQwNw=="
+            ],
+            "orders": [],
+            "pairs": [],
+            "distinct_course": [],
+            "pairs_tcy_sync": [],
+            "pairs_skipped": [],
+            "tcy_max_courses": 0,
+            "invalid_course_ids": [],
+            "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+        },
+        "status": "partial"
+    }
+}

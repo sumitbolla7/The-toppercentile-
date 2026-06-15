@@ -1,0 +1,1230 @@
+{
+    "time": "2026-06-13T13:54:13+00:00",
+    "action": "repair_panels_batch",
+    "batch": 6,
+    "batch_size": 10,
+    "repair": {
+        "total": 10,
+        "ok": 10,
+        "empty": 0,
+        "errors": 0,
+        "rows": [
+            {
+                "email": "geetarenge@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (pack_conflict).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 287,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NjA2Mg==",
+                    "all_tcy_ids": [
+                        "ODE1NjA2Mg=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NjA2Mg==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18020,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "geetarenge@gmail.com",
+                        "wp_user_id": 287,
+                        "canonical_tcy": "ODE1NjA2Mg==",
+                        "all_tcy_ids": [
+                            "ODE1NjA2Mg=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18020,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NjA2Mg==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90071|100000|18020|457": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18020,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90071
+                        ],
+                        "pairs_tcy_sync": {
+                            "90071|100000|18020|457": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18020,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "geetarenge@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (pack_conflict)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "18020-457": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 18020,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=18020"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "parthraut46@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "JBIMS entitlement set from WooCommerce purchase.",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 187,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NTkyOA==",
+                    "all_tcy_ids": [
+                        "ODE1NTkyOA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NTkyOA==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17791,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "parthraut46@gmail.com",
+                        "wp_user_id": 187,
+                        "canonical_tcy": "ODE1NTkyOA==",
+                        "all_tcy_ids": [
+                            "ODE1NTkyOA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17791,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NTkyOA==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90334|100000|17791|393": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17791,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90334|100000|17791|393": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17791,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "enrolled_panel": {
+                    "17791-393": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 17791,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334&ttp_order=17791"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "berdediya@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 285,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NTg3OQ==",
+                    "all_tcy_ids": [
+                        "ODE1NTg3OQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NTg3OQ==",
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18015,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "berdediya@gmail.com",
+                        "wp_user_id": 285,
+                        "canonical_tcy": "ODE1NTg3OQ==",
+                        "all_tcy_ids": [
+                            "ODE1NTg3OQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18015,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NTg3OQ==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17157,
+                                        "course_id": "90072"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90072|100000|18015|452": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18015,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "distinct_course": [
+                            90072
+                        ],
+                        "pairs_tcy_sync": {
+                            "90072|100000|18015|452": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18015,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "berdediya@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "18015-452": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 18015,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=18015"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "vanitanutri55@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 200,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NTY5OA==",
+                    "all_tcy_ids": [
+                        "ODE1NTY5OA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NTY5OA==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 18011,
+                            "line_name": "CET Solo (Self Study)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "vanitanutri55@gmail.com",
+                        "wp_user_id": 200,
+                        "canonical_tcy": "ODE1NTY5OA==",
+                        "all_tcy_ids": [
+                            "ODE1NTY5OA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 18011,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NTY5OA==",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90070|100000|18011|450": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18011,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "distinct_course": [
+                            90070
+                        ],
+                        "pairs_tcy_sync": {
+                            "90070|100000|18011|450": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 18011,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "vanitanutri55@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "18011-450": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 18011,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18011"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "aishwaryakarle17082006@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 39,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NTQwNw==",
+                    "all_tcy_ids": [
+                        "ODE1NTQwNw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NTQwNw==",
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17208,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "aishwaryakarle17082006@gmail.com",
+                        "wp_user_id": 39,
+                        "canonical_tcy": "ODE1NTQwNw==",
+                        "all_tcy_ids": [
+                            "ODE1NTQwNw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17208,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NTQwNw==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17157,
+                                        "course_id": "90072"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90072|100000|17208|72": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17208,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "distinct_course": [
+                            90072
+                        ],
+                        "pairs_tcy_sync": {
+                            "90072|100000|17208|72": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17208,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "aishwaryakarle17082006@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "17208-72": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17208,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17208"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "ttabhishektiwari@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 274,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDc1Mg==",
+                    "all_tcy_ids": [
+                        "ODE1NDc1Mg=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDc1Mg==",
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17989,
+                            "line_name": "CET Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "ttabhishektiwari@gmail.com",
+                        "wp_user_id": 274,
+                        "canonical_tcy": "ODE1NDc1Mg==",
+                        "all_tcy_ids": [
+                            "ODE1NDc1Mg=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17989,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDc1Mg==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite",
+                                        "product_id": 17158,
+                                        "course_id": "90069"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90069|100000|17989|437": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17989,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90069
+                        ],
+                        "pairs_tcy_sync": {
+                            "90069|100000|17989|437": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17989,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "ttabhishektiwari@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "17989-437": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17989,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17989"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "thisisravankar@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 211,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDU5Nw==",
+                    "all_tcy_ids": [
+                        "ODE1NDU5Nw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDU5Nw==",
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17982,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "thisisravankar@gmail.com",
+                        "wp_user_id": 211,
+                        "canonical_tcy": "ODE1NDU5Nw==",
+                        "all_tcy_ids": [
+                            "ODE1NDU5Nw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17982,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDU5Nw==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17157,
+                                        "course_id": "90072"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90072|100000|17982|435": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17982,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "distinct_course": [
+                            90072
+                        ],
+                        "pairs_tcy_sync": {
+                            "90072|100000|17982|435": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17982,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "thisisravankar@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "17982-435": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17982,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17982"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "mikhilnda4@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 252,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDU3NQ==",
+                    "all_tcy_ids": [
+                        "ODE1NDU3NQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDU3NQ==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17980,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "mikhilnda4@gmail.com",
+                        "wp_user_id": 252,
+                        "canonical_tcy": "ODE1NDU3NQ==",
+                        "all_tcy_ids": [
+                            "ODE1NDU3NQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17980,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDU3NQ==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90071|100000|17980|434": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17980,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90071
+                        ],
+                        "pairs_tcy_sync": {
+                            "90071|100000|17980|434": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17980,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "mikhilnda4@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "17980-434": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17980,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17980"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "manish.chatpalliwar03@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 213,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDQwOA==",
+                    "all_tcy_ids": [
+                        "ODE1NDQwOA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDQwOA==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17978,
+                            "line_name": "CET Solo (Self Study)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "manish.chatpalliwar03@gmail.com",
+                        "wp_user_id": 213,
+                        "canonical_tcy": "ODE1NDQwOA==",
+                        "all_tcy_ids": [
+                            "ODE1NDQwOA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17978,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDQwOA==",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90070|100000|17978|430": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17978,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "distinct_course": [
+                            90070
+                        ],
+                        "pairs_tcy_sync": {
+                            "90070|100000|17978|430": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17978,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "manish.chatpalliwar03@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "17978-430": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17978,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17978"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            },
+            {
+                "email": "shrunad18@gmail.com",
+                "actions": [
+                    "Ran TCY enrollment repair.",
+                    "Synced qualifying order courses.",
+                    "Granted JBIMS entitlement from TCY (success).",
+                    "Account-view TCY sync completed."
+                ],
+                "issues": [],
+                "wp_user_id": 270,
+                "tcy_repair": {
+                    "added": 0,
+                    "already": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 0,
+                    "course_ids": [],
+                    "tcy_user_id": "ODE1NDMyNw==",
+                    "all_tcy_ids": [
+                        "ODE1NDMyNw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODE1NDMyNw==",
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "register_covers",
+                            "order_id": 17977,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                            "status": "skipped",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "shrunad18@gmail.com",
+                        "wp_user_id": 270,
+                        "canonical_tcy": "ODE1NDMyNw==",
+                        "all_tcy_ids": [
+                            "ODE1NDMyNw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17977,
+                                "status": "processing",
+                                "tcy_user_id": "ODE1NDMyNw==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17155,
+                                        "course_id": "90073"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90073|100000|17977|429": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17977,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "distinct_course": [
+                            90073
+                        ],
+                        "pairs_tcy_sync": {
+                            "90073|100000|17977|429": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17977,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 1,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 1,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 1
+                },
+                "jbims_grant": {
+                    "email": "shrunad18@gmail.com",
+                    "actions": [
+                        "Granted JBIMS entitlement from TCY (success)."
+                    ],
+                    "issues": [],
+                    "status": "ok"
+                },
+                "enrolled_panel": {
+                    "17977-429": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17977,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17977"
+                    },
+                    "tcy-account-90334": {
+                        "name": "JBIMS MFIN MHRD Bootcamp",
+                        "product_id": 17622,
+                        "tcy_course_id": "90334",
+                        "order_id": 0,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17622&ttp_tcy_course=90334"
+                    }
+                },
+                "status": "ok"
+            }
+        ]
+    },
+    "total_users": 93,
+    "batch_from": 60,
+    "batch_count": 10,
+    "next_batch_url": "https:\/\/thetoppercentile.co.in\/ttp-bulk-run-once.php?key=ttp_bulk_jun12_2026_x7k9&action=repair_panels_batch&batch=7&batch_size=10"
+}

@@ -1,0 +1,1536 @@
+{
+    "time": "2026-06-13T17:07:20+00:00",
+    "action": "revoke_all_false_jbims",
+    "batch": 0,
+    "batch_size": 10,
+    "repair": true,
+    "total_users": 93,
+    "revoke_all": {
+        "scanned": 163,
+        "revoked": 57,
+        "kept": 106,
+        "rows": [
+            {
+                "email": "nikhiljadhav2405@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18458-596": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 18458,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18458"
+                    }
+                }
+            },
+            {
+                "email": "kriaditi24dec@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18453-594": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 18453,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18453"
+                    }
+                }
+            },
+            {
+                "email": "Pratikshakhade1529@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18436-579": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 18436,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=18436"
+                    }
+                }
+            },
+            {
+                "email": "kadamajinkya81@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18434-578": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 18434,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=18434"
+                    }
+                }
+            },
+            {
+                "email": "jonit58498@herojp.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18240-463": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 18240,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=18240"
+                    }
+                }
+            },
+            {
+                "email": "patama5130@bncinema.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18000-446": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 18000,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18000"
+                    }
+                }
+            },
+            {
+                "email": "aditeepandey6@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18243-466": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 18243,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=18243"
+                    }
+                }
+            },
+            {
+                "email": "kalokaraditya39@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "18315-511": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 18315,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=18315"
+                    }
+                }
+            },
+            {
+                "email": "hahojog456@bittnex.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17734-385": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17734,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17734"
+                    }
+                }
+            },
+            {
+                "email": "kojiya5987@marineso.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17714-375": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17714,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17714"
+                    }
+                }
+            },
+            {
+                "email": "kitepa2009@marineso.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17670-361": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17670,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17670"
+                    },
+                    "17670-362": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17670,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17670"
+                    },
+                    "17670-363": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17670,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17670"
+                    }
+                }
+            },
+            {
+                "email": "tirupataiah9767@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17664-350": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17664,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17664"
+                    },
+                    "17664-348": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17664,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17664"
+                    },
+                    "17669-359": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17669,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17669"
+                    },
+                    "17664-349": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17664,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17664"
+                    },
+                    "17667-354": {
+                        "name": "CUET",
+                        "product_id": 17656,
+                        "tcy_course_id": "90315",
+                        "order_id": 17667,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17656&ttp_tcy_course=90315&ttp_order=17667"
+                    },
+                    "map-17666-38053": {
+                        "name": "MBA (PI) Prep",
+                        "product_id": 17643,
+                        "tcy_course_id": "38053",
+                        "order_id": 17666,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17643&ttp_tcy_course=38053&ttp_order=17666"
+                    }
+                }
+            },
+            {
+                "email": "gojade5382@marineso.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17660-341": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17660,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17660"
+                    },
+                    "17660-342": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17660,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17660"
+                    },
+                    "17660-340": {
+                        "name": "CUET",
+                        "product_id": 17656,
+                        "tcy_course_id": "90315",
+                        "order_id": 17660,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17656&ttp_tcy_course=90315&ttp_order=17660"
+                    }
+                }
+            },
+            {
+                "email": "lsup26vx6z@yzcalo.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17658-337": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17658,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17658"
+                    },
+                    "17658-336": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17658,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17658"
+                    },
+                    "map-17658-90279": {
+                        "name": "Course 90279",
+                        "product_id": 0,
+                        "tcy_course_id": "90279",
+                        "order_id": 17658,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=90279&ttp_order=17658"
+                    },
+                    "17658-338": {
+                        "name": "CUET",
+                        "product_id": 17656,
+                        "tcy_course_id": "90315",
+                        "order_id": 17658,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17656&ttp_tcy_course=90315&ttp_order=17658"
+                    }
+                }
+            },
+            {
+                "email": "wt248@wshu.net",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17657-333": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17657,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17657"
+                    },
+                    "17657-332": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17657,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17657"
+                    },
+                    "map-17657-90279": {
+                        "name": "Course 90279",
+                        "product_id": 0,
+                        "tcy_course_id": "90279",
+                        "order_id": 17657,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=90279&ttp_order=17657"
+                    },
+                    "17657-334": {
+                        "name": "CUET",
+                        "product_id": 17656,
+                        "tcy_course_id": "90315",
+                        "order_id": 17657,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17656&ttp_tcy_course=90315&ttp_order=17657"
+                    }
+                }
+            },
+            {
+                "email": "ak81m4l90w@bwmyga.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17653-326": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17653,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17653"
+                    },
+                    "map-17652-38053": {
+                        "name": "MBA (PI) Prep",
+                        "product_id": 17643,
+                        "tcy_course_id": "38053",
+                        "order_id": 17652,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17643&ttp_tcy_course=38053&ttp_order=17652"
+                    }
+                }
+            },
+            {
+                "email": "tijawi5071@nriza.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17651-322": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17651,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17651"
+                    },
+                    "17651-320": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17651,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17651"
+                    },
+                    "17651-321": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17651,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17651"
+                    }
+                }
+            },
+            {
+                "email": "1l05c4qo98@lnovic.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17654-328": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17654,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17654"
+                    }
+                }
+            },
+            {
+                "email": "feqyky@denipl.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17648-312": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17648,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17648"
+                    }
+                }
+            },
+            {
+                "email": "ocvql76qdg@wnbaldwy.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17674-366": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17674,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17674"
+                    },
+                    "17637-302": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17637,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17637"
+                    },
+                    "17674-365": {
+                        "name": "CUET - UG Test Pack - 6 Months",
+                        "product_id": 17672,
+                        "tcy_course_id": "90315",
+                        "order_id": 17674,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17672&ttp_tcy_course=90315&ttp_order=17674"
+                    }
+                }
+            },
+            {
+                "email": "kobaf90353@ameady.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17650-318": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17650,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17650"
+                    },
+                    "17641-304": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17641,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17641"
+                    },
+                    "17636-300": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17636,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17636"
+                    }
+                }
+            },
+            {
+                "email": "wobafeh733@nuitx.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17635-298": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17635,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17635"
+                    }
+                }
+            },
+            {
+                "email": "lbclf22845@minitts.net",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17633-294": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17633,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17633"
+                    }
+                }
+            },
+            {
+                "email": "delima2923@bittnex.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17620-290": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17620,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17620"
+                    },
+                    "17620-288": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17620,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17620"
+                    },
+                    "17620-287": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17620,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17620"
+                    },
+                    "17620-286": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17620,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17620"
+                    },
+                    "17620-289": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17620,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17620"
+                    }
+                }
+            },
+            {
+                "email": "e8jnjj9hym@bwmyga.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17610-282": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17610,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17610"
+                    },
+                    "17610-281": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17610,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17610"
+                    },
+                    "17610-279": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17610,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17610"
+                    },
+                    "17610-280": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17610,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17610"
+                    },
+                    "17610-283": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17610,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17610"
+                    }
+                }
+            },
+            {
+                "email": "lojeyib300@gzeos.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17609-276": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17609,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17609"
+                    },
+                    "17609-275": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17609,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17609"
+                    },
+                    "17609-274": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17609,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17609"
+                    },
+                    "17609-273": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17609,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17609"
+                    },
+                    "17609-277": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17609,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17609"
+                    }
+                }
+            },
+            {
+                "email": "vefego5713@noyavip.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17607-270": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17607,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17607"
+                    },
+                    "17607-269": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17607,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17607"
+                    },
+                    "17607-268": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17607,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17607"
+                    },
+                    "17607-267": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17607,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17607"
+                    },
+                    "17607-271": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17607,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17607"
+                    }
+                }
+            },
+            {
+                "email": "dewmq98948@minitts.net",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17606-263": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17606,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17606"
+                    },
+                    "17606-262": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17606,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17606"
+                    },
+                    "17606-265": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17606,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17606"
+                    },
+                    "17606-264": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17606,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17606"
+                    }
+                }
+            },
+            {
+                "email": "rosif26630@gzeos.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17585-256": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17585,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17585"
+                    },
+                    "17585-255": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17585,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17585"
+                    },
+                    "17585-257": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17585,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17585"
+                    }
+                }
+            },
+            {
+                "email": "ubqn55rnvx@wnbaldwy.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17582-247": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17582,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17582"
+                    },
+                    "17581-245": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17581,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17581"
+                    },
+                    "17583-249": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17583,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17583"
+                    }
+                }
+            },
+            {
+                "email": "comic58287@noyavip.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17580-243": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17580,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17580"
+                    }
+                }
+            },
+            {
+                "email": "mecoce5908@okcpress.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17579-241": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17579,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17579"
+                    },
+                    "17576-235": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17576,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17576"
+                    },
+                    "17578-239": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17578,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17578"
+                    },
+                    "17577-237": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17577,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17577"
+                    }
+                }
+            },
+            {
+                "email": "lavopom469@nuitx.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17575-233": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17575,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17575"
+                    }
+                }
+            },
+            {
+                "email": "facoreb832@nuitx.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17574-231": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17574,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17574"
+                    }
+                }
+            },
+            {
+                "email": "jirije5148@bittnex.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17571-228": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17571,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17571"
+                    },
+                    "17571-229": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17571,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17571"
+                    }
+                }
+            },
+            {
+                "email": "datako5624@ameady.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17564-226": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17564,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17564"
+                    },
+                    "17564-225": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17564,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17564"
+                    }
+                }
+            },
+            {
+                "email": "losaj38382@marineso.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17563-223": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17563,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17563"
+                    },
+                    "17563-222": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17563,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17563"
+                    }
+                }
+            },
+            {
+                "email": "deyefir290@ameady.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17562-219": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17562,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17562"
+                    },
+                    "17562-220": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17562,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17562"
+                    }
+                }
+            },
+            {
+                "email": "gicoben920@bittnex.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17561-216": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17561,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17561"
+                    },
+                    "17561-217": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17561,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17561"
+                    }
+                }
+            },
+            {
+                "email": "tilisi2401@nriza.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17559-212": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17559,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17559"
+                    }
+                }
+            },
+            {
+                "email": "hawireg855@bittnex.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17560-214": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17560,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17560"
+                    },
+                    "17557-209": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17557,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17557"
+                    },
+                    "17557-207": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17557,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17557"
+                    },
+                    "17557-208": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17557,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17557"
+                    }
+                }
+            },
+            {
+                "email": "tifosej944@gzeos.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17554-194": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17554,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17554"
+                    }
+                }
+            },
+            {
+                "email": "yosac16209@gzeos.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17550-186": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17550,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17550"
+                    },
+                    "17551-188": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17551,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17551"
+                    },
+                    "17552-190": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17552,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17552"
+                    },
+                    "17553-192": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17553,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17553"
+                    },
+                    "17549-184": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17549,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17549"
+                    }
+                }
+            },
+            {
+                "email": "sqh52468fg@bwmyga.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17548-182": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17548,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17548"
+                    },
+                    "17548-181": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17548,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17548"
+                    }
+                }
+            },
+            {
+                "email": "dyjw07xo29@wnbaldwy.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17547-179": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17547,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17547"
+                    }
+                }
+            },
+            {
+                "email": "cadewo8539@gzeos.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17544-173": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17544,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17544"
+                    }
+                }
+            },
+            {
+                "email": "leondria.kuffel@openmail.pro",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17532-161": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17532,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17532"
+                    },
+                    "17532-160": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17532,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17532"
+                    },
+                    "17531-158": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17531,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17531"
+                    },
+                    "17534-167": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17534,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17534"
+                    }
+                }
+            },
+            {
+                "email": "ffijeeglmt@bwmyga.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17522-154": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17522,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17522"
+                    },
+                    "17530-156": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17530,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17530"
+                    },
+                    "map-17522-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17522,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17522"
+                    }
+                }
+            },
+            {
+                "email": "wabowal776@bitmah.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17402-135": {
+                        "name": "CET Elite",
+                        "product_id": 17158,
+                        "tcy_course_id": "90069",
+                        "order_id": 17402,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17158&ttp_tcy_course=90069&ttp_order=17402"
+                    },
+                    "17401-133": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17401,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17401"
+                    },
+                    "17399-128": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17399,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17399"
+                    },
+                    "17399-129": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17399,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17399"
+                    },
+                    "17400-131": {
+                        "name": "CET Solo (Self Study)",
+                        "product_id": 17159,
+                        "tcy_course_id": "90070",
+                        "order_id": 17400,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17159&ttp_tcy_course=90070&ttp_order=17400"
+                    },
+                    "map-17402-81184": {
+                        "name": "Course 81184",
+                        "product_id": 0,
+                        "tcy_course_id": "81184",
+                        "order_id": 17402,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81184&ttp_order=17402"
+                    },
+                    "map-17401-81184": {
+                        "name": "Course 81184",
+                        "product_id": 0,
+                        "tcy_course_id": "81184",
+                        "order_id": 17401,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81184&ttp_order=17401"
+                    },
+                    "map-17400-81184": {
+                        "name": "Course 81184",
+                        "product_id": 0,
+                        "tcy_course_id": "81184",
+                        "order_id": 17400,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81184&ttp_order=17400"
+                    },
+                    "map-17399-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17399,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17399"
+                    }
+                }
+            },
+            {
+                "email": "migeb15641@getasail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17397-124": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17397,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17397"
+                    },
+                    "map-17397-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17397,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17397"
+                    }
+                }
+            },
+            {
+                "email": "vidhantheblueway@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17345-113": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17345,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17345"
+                    },
+                    "map-17345-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17345,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17345"
+                    }
+                }
+            },
+            {
+                "email": "mahad61706@homvela.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17344-111": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17344,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17344"
+                    },
+                    "17342-106": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17342,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17342"
+                    },
+                    "map-17344-81184": {
+                        "name": "Course 81184",
+                        "product_id": 0,
+                        "tcy_course_id": "81184",
+                        "order_id": 17344,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81184&ttp_order=17344"
+                    },
+                    "map-17342-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17342,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17342"
+                    }
+                }
+            },
+            {
+                "email": "fotage5008@itquoted.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17339-102": {
+                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17157,
+                        "tcy_course_id": "90072",
+                        "order_id": 17339,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17157&ttp_tcy_course=90072&ttp_order=17339"
+                    },
+                    "17338-100": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17338,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17338"
+                    },
+                    "map-17339-81184": {
+                        "name": "Course 81184",
+                        "product_id": 0,
+                        "tcy_course_id": "81184",
+                        "order_id": 17339,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81184&ttp_order=17339"
+                    },
+                    "map-17338-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17338,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17338"
+                    }
+                }
+            },
+            {
+                "email": "roremar842@homvela.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17337-98": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17337,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17337"
+                    },
+                    "map-17337-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17337,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17337"
+                    }
+                }
+            },
+            {
+                "email": "tiivs78997@minitts.net",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17298-90": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17298,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17298"
+                    },
+                    "map-17298-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17298,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17298"
+                    }
+                }
+            },
+            {
+                "email": "uyr7qac2t8j@bscse.okcx.edu.rs",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17217-86": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17217,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17217"
+                    },
+                    "map-17217-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17217,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17217"
+                    }
+                }
+            },
+            {
+                "email": "oofficiialinstagram@gmail.com",
+                "actions": [
+                    "Requested TCY remove_course for unauthorized 90334.",
+                    "Re-synced portal enrollments."
+                ],
+                "panel": {
+                    "17212-76": {
+                        "name": "CET NMAT SNAP Elite",
+                        "product_id": 17156,
+                        "tcy_course_id": "90071",
+                        "order_id": 17212,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17156&ttp_tcy_course=90071&ttp_order=17212"
+                    },
+                    "17212-77": {
+                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                        "product_id": 17155,
+                        "tcy_course_id": "90073",
+                        "order_id": 17212,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=17155&ttp_tcy_course=90073&ttp_order=17212"
+                    },
+                    "map-17212-81196": {
+                        "name": "Course 81196",
+                        "product_id": 0,
+                        "tcy_course_id": "81196",
+                        "order_id": 17212,
+                        "open_url": "https:\/\/thetoppercentile.co.in\/?ttp_open_course=0&ttp_tcy_course=81196&ttp_order=17212"
+                    }
+                }
+            }
+        ]
+    }
+}

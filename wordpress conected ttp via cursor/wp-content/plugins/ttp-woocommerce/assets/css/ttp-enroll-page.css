@@ -1,0 +1,500 @@
+/**
+ * TTP Exam — white page, 3+2 course grid, premium cards (reference UI)
+ */
+
+/* ── Full page white ── */
+html body.ttp-enroll-landing,
+html body.ttp-enroll-premium,
+html body.ttp-exam-clean,
+body.ttp-exam-clean,
+body.page-slug-exam,
+body.page-slug-enrol-now,
+body.page-slug-enroll-now,
+body.page-id-563 {
+	--ttp-bg: #ffffff;
+	--ttp-text: #111827;
+	--ttp-text-dim: #4b5563;
+	--ttp-text-muted: #6b7280;
+	--ttp-accent: #f5c518;
+	--ttp-accent-hover: #ffcf33;
+	--ttp-accent-text: #111827;
+	--ttp-discount: #e8540a;
+	--ttp-border: #e5e7eb;
+	--ttp-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+	--ttp-shadow-hover: 0 14px 36px rgba(15, 23, 42, 0.12);
+	background: #ffffff !important;
+	color: #111827 !important;
+}
+
+body.ttp-exam-clean #page,
+body.ttp-exam-clean .site,
+body.ttp-exam-clean .site-content,
+body.ttp-exam-clean #content,
+body.ttp-exam-clean main,
+body.ttp-exam-clean article,
+body.ttp-exam-clean .entry-content,
+body.ttp-exam-clean .elementor,
+body.ttp-exam-clean .elementor-section,
+body.ttp-exam-clean .e-con,
+body.ttp-exam-clean .e-con-inner,
+body.page-slug-exam .elementor-section,
+body.page-slug-exam .e-con {
+	background: #ffffff !important;
+	background-image: none !important;
+	color: #111827 !important;
+}
+
+.ttp-enroll-page {
+	font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	background: #ffffff !important;
+	color: var(--ttp-text);
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 24px 72px;
+	box-sizing: border-box;
+}
+
+.ttp-enroll-page *,
+.ttp-enroll-page *::before,
+.ttp-enroll-page *::after {
+	box-sizing: border-box;
+}
+
+.elementor-widget-shortcode .ttp-enroll-page,
+.elementor .ttp-enroll-page {
+	width: 100% !important;
+	max-width: 1200px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.ttp-enroll-page .ttp-plan-card {
+	display: none !important;
+}
+
+/* ── Section header (no extra box — flat on white) ── */
+.ttp-plans-section {
+	background: transparent;
+	width: 100%;
+}
+
+.ttp-plans-title {
+	margin: 0 0 10px;
+	font-size: clamp(28px, 4vw, 36px);
+	font-weight: 800;
+	text-align: center;
+	color: #111827;
+}
+
+.ttp-plans-subtitle {
+	margin: 0 auto 8px;
+	max-width: 560px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--ttp-text-muted);
+}
+
+.ttp-plans-scroll-hint {
+	margin: 0 auto 36px;
+	text-align: center;
+	font-size: 14px;
+	color: var(--ttp-text-muted);
+}
+
+.ttp-plans-empty {
+	text-align: center;
+	padding: 40px 20px;
+	color: var(--ttp-text-muted);
+}
+
+/* ── 3 courses per row (3 above, 3 below, …) ── */
+.ttp-plans-layout {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+	width: 100%;
+}
+
+.ttp-plans-row {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+	width: 100%;
+}
+
+.ttp-plans-row--top,
+.ttp-plans-row--bottom {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.ttp-plans-grid__cell {
+	display: flex;
+	min-width: 0;
+	height: 100%;
+}
+
+/* ── Premium card ── */
+.ttp-course-card--premium {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	min-height: 520px;
+	background: #ffffff;
+	border: 1px solid var(--ttp-border);
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: var(--ttp-shadow);
+	transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ttp-course-card--premium:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--ttp-shadow-hover);
+}
+
+.ttp-course-card--popular {
+	border-color: rgba(245, 197, 24, 0.55);
+}
+
+.ttp-course-card__banner {
+	position: relative;
+	height: 160px;
+	overflow: hidden;
+	background: #f3f4f6;
+	flex-shrink: 0;
+}
+
+.ttp-course-card--branded-banner .ttp-course-card__banner {
+	height: auto;
+	aspect-ratio: 2.1 / 1;
+	max-height: 168px;
+}
+
+.ttp-course-card__banner-img {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.ttp-course-card--branded-banner .ttp-course-card__banner-img {
+	position: relative;
+	inset: auto;
+}
+
+.ttp-course-card__banner-img--fallback {
+	background: linear-gradient(135deg, #e5e7eb, #f9fafb);
+	min-height: 160px;
+}
+
+.ttp-course-card__banner-shade {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.55) 100%);
+	pointer-events: none;
+}
+
+.ttp-course-card__banner-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	padding: 12px 14px;
+}
+
+.ttp-course-card__banner-kicker {
+	margin: 0 0 6px;
+	font-size: 15px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.ttp-course-card__banner-pills span {
+	display: inline-block;
+	margin: 0 4px 4px 0;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background: rgba(0, 0, 0, 0.65);
+	color: #fff;
+	font-size: 10px;
+	font-weight: 700;
+}
+
+.ttp-course-card__ribbon {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 3;
+	padding: 5px 10px;
+	border-radius: 6px;
+	background: var(--ttp-accent);
+	color: var(--ttp-accent-text);
+	font-size: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.ttp-course-card__body {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+	padding: 16px;
+	background: #ffffff;
+}
+
+.ttp-course-card__titlebar {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 10px;
+	margin-bottom: 12px;
+}
+
+.ttp-course-card__title {
+	flex: 1;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 800;
+	line-height: 1.35;
+	color: #111827;
+}
+
+.ttp-course-card__rating-block {
+	flex-shrink: 0;
+	text-align: right;
+}
+
+.ttp-course-card__rating {
+	display: inline-flex;
+	align-items: center;
+	gap: 3px;
+	font-size: 14px;
+	font-weight: 800;
+	color: #111827;
+}
+
+.ttp-course-card__rating-star {
+	color: #f59e0b;
+}
+
+.ttp-course-card__reviews {
+	display: block;
+	margin-top: 2px;
+	font-size: 11px;
+	color: var(--ttp-text-muted);
+}
+
+.ttp-course-card__tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.ttp-course-card__tags span {
+	padding: 6px 12px;
+	border-radius: 999px;
+	background: #f3f4f6;
+	border: 1px solid var(--ttp-border);
+	font-size: 11px;
+	font-weight: 700;
+	color: #111827;
+}
+
+/* Scrollable features */
+.ttp-course-card__scroll {
+	flex: 1 1 auto;
+	max-height: 170px;
+	min-height: 120px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 10px 12px;
+	background: #fafafa;
+	border: 1px solid #f0f0f0;
+	border-radius: 10px;
+	scrollbar-width: thin;
+	scrollbar-color: #cbd5e1 transparent;
+}
+
+.ttp-course-card__scroll::-webkit-scrollbar {
+	width: 5px;
+}
+
+.ttp-course-card__scroll::-webkit-scrollbar-thumb {
+	background: #cbd5e1;
+	border-radius: 4px;
+}
+
+.ttp-course-card__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ttp-course-card__list li {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	line-height: 1.45;
+	color: var(--ttp-text-dim);
+}
+
+.ttp-course-card__check {
+	flex-shrink: 0;
+	width: 16px;
+	height: 16px;
+	margin-top: 1px;
+	border-radius: 50%;
+	background: var(--ttp-accent);
+	position: relative;
+}
+
+.ttp-course-card__check::after {
+	content: '';
+	position: absolute;
+	left: 5px;
+	top: 3px;
+	width: 4px;
+	height: 7px;
+	border: solid var(--ttp-accent-text);
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+/* Footer */
+.ttp-course-card__footer {
+	flex-shrink: 0;
+	margin-top: auto;
+	padding: 14px 16px 16px;
+	border-top: 1px solid var(--ttp-border);
+	background: #ffffff;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.ttp-course-card__price {
+	margin: 0;
+	font-size: 22px;
+	font-weight: 900;
+	color: #111827;
+}
+
+.ttp-course-card__was {
+	margin: 4px 0 0;
+	font-size: 12px;
+	color: var(--ttp-text-muted);
+}
+
+.ttp-course-card__save {
+	display: block;
+	margin-top: 4px;
+	font-size: 12px;
+	font-weight: 800;
+	color: var(--ttp-discount);
+}
+
+.ttp-course-card__actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.ttp-course-card__details,
+.ttp-course-card__buy,
+.ttp-course-card__actions .ttp-buy-now-btn {
+	flex: 1 1 0;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: auto !important;
+	min-height: 44px !important;
+	height: 44px !important;
+	padding: 0 14px !important;
+	margin: 0 !important;
+	border-radius: 10px !important;
+	font-size: 14px !important;
+	font-weight: 800 !important;
+	line-height: 1 !important;
+	text-decoration: none !important;
+	white-space: nowrap;
+	box-sizing: border-box !important;
+}
+
+.ttp-course-card__details {
+	background: #fff !important;
+	color: #111827 !important;
+	border: 1px solid #d1d5db !important;
+}
+
+.ttp-course-card__buy,
+.ttp-course-card__actions .ttp-buy-now-btn {
+	border: none !important;
+	background: #f5c518 !important;
+	color: #111827 !important;
+	cursor: pointer;
+	box-shadow: 0 4px 12px rgba(245, 197, 24, 0.35) !important;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.ttp-course-card__buy:hover,
+.ttp-course-card__actions .ttp-buy-now-btn:hover {
+	background: #ffcf33 !important;
+	color: #111827 !important;
+	filter: none !important;
+	transform: none !important;
+}
+
+body.page-slug-exam .ttp-course-card__footer .ttp-course-card__buy,
+body.ttp-exam-clean .ttp-course-card__footer .ttp-course-card__buy {
+	width: auto !important;
+	min-height: 44px !important;
+	height: 44px !important;
+	background: #f5c518 !important;
+	color: #111827 !important;
+	border: none !important;
+}
+
+body.page-slug-exam .ttp-course-card__footer .ttp-course-card__details,
+body.ttp-exam-clean .ttp-course-card__footer .ttp-course-card__details {
+	width: auto !important;
+	min-height: 44px !important;
+	height: 44px !important;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+	.ttp-plans-row,
+	.ttp-plans-row--top,
+	.ttp-plans-row--bottom {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Mobile: one card per row, scroll down */
+@media (max-width: 640px) {
+	.ttp-enroll-page {
+		padding: 24px 16px 48px;
+	}
+
+	.ttp-plans-row--top,
+	.ttp-plans-row--bottom {
+		grid-template-columns: 1fr;
+		max-width: none;
+	}
+
+	.ttp-course-card--premium {
+		min-height: 0;
+	}
+}

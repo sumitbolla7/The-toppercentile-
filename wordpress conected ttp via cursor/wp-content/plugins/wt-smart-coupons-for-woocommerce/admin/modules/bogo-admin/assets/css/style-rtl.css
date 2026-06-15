@@ -1,0 +1,18 @@
+#wpbody{ margin-left: 0; margin-right: -20px; }
+.wbte_sc_bogo_general_settings{ right: 161px; transform: translateX(100%); }
+.wbte_sc_bogo_general_settings.is-open{ transform: translateX(0); }
+
+/* BOGO edit page */
+#wbte_sc_bogo_coupon_save, .wbte_sc_edit_header{ direction: ltr; }
+
+.wbte_sc_bogo_edit_save_buttons{ right: 163px; }
+
+@media only screen and (max-width: 960px) {
+    .wbte_sc_bogo_general_settings{ right: 37px; }
+}
+
+@media (max-width: 782px) {
+    .wbte_sc_bogo_general_settings{ max-width: 100%; width: 100%; right: 0; padding: 20px 15px 0 15px; }
+    .wbte_sc_bogo_general_settings_btn_div{ padding: 15px 15px; margin-left: -15px; }
+}
+

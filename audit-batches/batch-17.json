@@ -1,0 +1,1619 @@
+{
+    "time": "2026-06-12T09:13:19+00:00",
+    "action": "audit_batch",
+    "batch": 17,
+    "batch_size": 5,
+    "repair": true,
+    "total_users": 93,
+    "batch_from": 85,
+    "batch_count": 5,
+    "audit": {
+        "total": 5,
+        "ok": 3,
+        "issues": 2,
+        "repaired": 1,
+        "rows": [
+            {
+                "email": "manpreet.kaur@tcyonline.com",
+                "status": "repaired",
+                "issues": [
+                    "Invalid\/stale course ids: 38053"
+                ],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "manpreet.kaur@tcyonline.com",
+                    "wp_user_id": 78,
+                    "canonical_tcy": "ODEzMjQ0MA==",
+                    "all_tcy_ids": [
+                        "ODEzMjQ0MA=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17700,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "lines": [
+                                {
+                                    "name": "JBIMS MFIN MHRD Bootcamp",
+                                    "product_id": 17622,
+                                    "course_id": "90334"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17647,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "lines": [
+                                {
+                                    "name": "MBA (PI) Prep",
+                                    "product_id": 17643,
+                                    "course_id": "38053"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17347,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "lines": [
+                                {
+                                    "name": "CET Solo (Self Study)",
+                                    "product_id": 17159,
+                                    "course_id": "90070"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17343,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite",
+                                    "product_id": 17156,
+                                    "course_id": "90071"
+                                },
+                                {
+                                    "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                                    "product_id": 17155,
+                                    "course_id": "90073"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90071|100000|17343|108": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17343,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90073|100000|17343|109": {
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17343,
+                            "product_id": 17155,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                        },
+                        "90070|100000|17347|116": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17347,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        },
+                        "38053||17647|310": {
+                            "course_id": "38053",
+                            "stored_course_id": "38053",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "syncable": false,
+                            "skip_reason": "38053 is a TCY Product_id, not a course_id \u2014 set the real course_id on the Woo product (TCY \u2192 Courses \/ Fetch Courses).",
+                            "order_id": 17647,
+                            "product_id": 17643,
+                            "line_name": "MBA (PI) Prep"
+                        },
+                        "90334|100000|17700|371": {
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "38081",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17700,
+                            "product_id": 17622,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp"
+                        }
+                    },
+                    "distinct_course": [
+                        38053,
+                        90070,
+                        90071,
+                        90073,
+                        90334
+                    ],
+                    "pairs_tcy_sync": {
+                        "90071|100000|17343|108": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17343,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90073|100000|17343|109": {
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17343,
+                            "product_id": 17155,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                        },
+                        "90070|100000|17347|116": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17347,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        },
+                        "38053||17647|310": {
+                            "course_id": "38053",
+                            "stored_course_id": "38053",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "syncable": false,
+                            "skip_reason": "38053 is a TCY Product_id, not a course_id \u2014 set the real course_id on the Woo product (TCY \u2192 Courses \/ Fetch Courses).",
+                            "order_id": 17647,
+                            "product_id": 17643,
+                            "line_name": "MBA (PI) Prep"
+                        },
+                        "90334|100000|17700|371": {
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "38081",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17700,
+                            "product_id": 17622,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 5,
+                    "invalid_course_ids": [
+                        "38053"
+                    ],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "has_jbims": true,
+                "repair": {
+                    "added": 0,
+                    "already": 4,
+                    "failed": 0,
+                    "skipped": 1,
+                    "total": 4,
+                    "course_ids": [
+                        "90070",
+                        "90334",
+                        "90071",
+                        "90073"
+                    ],
+                    "tcy_user_id": "ODEzMjQ0MA==",
+                    "all_tcy_ids": [
+                        "ODEzMjQ0MA=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17347,
+                            "line_name": "CET Solo (Self Study)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "course_id": "38053",
+                            "stored_course_id": "38053",
+                            "category_id": "",
+                            "sub_cat": "",
+                            "variant": "",
+                            "order_id": 17647,
+                            "line_name": "MBA (PI) Prep",
+                            "status": "skipped",
+                            "error": "38053 is a TCY Product_id, not a course_id \u2014 set the real course_id on the Woo product (TCY \u2192 Courses \/ Fetch Courses)."
+                        },
+                        {
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "course_id": "90334",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "38081",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17700,
+                            "line_name": "JBIMS MFIN MHRD Bootcamp",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17343,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEzMjQ0MA==",
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17343,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "manpreet.kaur@tcyonline.com",
+                        "wp_user_id": 78,
+                        "canonical_tcy": "ODEzMjQ0MA==",
+                        "all_tcy_ids": [
+                            "ODEzMjQ0MA=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17700,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjQ0MA==",
+                                "lines": [
+                                    {
+                                        "name": "JBIMS MFIN MHRD Bootcamp",
+                                        "product_id": 17622,
+                                        "course_id": "90334"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17647,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjQ0MA==",
+                                "lines": [
+                                    {
+                                        "name": "MBA (PI) Prep",
+                                        "product_id": 17643,
+                                        "course_id": "38053"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17347,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjQ0MA==",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17343,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjQ0MA==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    },
+                                    {
+                                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17155,
+                                        "course_id": "90073"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90071|100000|17343|108": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17343,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90073|100000|17343|109": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17343,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            },
+                            "90070|100000|17347|116": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17347,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            },
+                            "38053||17647|310": {
+                                "course_id": "38053",
+                                "stored_course_id": "38053",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "38053 is a TCY Product_id, not a course_id \u2014 set the real course_id on the Woo product (TCY \u2192 Courses \/ Fetch Courses).",
+                                "order_id": 17647,
+                                "product_id": 17643,
+                                "line_name": "MBA (PI) Prep"
+                            },
+                            "90334|100000|17700|371": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17700,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "distinct_course": [
+                            38053,
+                            90070,
+                            90071,
+                            90073,
+                            90334
+                        ],
+                        "pairs_tcy_sync": {
+                            "90071|100000|17343|108": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17343,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90073|100000|17343|109": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17343,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            },
+                            "90070|100000|17347|116": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17347,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            },
+                            "38053||17647|310": {
+                                "course_id": "38053",
+                                "stored_course_id": "38053",
+                                "category_id": "",
+                                "sub_cat": "",
+                                "syncable": false,
+                                "skip_reason": "38053 is a TCY Product_id, not a course_id \u2014 set the real course_id on the Woo product (TCY \u2192 Courses \/ Fetch Courses).",
+                                "order_id": 17647,
+                                "product_id": 17643,
+                                "line_name": "MBA (PI) Prep"
+                            },
+                            "90334|100000|17700|371": {
+                                "course_id": "90334",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "38081",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17700,
+                                "product_id": 17622,
+                                "line_name": "JBIMS MFIN MHRD Bootcamp"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 5,
+                        "invalid_course_ids": [
+                            "38053"
+                        ],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 5,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 4
+                }
+            },
+            {
+                "email": "vidhanagrawal22@jbims.edu",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "vidhanagrawal22@jbims.edu",
+                    "wp_user_id": 74,
+                    "canonical_tcy": "ODEzMjM4Mg==",
+                    "all_tcy_ids": [
+                        "ODEzMjM4Mg=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17462,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "lines": [
+                                {
+                                    "name": "CET Solo (Self Study)",
+                                    "product_id": 17159,
+                                    "course_id": "90070"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17460,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "lines": [
+                                {
+                                    "name": "CET Elite",
+                                    "product_id": 17158,
+                                    "course_id": "90069"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17398,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "lines": [
+                                {
+                                    "name": "CET Elite (with 1 on 1 Mentorship)",
+                                    "product_id": 17157,
+                                    "course_id": "90072"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17341,
+                            "status": "processing",
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite",
+                                    "product_id": 17156,
+                                    "course_id": "90071"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90071|100000|17341|104": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17341,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90072|100000|17398|126": {
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17398,
+                            "product_id": 17157,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                        },
+                        "90069|100000|17460|139": {
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17460,
+                            "product_id": 17158,
+                            "line_name": "CET Elite"
+                        },
+                        "90070|100000|17462|142": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17462,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "distinct_course": [
+                        90069,
+                        90070,
+                        90071,
+                        90072
+                    ],
+                    "pairs_tcy_sync": {
+                        "90071|100000|17341|104": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17341,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90072|100000|17398|126": {
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17398,
+                            "product_id": 17157,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                        },
+                        "90069|100000|17460|139": {
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17460,
+                            "product_id": 17158,
+                            "line_name": "CET Elite"
+                        },
+                        "90070|100000|17462|142": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17462,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 4,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 4,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 4,
+                    "course_ids": [
+                        "90070",
+                        "90069",
+                        "90071",
+                        "90072"
+                    ],
+                    "tcy_user_id": "ODEzMjM4Mg==",
+                    "all_tcy_ids": [
+                        "ODEzMjM4Mg=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17462,
+                            "line_name": "CET Solo (Self Study)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17460,
+                            "line_name": "CET Elite",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17341,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEzMjM4Mg==",
+                            "course_id": "90072",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17398,
+                            "line_name": "CET Elite (with 1 on 1 Mentorship)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "vidhanagrawal22@jbims.edu",
+                        "wp_user_id": 74,
+                        "canonical_tcy": "ODEzMjM4Mg==",
+                        "all_tcy_ids": [
+                            "ODEzMjM4Mg=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17462,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjM4Mg==",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17460,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjM4Mg==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite",
+                                        "product_id": 17158,
+                                        "course_id": "90069"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17398,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjM4Mg==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17157,
+                                        "course_id": "90072"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17341,
+                                "status": "processing",
+                                "tcy_user_id": "ODEzMjM4Mg==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90071|100000|17341|104": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17341,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90072|100000|17398|126": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17398,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            },
+                            "90069|100000|17460|139": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17460,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            },
+                            "90070|100000|17462|142": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17462,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "distinct_course": [
+                            90069,
+                            90070,
+                            90071,
+                            90072
+                        ],
+                        "pairs_tcy_sync": {
+                            "90071|100000|17341|104": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17341,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90072|100000|17398|126": {
+                                "course_id": "90072",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17398,
+                                "product_id": 17157,
+                                "line_name": "CET Elite (with 1 on 1 Mentorship)"
+                            },
+                            "90069|100000|17460|139": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17460,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            },
+                            "90070|100000|17462|142": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17462,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 4,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 4,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 4
+                }
+            },
+            {
+                "email": "adityasridhar22@jbims.edu",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "adityasridhar22@jbims.edu",
+                    "wp_user_id": 36,
+                    "canonical_tcy": "ODEyODU0Nw==",
+                    "all_tcy_ids": [
+                        "ODEyODU0Nw=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17326,
+                            "status": "processing",
+                            "tcy_user_id": "ODEyODU0Nw==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite",
+                                    "product_id": 17156,
+                                    "course_id": "90071"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17236,
+                            "status": "processing",
+                            "tcy_user_id": "ODEyODU0Nw==",
+                            "lines": [
+                                {
+                                    "name": "CET Solo (Self Study)",
+                                    "product_id": 17159,
+                                    "course_id": "90070"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17209,
+                            "status": "processing",
+                            "tcy_user_id": "ODEyODU0Nw==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                                    "product_id": 17155,
+                                    "course_id": "90073"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90073|100000|17209|73": {
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17209,
+                            "product_id": 17155,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                        },
+                        "90070|100000|17236|88": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17236,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        },
+                        "90071|100000|17326|92": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17326,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        }
+                    },
+                    "distinct_course": [
+                        90070,
+                        90071,
+                        90073
+                    ],
+                    "pairs_tcy_sync": {
+                        "90073|100000|17209|73": {
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17209,
+                            "product_id": 17155,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                        },
+                        "90070|100000|17236|88": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17236,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        },
+                        "90071|100000|17326|92": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17326,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 3,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 3,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 3,
+                    "course_ids": [
+                        "90070",
+                        "90071",
+                        "90073"
+                    ],
+                    "tcy_user_id": "ODEyODU0Nw==",
+                    "all_tcy_ids": [
+                        "ODEyODU0Nw=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODEyODU0Nw==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17236,
+                            "line_name": "CET Solo (Self Study)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEyODU0Nw==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17326,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEyODU0Nw==",
+                            "course_id": "90073",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17209,
+                            "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "adityasridhar22@jbims.edu",
+                        "wp_user_id": 36,
+                        "canonical_tcy": "ODEyODU0Nw==",
+                        "all_tcy_ids": [
+                            "ODEyODU0Nw=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17326,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyODU0Nw==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17236,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyODU0Nw==",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17209,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyODU0Nw==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)",
+                                        "product_id": 17155,
+                                        "course_id": "90073"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90073|100000|17209|73": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17209,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            },
+                            "90070|100000|17236|88": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17236,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            },
+                            "90071|100000|17326|92": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17326,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "distinct_course": [
+                            90070,
+                            90071,
+                            90073
+                        ],
+                        "pairs_tcy_sync": {
+                            "90073|100000|17209|73": {
+                                "course_id": "90073",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17209,
+                                "product_id": 17155,
+                                "line_name": "CET NMAT SNAP Elite (with 1 on 1 Mentorship)"
+                            },
+                            "90070|100000|17236|88": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17236,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            },
+                            "90071|100000|17326|92": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17326,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 3,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 3,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 3
+                }
+            },
+            {
+                "email": "adityasridhar17@gmail.com",
+                "status": "ok",
+                "issues": [],
+                "actions": [
+                    "Re-synced qualifying orders."
+                ],
+                "diagnosis": {
+                    "email": "adityasridhar17@gmail.com",
+                    "wp_user_id": 35,
+                    "canonical_tcy": "ODEyODM5OQ==",
+                    "all_tcy_ids": [
+                        "ODEyODM5OQ=="
+                    ],
+                    "orders": [
+                        {
+                            "order_id": 17206,
+                            "status": "processing",
+                            "tcy_user_id": "ODEyODM5OQ==",
+                            "lines": [
+                                {
+                                    "name": "CET Solo (Self Study)",
+                                    "product_id": 17159,
+                                    "course_id": "90070"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17205,
+                            "status": "processing",
+                            "tcy_user_id": "ODEyODM5OQ==",
+                            "lines": [
+                                {
+                                    "name": "CET Elite",
+                                    "product_id": 17158,
+                                    "course_id": "90069"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17203,
+                            "status": "processing",
+                            "tcy_user_id": "ODEyODM5OQ==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite",
+                                    "product_id": 17156,
+                                    "course_id": "90071"
+                                }
+                            ]
+                        },
+                        {
+                            "order_id": 17202,
+                            "status": "processing",
+                            "tcy_user_id": "ODEyODM5OQ==",
+                            "lines": [
+                                {
+                                    "name": "CET NMAT SNAP Elite",
+                                    "product_id": 17156,
+                                    "course_id": "90071"
+                                }
+                            ]
+                        }
+                    ],
+                    "pairs": {
+                        "90071|100000|17202|62": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17202,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90071|100000|17203|64": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17203,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90069|100000|17205|67": {
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17205,
+                            "product_id": 17158,
+                            "line_name": "CET Elite"
+                        },
+                        "90070|100000|17206|69": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17206,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "distinct_course": [
+                        90069,
+                        90070,
+                        90071
+                    ],
+                    "pairs_tcy_sync": {
+                        "90071|100000|17202|62": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17202,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90071|100000|17203|64": {
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17203,
+                            "product_id": 17156,
+                            "line_name": "CET NMAT SNAP Elite"
+                        },
+                        "90069|100000|17205|67": {
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17205,
+                            "product_id": 17158,
+                            "line_name": "CET Elite"
+                        },
+                        "90070|100000|17206|69": {
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "syncable": true,
+                            "skip_reason": "",
+                            "order_id": 17206,
+                            "product_id": 17159,
+                            "line_name": "CET Solo (Self Study)"
+                        }
+                    },
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 4,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                },
+                "repair": {
+                    "added": 0,
+                    "already": 3,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 3,
+                    "course_ids": [
+                        "90070",
+                        "90069",
+                        "90071"
+                    ],
+                    "tcy_user_id": "ODEyODM5OQ==",
+                    "all_tcy_ids": [
+                        "ODEyODM5OQ=="
+                    ],
+                    "split_account": false,
+                    "details": [
+                        {
+                            "tcy_user_id": "ODEyODM5OQ==",
+                            "course_id": "90070",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17206,
+                            "line_name": "CET Solo (Self Study)",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEyODM5OQ==",
+                            "course_id": "90069",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33599",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17205,
+                            "line_name": "CET Elite",
+                            "status": "pack_conflict",
+                            "error": ""
+                        },
+                        {
+                            "tcy_user_id": "ODEyODM5OQ==",
+                            "course_id": "90071",
+                            "stored_course_id": "",
+                            "category_id": "100000",
+                            "sub_cat": "33605",
+                            "variant": "mba+sub_cat",
+                            "order_id": 17202,
+                            "line_name": "CET NMAT SNAP Elite",
+                            "status": "pack_conflict",
+                            "error": ""
+                        }
+                    ],
+                    "diagnosis": {
+                        "email": "adityasridhar17@gmail.com",
+                        "wp_user_id": 35,
+                        "canonical_tcy": "ODEyODM5OQ==",
+                        "all_tcy_ids": [
+                            "ODEyODM5OQ=="
+                        ],
+                        "orders": [
+                            {
+                                "order_id": 17206,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyODM5OQ==",
+                                "lines": [
+                                    {
+                                        "name": "CET Solo (Self Study)",
+                                        "product_id": 17159,
+                                        "course_id": "90070"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17205,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyODM5OQ==",
+                                "lines": [
+                                    {
+                                        "name": "CET Elite",
+                                        "product_id": 17158,
+                                        "course_id": "90069"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17203,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyODM5OQ==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            },
+                            {
+                                "order_id": 17202,
+                                "status": "processing",
+                                "tcy_user_id": "ODEyODM5OQ==",
+                                "lines": [
+                                    {
+                                        "name": "CET NMAT SNAP Elite",
+                                        "product_id": 17156,
+                                        "course_id": "90071"
+                                    }
+                                ]
+                            }
+                        ],
+                        "pairs": {
+                            "90071|100000|17202|62": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17202,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90071|100000|17203|64": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17203,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90069|100000|17205|67": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17205,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            },
+                            "90070|100000|17206|69": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17206,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "distinct_course": [
+                            90069,
+                            90070,
+                            90071
+                        ],
+                        "pairs_tcy_sync": {
+                            "90071|100000|17202|62": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17202,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90071|100000|17203|64": {
+                                "course_id": "90071",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33605",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17203,
+                                "product_id": 17156,
+                                "line_name": "CET NMAT SNAP Elite"
+                            },
+                            "90069|100000|17205|67": {
+                                "course_id": "90069",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17205,
+                                "product_id": 17158,
+                                "line_name": "CET Elite"
+                            },
+                            "90070|100000|17206|69": {
+                                "course_id": "90070",
+                                "stored_course_id": "",
+                                "category_id": "100000",
+                                "sub_cat": "33599",
+                                "syncable": true,
+                                "skip_reason": "",
+                                "order_id": 17206,
+                                "product_id": 17159,
+                                "line_name": "CET Solo (Self Study)"
+                            }
+                        },
+                        "pairs_skipped": [],
+                        "tcy_max_courses": 4,
+                        "invalid_course_ids": [],
+                        "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                    },
+                    "pairs_purchased": 4,
+                    "pairs_skipped": [],
+                    "pack_note": "MBA courses use category_id 100000 + sub_cat 33599\/33605; CUET 90315 uses 902346 + 38072. Invalid Product_ids (e.g. 38053) are skipped.",
+                    "pairs_tcy_sync": 4
+                }
+            },
+            {
+                "email": "leads9527@gmail.com",
+                "status": "issues",
+                "issues": [
+                    "No WordPress account for this email.",
+                    "No TCY user id linked."
+                ],
+                "actions": [],
+                "diagnosis": {
+                    "email": "leads9527@gmail.com",
+                    "wp_user_id": 0,
+                    "canonical_tcy": "",
+                    "all_tcy_ids": [],
+                    "orders": [],
+                    "pairs": [],
+                    "distinct_course": [],
+                    "pairs_tcy_sync": [],
+                    "pairs_skipped": [],
+                    "tcy_max_courses": 0,
+                    "invalid_course_ids": [],
+                    "pack_note": "add_course loops every purchased course_id with category_id 100000 and sub_cat (33599 CET \/ 33605 NMAT). Stale product meta (e.g. 38053) is remapped from the order line title to 90069\u201390073 when you run sync."
+                }
+            }
+        ]
+    },
+    "next_batch_url": "https:\/\/thetoppercentile.co.in\/ttp-bulk-run-once.php?key=ttp_bulk_jun12_2026_x7k9&action=audit_batch&batch=18&batch_size=5&repair=1"
+}

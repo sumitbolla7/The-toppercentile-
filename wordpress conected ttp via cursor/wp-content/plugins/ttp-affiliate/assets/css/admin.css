@@ -1,0 +1,5 @@
+.ttpa-wrap .ttpa-stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:20px 0}
+.ttpa-wrap .ttpa-stat-card,.ttpa-card{background:#fff;border:1px solid #dcdcde;border-radius:8px;padding:16px}
+.ttpa-wrap .ttpa-stat-card h2{margin:0 0 8px;font-size:14px;color:#50575e}
+.ttpa-wrap .ttpa-stat-card p{margin:0;font-size:24px;font-weight:700}
+.ttpa-payout-form label{margin-right:12px}
